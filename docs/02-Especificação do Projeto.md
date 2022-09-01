@@ -61,7 +61,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| O site deve obedecer às recomendações da LGPD. | MÉDIA | 
 |RNF-002| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA | 
 |RNF-003| O site possuirá apenas o idioma Português(BR). |  MÉDIA | 
-|RNF-004| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada. | Alta |
+|RNF-004| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada. | ALTA |
 
 ## Restrições
 
