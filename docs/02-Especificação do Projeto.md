@@ -74,6 +74,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |03| A terceira etapa do projeto, referente a primeira fase do Desenvolvimento da solução, deverá ser entregue dia 30/10/2022  |
 |04| A quarta etapa do projeto, referente a segunda fase do Desenvolvimento da solução, deverá ser entregue dia 27/11/2022  |
 |05| Os relatórios das avaliações e entrega da solução deverá ser até o dia 11/12/2022  |
+|06| A equipe não pode subcontratar o desenvolvimento do trabalho.|
 
 ## Diagrama de Casos de Uso
 
