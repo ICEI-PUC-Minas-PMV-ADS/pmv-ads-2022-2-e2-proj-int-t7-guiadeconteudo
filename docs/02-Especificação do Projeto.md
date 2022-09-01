@@ -24,7 +24,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 |Sol	|É júnior como Scrum Master em uma empresa de tecnologia e quer conseguir subir na carreira, procurando cursos onde poderia estudar para certificação de Scrum.	|Ele acredita que uma plataforma com cursos onde pessoas dizem se é útil ou não, seria melhor para escolher os cursos certos a se fazer para sua área.|
 |Gabriel|	É front-end pleno, mas está querendo aprender mais sobre Back-end e se tornar fullstack.	|Tem muita dificuldade de sair procurando cursos, por isso um site com várias opções de curso ajudaria muito na escolha.|
 |Caio|	Estudante do curso de análise e desenvolvimento de sistemas, gostaria de conseguir um estágio como Front-end.	|Gostaria de uma plataforma onde indica cursos de REACT de forma gratuita e de confiança, para melhorar seu desempenho como Front-end.|
-|Ravi|	Professor de ensino superior que quer divulgasr suas aulas de programação	|Não sabe por onde começar, por isso procura uma plataforma para divulgar suas aulas|
+|Ravi|	Professor de ensino superior que quer divulgar suas aulas de programação	|Não sabe por onde começar, por isso procura uma plataforma para divulgar suas aulas|
 |Letícia|	Está cursando o ensino médio e se preparando para o enem. Mas está encontrando dificuldade em Língua inglesa.	|Usaria a plataforma para se situar melhor da situação do enem e o que poderia melhorar.|
 
 ## Histórias de Usuários
@@ -37,7 +37,7 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |Sol | Achar cursos de Scrum com certificações| Para evoluir profissionalmente |
 |Gabriel | Achar cursos back-end de carga horária curta | Se tornar um profissional mais completo |
 |Caio | Achar cursos de desenvolvimento front-end com profissionais gabaritados e cursos bem avaliados. | Capacitar-se no mundo do desenvolvimento front-end através de cursos de React gratuitos|
-|Ravi | Conhecer mais sobre o setor financeiro através de um material confiável. | Aprender sobre uma nova área e verificar qual melhor se encaixa na sua metodologia de estudo |
+|Ravi | Quer divulgar suas aulas em uma plataforma segura de forma que facilite a exposição de seu material. | Alcançar o maior numero de alunos e assim divulgar mais sobre o mundo da programação |
 |Letícia | Encontrar cursos de inglês básicos para o ENEM | Buscar os conteúdos mais enxutos sobre Inglês modelo ENEM |
 
 ## Requisitos
