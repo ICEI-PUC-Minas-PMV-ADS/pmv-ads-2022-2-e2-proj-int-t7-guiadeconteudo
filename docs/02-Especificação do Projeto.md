@@ -48,11 +48,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A solução deve oferecer um campo de para cadastramento do usuario que submeter seu trabalho, aula ou artigo com as seguintes informações: Nome, sexo, idade, e-mail, titulo do material, resumo do material. | ALTA | 
+|RF-001| A solução deve oferecer um campo de para cadastramento do usuario como dados básicos como: Nome, sexo, formação academica, e-mail. | ALTA | 
 |RF-002| A solução deve apresentar, obrigatoriamente, no mínimo um texto com 500 caracteres.  | MÉDIA  |
-|RF-003| A solução deve possibilitar ao usuário visualizar o material pesquisado.  | ALTA | 
-|RF-004| A solução deve possibilitar o cadastro do usuario para avaliação do material pesquisado, com as seguintes informações: Nome, sexo, idade e e-mail   | ALTA |
+|RF-003| A solução deve possibilitar um usuário, cadastrado ou não, possa realizar pesquisa de material para estudo.  | ALTA | 
+|RF-004| A solução deve possibilitar que um usuário cadastrado possa avaliar o material pesquisado   | ALTA |
 |RF-005|A site deve oferecer uma funcionalidade de filtro/pesquisa do material de forma especifica.  | ALTA | 
+|RF-006| A solução deve possibilitar que um usuário cadastrado possa incluir uma referência de material para consulta com os seguintes campos: Título do, área do conhecimento, resumo, link de acesso. | ALTA |
+|RF-007| A solução deve possibilitar que uma referência de material seja avaliado como confiável ou não confiável pelos administradores | ALTA|
 
 ### Requisitos não Funcionais
 
