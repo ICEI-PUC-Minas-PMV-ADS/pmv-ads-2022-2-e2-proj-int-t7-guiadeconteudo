@@ -1,13 +1,17 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A falta de uma plataforma que ofereça o serviço de indicação de material de estudo (biografia) confiavél e suguro pode gerar perda de tempo, insegurança e imprecisão de informações.
+
+O estudo realizado a partir de fontes confiaveis é essencial para o desenvolvimento e entendimento do aluno acerca da matéria estudada.
+
+Isto posto é importante que exista uma plataforma onde os estudantes possam ter acesso a uma biografia sobre determinado assunto que seja confiavel e sugura.
+
+Em uma rapida consulta à internet verificamos que o mais famoso site de busca de informações de determinado assunto é o "Wikipedia", entretanto a enciclopédia online como é conhecida deve ser usada com bastante cautela, uma vez que é um portal colaborativo onde qualquer pessoa pode editá-la e, por isso, suas informações podem não condizer com a verdade.
+
+Dessa forma, em busca de oferecer ao usuario segurança e acertividade no material de estudo, a solução proposta pelo grupo visa fornecer ao usuario biografia sobre determinado assunto que seja de uma fonte confiavél e segura.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+De acordo com o que foi proposto, o problema que se busca resolver com esse projeto é a falta de uma plataforma que unifique indicações de material para estudo de forma precisa, segura e confiavél. 
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
@@ -16,14 +20,20 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O presente trabalho objetiva a elaboração de uma solução que facilite o encontro de biografia especializada, segura e confiavél de determinado assunto para estudantes em todos os niveis.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Como objetivos específicos, podemos ressaltar:
+
+Permitir a inserção de biografia de determinado assunto.
+
+Fornecer mecanismo de busca por assunto para facilitar a navegação.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
+
+
 
 Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
 
@@ -34,8 +44,7 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O público alvo desta solução são estudantes do ensino fundamental, médio e ensino superior além de pessoas autodidatas que tenham interesse em determinado assunto e queira pesquisar sobre ele atraves de uma fonte segura.
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 

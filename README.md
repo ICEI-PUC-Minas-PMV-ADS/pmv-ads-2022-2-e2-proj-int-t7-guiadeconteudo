@@ -1,23 +1,24 @@
-# TÍTULO DO PROJETO
+# GUIA DE ESTUDO
 
-`CURSO`
+Desenvolvimento de uma Aplicação Interativa 
 
-`DISCIPLINA`
-
-`SEMESTRE`
+- Turma 07 - 2022/2
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Cristiano Ferreira de Mattos
+* Gabriel Morais
+* Isabela Santos
+* Luciano Ribeiro do Prado
+* Mariana Júlia EStevam Corrêa
+* Sávio Andrade Roquette
+
 
 ## Orientador
 
-* Nome completo do professor 1
+* Luciana De Nardin
 
 ## Instruções de utilização
 

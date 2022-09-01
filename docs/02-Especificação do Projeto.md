@@ -48,8 +48,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| A solução deve oferecer um campo de para cadastramento do usuario que submeter seu trabalho, aula ou artigo com as seguintes informações: Nome, sexo, titulo do material, descrição do material. | ALTA | 
+|RF-002| A solução deve apresentar, obrigatoriamente, no mínimo um texto com 500 caracteres.  | MÉDIA  |
+|RF-003| A solução deve possibilitar ao usuário visualizar o material pesquisado.  | ALTA | 
+|RF-004| A solução deve possibilitar o cadastro do usuario para avaliação do material pesquisado   | ALTA |
+|RF-005|A site deve oferecer uma funcionalidade de filtro/pesquisa do material de forma especifica.  | ALTA | 
 
 ### Requisitos não Funcionais
 
@@ -79,15 +82,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|01| A primeira etapa do projeto, referente a Concepção e proposta de solução, deverá ser entregue dia 11/09/2022 |
+|02| A segunda etapa do projeto, referente ao Projeto da solução, deverá ser entregue dia 02/10/2022  |
+|03| A terceira etapa do projeto, referente a primeira fase do Desenvolvimento da solução, deverá ser entregue dia 30/10/2022  |
+|04| A quarta etapa do projeto, referente a segunda fase do Desenvolvimento da solução, deverá ser entregue dia 27/11/2022  |
+|05| Os relatórios das avaliações e entrega da solução deverá ser até o dia 11/12/2022  |
 
 ## Diagrama de Casos de Uso
 
