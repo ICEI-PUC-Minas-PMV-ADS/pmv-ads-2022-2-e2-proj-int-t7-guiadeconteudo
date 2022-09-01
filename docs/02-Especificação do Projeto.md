@@ -15,7 +15,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 |Sol	|18	|SP	|Cursos de Scrum|
 |Gabriel	|27	|SP	|Cursos de Back-end|
 |Caio	|19	|MG	|Cursos de Front-end|
-|Ravi	|16	|MG	|Curso de Excel|
+|Ravi	|36	|MG	|Divulgar aulas de programação|
 |Letícia	|18	|SC	|Cursos de línguas|
 
 |Persona	|Dificuldades	|Em relação ao projeto|
@@ -24,7 +24,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 |Sol	|É júnior como Scrum Master em uma empresa de tecnologia e quer conseguir subir na carreira, procurando cursos onde poderia estudar para certificação de Scrum.	|Ele acredita que uma plataforma com cursos onde pessoas dizem se é útil ou não, seria melhor para escolher os cursos certos a se fazer para sua área.|
 |Gabriel|	É front-end pleno, mas está querendo aprender mais sobre Back-end e se tornar fullstack.	|Tem muita dificuldade de sair procurando cursos, por isso um site com várias opções de curso ajudaria muito na escolha.|
 |Caio|	Estudante do curso de análise e desenvolvimento de sistemas, gostaria de conseguir um estágio como Front-end.	|Gostaria de uma plataforma onde indica cursos de REACT de forma gratuita e de confiança, para melhorar seu desempenho como Front-end.|
-|Ravi|	Estudante do Ensino médio e curioso sobre setor financeiro.	|Não sabe por onde começar, por isso uma plataforma com cursos confiáveis, seria a melhor escolha para ele.|
+|Ravi|	Professor de ensino superior que quer divulgasr suas aulas de programação	|Não sabe por onde começar, por isso procura uma plataforma para divulgar suas aulas|
 |Letícia|	Está cursando o ensino médio e se preparando para o enem. Mas está encontrando dificuldade em Língua inglesa.	|Usaria a plataforma para se situar melhor da situação do enem e o que poderia melhorar.|
 
 ## Histórias de Usuários
