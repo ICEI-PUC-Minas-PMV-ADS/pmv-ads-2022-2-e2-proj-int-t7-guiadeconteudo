@@ -33,14 +33,21 @@ Fornecer mecanismo de busca por assunto para facilitar a navegação.
 
 ## Justificativa
 
+Em 2020 o Brasil ocupava "a 13ª posição na produção global de artigos científicos indexados na base WoS" (SBPC, 2021) o Brasil produziu entre 2015 a 2020 aproximadamente 372.000 artigos científicos, já a produção global para o mesmo período foi de 11 milhões de artigos produzidos (CGEE, 2021).
 
+Além de artigos científicos existem vários institutos e pessoas qualificadas postando conteúdos gratis em forma de cursos online gratuítos e com certificados, como por exemplo o MIT (EDUCA MAIS BRASIL, 2021) ou até cursos livres no youtube, como a UNIVESP (UNIVESP, 2022).
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Atualmente não é somente as instituições renomadas ou pesquisadores conhecidos que conseguem publicar informações. Anteriormente para se publicar um livro era necessário uma editora que geralmente presava pela qualidade do conteúdo mas hoje qualquer pessoa pode produzir conteúdo e postar livremente por meio dos variados canais de distribuição de informação. 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Neste contexto se torna um desafio para qualquer estudante conseguir filtrar nesse oceano de informação o que é conteúdo realmente confiável e pertinente.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Sendo assim uma curadoria confiável traria grande beneficios pois os estudantes não perderiam muito tempo pesquisando conteúdo e principalmente evitariam estudar por conteúdos de pouco rigor técnico e científico.
+
+### Referências:
+ - http://portal.sbpcnet.org.br/noticias/producao-brasileira-de-artigos-cresce-32-em-2020-em-relacao-a-2015/
+ - https://www.cgee.org.br/documents/10195/734063/CGEE_Pan_Cie_Bra_2015-20.pdf
+ - https://www.educamaisbrasil.com.br/educacao/noticias/mit-disponibiliza-cursos-online-gratuitos-com-certificado
+ - https://www.youtube.com/user/univesptv
 
 ## Público-Alvo
 
