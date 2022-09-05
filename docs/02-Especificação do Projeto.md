@@ -48,22 +48,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A solução deve oferecer um campo de para cadastramento do usuario como dados básicos como: Nome, sexo, formação academica, e-mail. | ALTA | 
-|RF-002| A solução deve apresentar, obrigatoriamente, no mínimo um texto com 500 caracteres.  | MÉDIA  |
-|RF-003| A solução deve possibilitar um usuário, cadastrado ou não, possa realizar pesquisa de material para estudo.  | ALTA | 
-|RF-004| A solução deve possibilitar que um usuário cadastrado possa avaliar o material pesquisado   | ALTA |
-|RF-005|A site deve oferecer uma funcionalidade de filtro/pesquisa do material de forma especifica.  | ALTA | 
-|RF-006| A solução deve possibilitar que um usuário cadastrado possa incluir uma referência de material para consulta com os seguintes campos: Título do, área do conhecimento, resumo, link de acesso. | ALTA |
-|RF-007| A solução deve possibilitar que uma referência de material seja avaliado como confiável ou não confiável pelos administradores | ALTA|
+|RF-001| A aplicação deve oferecer um campo de para cadastramento do usuario como dados básicos como: Nome, sexo, formação academica, e-mail. | ALTA | 
+|RF-002| A aplicação deve apresentar, obrigatoriamente, no mínimo um texto com 500 caracteres.  | MÉDIA  |
+|RF-003| A aplicação deve possibilitar um usuário, cadastrado ou não, possa realizar pesquisa de material para estudo.  | ALTA | 
+|RF-004| A aplicação deve possibilitar que um usuário cadastrado possa avaliar o material pesquisado   | ALTA |
+|RF-005|A aplicação deve oferecer uma funcionalidade de filtro/pesquisa do material de forma especifica.  | ALTA | 
+|RF-006| A aplicação deve possibilitar que um usuário cadastrado possa incluir uma referência de material para consulta com os seguintes campos: Título do, área do conhecimento, resumo, link de acesso. | ALTA |
+|RF-007| A aplicação deve possibilitar que uma referência de material seja avaliado como confiável ou não confiável pelos administradores | ALTA|
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O site deve obedecer às recomendações da LGPD. | MÉDIA | 
-|RNF-002| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA | 
-|RNF-003| O site possuirá apenas o idioma Português(BR). |  MÉDIA | 
-|RNF-004| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada. | ALTA |
+|RNF-001| A aplicação deve obedecer às recomendações da LGPD. | MÉDIA | 
+|RNF-002| A aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA | 
+|RNF-003| A aplicação possuirá apenas o idioma Português(BR). |  MÉDIA | 
+|RNF-004| A aplicação deverá ser responsivo permitindo a visualização em um celular de forma adequada. | ALTA |
 
 ## Restrições
 
