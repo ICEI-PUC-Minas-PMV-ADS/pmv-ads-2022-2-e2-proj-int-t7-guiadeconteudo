@@ -20,18 +20,18 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 |Persona	|Dificuldades	|Em relação ao projeto|
 |--------|-------------|---------------------|
-|Zoe|	Quer começar na área de programação, mas tem muita dificuldade em achar cursos de confiança.	|Espera encontrar conteúdos confiáveis, através de nosso projeto.| 
+|Zoe|	Quer começar na área de programação, mas tem muita dificuldade em achar cursos de confiança.	|Espera encontrar conteúdos confiáveis, através desta aplicação.| 
 |Sol	|É júnior como Scrum Master em uma empresa de tecnologia e quer conseguir subir na carreira, procurando cursos onde poderia estudar para certificação de Scrum.	|Ele acredita que uma plataforma com cursos onde pessoas dizem se é útil ou não, seria melhor para escolher os cursos certos a se fazer para sua área.|
-|Gabriel|	É front-end pleno, mas está querendo aprender mais sobre Back-end e se tornar fullstack.	|Tem muita dificuldade de sair procurando cursos, por isso um site com várias opções de curso ajudaria muito na escolha.|
+|Gabriel|	É front-end pleno, mas está querendo aprender mais sobre Back-end e se tornar fullstack.	|Tem muita dificuldade de sair procurando cursos, por isso uma aplicação com várias opções de curso ajudaria muito na escolha.|
 |Caio|	Estudante do curso de análise e desenvolvimento de sistemas, gostaria de conseguir um estágio como Front-end.	|Gostaria de uma plataforma onde indica cursos de REACT de forma gratuita e de confiança, para melhorar seu desempenho como Front-end.|
 |Ravi|	Professor de ensino superior que quer divulgar suas aulas de programação	|Não sabe por onde começar, por isso procura uma plataforma para divulgar suas aulas|
-|Letícia|	Está cursando o ensino médio e se preparando para o enem. Mas está encontrando dificuldade em Língua inglesa.	|Usaria a plataforma para se situar melhor da situação do enem e o que poderia melhorar.|
+|Letícia|	Está cursando o ensino médio e se preparando para o enem. Mas está encontrando dificuldade em Língua inglesa.	| Diz que tem muitas opções de estudo mas não sabe separar o que tem qualidade e o que não tem.|
 
 ## Histórias de Usuários
 
 Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
-|EU COMO...| QUERO/PRECISO ...|PARA ... |
+|EU COMO...<br>`PERSONA`| ...QUERO/PRECISO ...<br>`FUNCIONALIDADE`|...PARA ...<br>`MOTIVO/VALOR` |
 |--------------------|------------------------------------|----------------------------------------|
 |Zoe  | Encontrar os melhores cursos de programação para iniciantes| Poder conhecer a área e encontrar materiais mais bem avaliados|
 |Sol | Achar cursos de Scrum com certificações| Para evoluir profissionalmente |
@@ -48,13 +48,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve oferecer um campo de para cadastramento do usuario como dados básicos como: Nome, sexo, formação academica, e-mail. | ALTA | 
-|RF-002| A aplicação deve apresentar, obrigatoriamente, no mínimo um texto com 500 caracteres.  | MÉDIA  |
-|RF-003| A aplicação deve possibilitar um usuário, cadastrado ou não, possa realizar pesquisa de material para estudo.  | ALTA | 
+|RF-001| A aplicação deve possibilitar um usuário, cadastrado ou não, possa realizar pesquisa de material para estudo.  | ALTA | 
+|RF-002|A aplicação deve oferecer uma funcionalidade de filtro de pesquisa do material de forma especifica.  | ALTA | 
+|RF-003| A aplicação deve oferecer um campo de para cadastramento do usuario como dados básicos como: nome, sexo, formação academica, e-mail. | ALTA | 
 |RF-004| A aplicação deve possibilitar que um usuário cadastrado possa avaliar o material pesquisado   | ALTA |
-|RF-005|A aplicação deve oferecer uma funcionalidade de filtro/pesquisa do material de forma especifica.  | ALTA | 
-|RF-006| A aplicação deve possibilitar que um usuário cadastrado possa incluir uma referência de material para consulta com os seguintes campos: Título do, área do conhecimento, resumo, link de acesso. | ALTA |
-|RF-007| A aplicação deve possibilitar que uma referência de material seja avaliado como confiável ou não confiável pelos administradores | ALTA|
+|RF-005| A aplicação deve possibilitar que um usuário cadastrado possa incluir uma referência de material para consulta com os seguintes campos: Título do, área do conhecimento, resumo, link de acesso. | ALTA |
+|RF-006| A aplicação deve possibilitar que uma referência de material seja avaliado como confiável ou não confiável pelos administradores qualificados | ALTA|
+|RF-007| Somente materiais avaliados como **confiável** poderá ser exibido no campo de pesquisa| ALTA|
+
 
 ### Requisitos não Funcionais
 
@@ -82,11 +83,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+![Diagrama de Casos de Uso](img/casosdeuso.png)
