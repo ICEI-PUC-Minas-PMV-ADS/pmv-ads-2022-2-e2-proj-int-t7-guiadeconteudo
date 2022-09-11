@@ -35,9 +35,9 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Zoe  | Encontrar os melhores cursos de programação para iniciantes| Poder conhecer a área e encontrar materiais mais bem avaliados|
 |Sol | Achar cursos de Scrum com certificações| Para evoluir profissionalmente |
-|Gabriel | Achar cursos back-end de carga horária curta | Se tornar um profissional mais completo |
-|Caio | Achar cursos de desenvolvimento front-end com profissionais gabaritados e cursos bem avaliados. | Capacitar-se no mundo do desenvolvimento front-end através de cursos de React gratuitos|
-|Ravi | Quer divulgar suas aulas em uma plataforma segura de forma que facilite a exposição de seu material. | Alcançar o maior numero de alunos e assim divulgar mais sobre o mundo da programação |
+|Gabriel | Achar cursos back-end de carga horária curta e em português| Se tornar um profissional mais completo |
+|Caio | Achar cursos de desenvolvimento front-end com profissionais gabaritados e cursos confiáveis com uma boa avaliação | Capacitar-se no mundo do desenvolvimento front-end através de cursos de React gratuitos|
+|Ravi | Quer divulgar suas aulas em uma plataforma segura de forma que facilite a exposição de seu material | Alcançar o maior numero de alunos e assim divulgar mais sobre o mundo da programação |
 |Letícia | Encontrar cursos de inglês básicos para o ENEM | Buscar os conteúdos mais enxutos sobre Inglês modelo ENEM |
 
 ## Requisitos
