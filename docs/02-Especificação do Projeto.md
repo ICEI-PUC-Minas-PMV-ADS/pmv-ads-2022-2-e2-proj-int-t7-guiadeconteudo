@@ -10,14 +10,14 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-| Nome                | Idade | UF  | Motivação                     |
-| ------------------- | ----- | --- | ----------------------------- | ---------------------- |
-| ![zoe](img/Zoe.png) | Zoe   | 32  | MG                            | Transição de Carreira. |
-| Sol                 | 18    | SP  | Cursos de Scrum               |
-| Gabriel             | 27    | SP  | Cursos de Back-end            |
-| Caio                | 19    | MG  | Cursos de Front-end           |
-| Ravi                | 36    | MG  | Divulgar aulas de programação |
-| Letícia             | 18    | SC  | Cursos de línguas             |
+|                     | Nome | Idade | UF                            | Motivação              |
+| ------------------- | ---- | ----- | ----------------------------- | ---------------------- |
+| ![zoe](img/Zoe.png) | Zoe  | 32    | MG                            | Transição de Carreira. |
+| ![zoe](img/Sol.png) | Sol  | 18    | SP                            | Cursos de Scrum        |
+| Gabriel             | 27   | SP    | Cursos de Back-end            |
+| Caio                | 19   | MG    | Cursos de Front-end           |
+| Ravi                | 36   | MG    | Divulgar aulas de programação |
+| Letícia             | 18   | SC    | Cursos de línguas             |
 
 | Persona | Dificuldades                                                                                                                                                   | Em relação ao projeto                                                                                                                                 |
 | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
