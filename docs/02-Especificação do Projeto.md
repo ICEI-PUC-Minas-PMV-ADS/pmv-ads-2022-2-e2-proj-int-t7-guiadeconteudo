@@ -49,12 +49,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| A aplicação deve possibilitar um usuário, cadastrado ou não, possa realizar pesquisa de material para estudo.  | ALTA | 
-|RF-002|A aplicação deve oferecer uma funcionalidade de filtro de pesquisa do material de forma especifica.  | ALTA | 
-|RF-003| A aplicação deve oferecer um campo de para cadastramento do usuario como dados básicos como: nome, sexo, formação academica, e-mail. | ALTA | 
+|RF-002|A aplicação deve oferecer uma funcionalidade de filtro de pesquisa do material de forma especifica para usuários cadastrado ou não.  | ALTA | 
+|RF-003| A aplicação deve permitir que o usuário possa gerenciar seus dados. Para realizar o cadastro o usuário deverá fornecer pelo menos os seguintes dados: nome, sexo, CPF, data de nascimento, formação academica, e-mail e senha. | ALTA | 
 |RF-004| A aplicação deve possibilitar que um usuário cadastrado possa avaliar o material pesquisado   | ALTA |
-|RF-005| A aplicação deve possibilitar que um usuário cadastrado possa incluir uma referência de material para consulta com os seguintes campos: Título do, área do conhecimento, resumo, link de acesso. | ALTA |
-|RF-006| A aplicação deve possibilitar que uma referência de material seja avaliado como confiável ou não confiável pelos administradores qualificados | ALTA|
-|RF-007| Somente materiais avaliados como **confiável** poderá ser exibido no campo de pesquisa| ALTA|
+|RF-005| A aplicação deve possibilitar que um usuário cadastrado possa incluir e GERENCIAR uma referência de material para consulta, contendo pelo menos os seguintes campos: Título do, área do conhecimento, resumo, link de acesso. | ALTA |
+|RF-006| A aplicação deverá permitir que o Administrador visualize todos os materiais submetidos para análise| ALTA|
+|RF-007| A aplicação deve possibilitar que uma referência de material seja avaliado como confiável ou não confiável pelos administradores| ALTA|
+|RF-008| Somente materiais avaliados como **confiável** poderá ser exibido no campo de pesquisa| ALTA|
 
 
 ### Requisitos não Funcionais
