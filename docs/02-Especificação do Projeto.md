@@ -8,8 +8,6 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-## Personas
-
 |                             | Nome    | Idade | UF  | Motivação                     |
 | --------------------------- | ------- | ----- | --- | ----------------------------- |
 | ![zoe](img/Zoe.png)         | Zoe     | 32    | MG  | Transição de Carreira.        |
