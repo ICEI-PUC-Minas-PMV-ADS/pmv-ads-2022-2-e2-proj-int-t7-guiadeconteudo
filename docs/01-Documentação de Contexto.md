@@ -1,6 +1,6 @@
 # Introdução
 
-A falta de uma plataforma que ofereça o serviço de indicação de material de estudo (biografia) confiável e suguro pode gerar perda de tempo, insegurança e imprecisão de informações.
+A falta de uma plataforma que ofereça o serviço de indicação de material de estudo (biografia) confiável e seguro pode gerar perda de tempo, insegurança e imprecisão de informações.
 
 O estudo realizado a partir de fontes confiáveis é essencial para o desenvolvimento e entendimento do aluno acerca da matéria estudada.
 
@@ -8,7 +8,7 @@ Isto posto, é importante que exista uma plataforma onde os estudantes possam te
 
 O mais acessado site de busca de materiais de referência é o "Wikipedia" [(SIMILARWEB, 2022)](https://www.similarweb.com/pt/top-websites/), entretanto, a "enciclopédia online" como é conhecida deve ser usada com bastante cautela, uma vez que é um portal colaborativo onde qualquer pessoa pode editá-la e, por isso, suas informações podem não condizer com a verdade [(OLHAR DIGITAL, 2022)](https://olhardigital.com.br/2021/07/20/internet-e-redes-sociais/cofundador-da-wikipedia-diz-que-o-site-nao-e-confiavel/).
 
-Dessa forma, em busca de oferecer ao usuario segurança e acertividade no material de estudo, a aplicação proposta pelo grupo visa fornecer ao usuario biografia sobre determinado assunto que seja de uma fonte confiavél e segura.
+Dessa forma, em busca de oferecer ao usuario segurança e assertividade no material de estudo, a aplicação proposta pelo grupo visa fornecer ao usuário biografia sobre determinado assunto que seja de uma fonte confiável e segura.
 
 ## Problema
 De acordo com o que foi proposto, o problema que se busca resolver com esse projeto é a falta de uma plataforma que unifique indicações de material para estudo de forma precisa, segura e confiável. 
@@ -16,7 +16,7 @@ De acordo com o que foi proposto, o problema que se busca resolver com esse proj
 
 ## Objetivos
 
-O presente trabalho objetiva a elaboração de uma solução que facilite o encontro de biografia especializada, segura e confiavél de determinado assunto para estudantes em todos os níveis.
+O presente trabalho objetiva a elaboração de uma solução que facilite o encontro de biografia especializada, segura e confiável de determinado assunto para estudantes em todos os níveis.
 
 Como objetivos específicos, podemos ressaltar:
 
