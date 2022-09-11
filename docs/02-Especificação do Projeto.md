@@ -11,7 +11,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 ## Personas
 |Nome | Idade	|UF	|Motivação|
 |-----|-------|---|----------|
-|Zoe	|22	|MG	|Transição de Carreira.|
+|Zoe	|32	|MG	|Transição de Carreira.|
 |Sol	|18	|SP	|Cursos de Scrum|
 |Gabriel	|27	|SP	|Cursos de Back-end|
 |Caio	|19	|MG	|Cursos de Front-end|

@@ -1,16 +1,18 @@
 # GUIA DE ESTUDO
 
-Desenvolvimento de uma Aplicação Interativa 
+`ANÁLISE E DESNVOLVIMENTO DE SISTEMA`
 
-- Turma 07 - 2022/2
+`Eixo 2 - Projeto: Desenvolvimento de uma Aplicação Interativa - Turma 07 - 2022/2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+`2 SEMESTRE`
+
+Uma aplicação que fará uma curadoria de de materiais de estudo confiáveis, onde os usuários poderão fazer pesquisa, avaliar a qualidade dos materiais bem como submeter material para avaliação e posteior consulta dos demais usuários. Desta forma a aplicação irá facilitar o encontro de biografia especializada, segura e confiavél de determinado assunto para estudantes em todos os niveis.
 
 ## Integrantes
 
 * Cristiano Ferreira de Mattos
-* Gabriel Morais
-* Isabela Santos
+* Gabriel Goncalves Morais 
+* Isabela Aparecida dos Santos
 * Luciano Ribeiro do Prado
 * Mariana Júlia EStevam Corrêa
 * Sávio Andrade Roquette
