@@ -11,7 +11,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 ## Personas
 |Nome | Idade	|UF	|Motivação|
 |-----|-------|---|----------|
-|Zoe	|22	|MG	|Cursos de Programação|
+|Zoe	|22	|MG	|Transição de Carreira.|
 |Sol	|18	|SP	|Cursos de Scrum|
 |Gabriel	|27	|SP	|Cursos de Back-end|
 |Caio	|19	|MG	|Cursos de Front-end|
@@ -20,7 +20,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 |Persona	|Dificuldades	|Em relação ao projeto|
 |--------|-------------|---------------------|
-|Zoe|	Quer começar na área de programação, mas tem muita dificuldade em achar cursos de confiança.	|Espera encontrar conteúdos confiáveis, através desta aplicação.| 
+|Zoe|	É Advogada mas deseja fazer transição de carreira e começar na área de programação, mas tem muita dificuldade em achar cursos de confiança.	|Espera encontrar conteúdos confiáveis, através desta aplicação.| 
 |Sol	|É júnior como Scrum Master em uma empresa de tecnologia e quer conseguir subir na carreira, procurando cursos onde poderia estudar para certificação de Scrum.	|Ele acredita que uma plataforma com cursos onde pessoas dizem se é útil ou não, seria melhor para escolher os cursos certos a se fazer para sua área.|
 |Gabriel|	É front-end pleno, mas está querendo aprender mais sobre Back-end e se tornar fullstack.	|Tem muita dificuldade de sair procurando cursos, por isso uma aplicação com várias opções de curso ajudaria muito na escolha.|
 |Caio|	Estudante do curso de análise e desenvolvimento de sistemas, gostaria de conseguir um estágio como Front-end.	|Gostaria de uma plataforma onde indica cursos de REACT de forma gratuita e de confiança, para melhorar seu desempenho como Front-end.|
