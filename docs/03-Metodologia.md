@@ -5,6 +5,17 @@
 
 Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
 
+## Relação de Ambientes de Trabalho
+
+Os artefatos do projeto são criados com base nas diversas plataformas e a conexão dos ambientes com sua respectiva finalidade é introduzida na tabela abaixo.
+
+|     AMBIENTE                    |   PLATAFORMA E LINK DE ACESSO                                                             |
+|---------------------------------|-------------------------------------------------------------------------------------------|
+|Repositório de código fonte      | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo/)| 
+|Documentos do projeto            | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo/) | 
+|Projeto de Interface e Wireframes| [MarvelApp]                                   |
+|Gerenciamento do Projeto         | [GitHub Projects].
+
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
@@ -41,6 +52,14 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 Apresente a divisão de papéis entre os membros do grupo.
 
+### Divisão de Papéis
+A equipe está organizada da seguinte maneira:
+- **Scrum Master:** 
+- **Product Owner:** 
+- **Equipe de Desenvolvimento:**
+   
+- **Equipe de Design**
+ 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 
 > Projeto](https://mindmaster.com.br/scrum-11-passos/)
@@ -55,6 +74,14 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 > - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
 > - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
 > - [Tutorial Slack](https://slack.com/intl/en-br/)
+
+
+Para organização e distribuição das tarefas, será utilizado a ferramenta Projects do GitHub, estruturado conforme listado abaixo:
+- **Backlog:** Representa as tarefas que não estão previstas para serem realizadas no sprint em andamento.
+- **A Fazer:** Representa as tarefas que foram atribuidas para serem realizadas durante o sprint.
+- **Em Andamento:** Neste quadro estarão as tarefas que estão sendo realizadas.
+- **Concluído:** nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+
 
 ### Ferramentas
 
