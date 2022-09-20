@@ -14,7 +14,7 @@ Os artefatos do projeto são criados com base nas diversas plataformas e a conex
 |Repositório de código fonte      | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo/)| 
 |Documentos do projeto            | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo/) | 
 |Projeto de Interface e Wireframes| [MarvelApp]                                   |
-|Gerenciamento do Projeto         | [GitHub Projects].
+|Gerenciamento do Projeto         | [GitHub Projects](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/76/)| 
 
 ## Controle de Versão
 
