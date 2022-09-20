@@ -54,7 +54,7 @@ A equipe está organizada da seguinte maneira:
 - Gabriel Goncalves Morais
 - Luciano Ribeiro do Prado
 - Cristiano Ferreira de Mattos
-- 
+
 - **Equipe de Design:**
 - Isabela Aparecida dos Santos
 - Cristiano Ferreira de Mattos
