@@ -49,17 +49,18 @@ A equipe está organizada da seguinte maneira:
 
 - **Scrum Master:** 
 - Sávio Andrade Roquette
-- 
+
 - **Product Owner:** 
 - Mariana Júlia EStevam Corrêa
-- 
+
 - **Equipe de Desenvolvimento:**
-- Cristiano Ferreira de Mattos
+- Mariana Júlia EStevam Corrêa
 - Gabriel Goncalves Morais
 - Luciano Ribeiro do Prado
    
 - **Equipe de Design:**
 - Isabela Aparecida dos Santos
+- Cristiano Ferreira de Mattos
  
 O quadro com as atividades, bem como o status de cada uma, está disponível para ser visualizado através da URL (https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/76/views/1), e é apresentado, no estado atual, na figura abaixo:
 
