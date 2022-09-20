@@ -53,7 +53,8 @@ A equipe está organizada da seguinte maneira:
 - Mariana Júlia EStevam Corrêa
 - Gabriel Goncalves Morais
 - Luciano Ribeiro do Prado
-   
+- Cristiano Ferreira de Mattos
+- 
 - **Equipe de Design:**
 - Isabela Aparecida dos Santos
 - Cristiano Ferreira de Mattos
