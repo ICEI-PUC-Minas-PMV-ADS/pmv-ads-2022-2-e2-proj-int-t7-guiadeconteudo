@@ -70,6 +70,6 @@ Para organização e distribuição das tarefas, será utilizado a ferramenta Pr
 Foram empregadas as seguintes ferramentas para a documentação:
 
 - Editor de código: [Visual Studio Code](https://code.visualstudio.com/).
-- Ferramentas de comunicação: [Whatsapp](https://www.whatsapp.com) e [Discord](https://discord.com/).
+- Ferramentas de comunicação: [Whatsapp](https://www.whatsapp.com) e [jit.si](https://meet.jit.si/projeto2semestreturma7).
 - Ferramenta de desenho de tela (_wireframing_): [Marvelapp](https://marvelapp.com/).
 
