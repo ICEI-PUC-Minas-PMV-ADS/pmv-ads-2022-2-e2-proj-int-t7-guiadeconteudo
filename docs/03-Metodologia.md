@@ -54,7 +54,7 @@ A equipe está organizada da seguinte maneira:
  
 O quadro com as atividades, bem como o status de cada uma, está disponível para ser visualizado através da URL (https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/76/views/1), e é apresentado, no estado atual, na figura abaixo:
 
-!![QuadroKanban](quadro.png)
+
 
 
 ### Processo
