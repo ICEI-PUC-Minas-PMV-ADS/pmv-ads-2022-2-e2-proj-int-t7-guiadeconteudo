@@ -59,18 +59,17 @@ A equipe está organizada da seguinte maneira:
 - Isabela Aparecida dos Santos
 - Cristiano Ferreira de Mattos
  
-O quadro com as atividades, bem como o status de cada uma, está disponível para ser visualizado através da URL (https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/76/views/1), e é apresentado, no estado atual, na figura abaixo:
-
-
+O quadro com as atividades, bem como o status de cada uma, está disponível para ser visualizado através da URL (https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/76/views/1).
 
 
 ### Processo
 
 Para organização e distribuição das tarefas, será utilizado a ferramenta Projects do GitHub, estruturado conforme listado abaixo:
 - **Backlog:** Representa as tarefas que não estão previstas para serem realizadas no sprint em andamento.
-- **A Fazer:** Representa as tarefas que foram atribuidas para serem realizadas durante o sprint.
-- **Em Andamento:** Neste quadro estarão as tarefas que estão sendo realizadas.
-- **Concluído:** nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+- **Todo:** Representa as tarefas que foram atribuidas para serem realizadas durante o sprint.
+- **In progress:** Neste quadro estarão as tarefas que estão sendo realizadas.
+- **Done:** nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+- - **Test:** nesta lista são colocadas as funcionalidades que passarão pelos testes para serem entregues para o usuário.
 
 ### Ferramentas
 
