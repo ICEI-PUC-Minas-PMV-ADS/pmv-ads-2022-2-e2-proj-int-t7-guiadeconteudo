@@ -69,7 +69,7 @@ Para organização e distribuição das tarefas, será utilizado a ferramenta Pr
 - **Todo:** Representa as tarefas que foram atribuidas para serem realizadas durante o sprint.
 - **In progress:** Neste quadro estarão as tarefas que estão sendo realizadas.
 - **Done:** nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
-- - **Test:** nesta lista são colocadas as funcionalidades que passarão pelos testes para serem entregues para o usuário.
+- **Test:** nesta lista são colocadas as funcionalidades que passarão pelos testes para serem entregues para o usuário.
 
 ### Ferramentas
 
