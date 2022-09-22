@@ -20,9 +20,9 @@ O presente trabalho objetiva a elaboração de uma solução que facilite o enco
 
 Como objetivos específicos, podemos ressaltar:
 
-Permitir a inserção de biografia de determinado assunto.
-
-Fornecer mecanismo de busca por assunto para facilitar a navegação.
+- Permitir a inserção de biografia de determinado assunto.
+- Realizar curadoria de material. Disponibilizando para consulta apenas materiais confiáveis. 
+- Permitir que os estudantes possam avaliar o material e assim, a comunidade também poderá sinalizar quais são os materiais mais pertinentes.
  
 ## Justificativa
 
