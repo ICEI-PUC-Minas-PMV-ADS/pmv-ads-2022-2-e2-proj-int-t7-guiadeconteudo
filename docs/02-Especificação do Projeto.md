@@ -65,7 +65,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RNF-001 | A aplicação deve obedecer às recomendações da LGPD.                                                                | MÉDIA      |
 | RNF-002 | A aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA       |
 | RNF-003 | A aplicação possuirá apenas o idioma Português(BR).                                                                | MÉDIA      |
-| RNF-004 | A aplicação deverá ser responsivo permitindo a visualização em um celular de forma adequada.                       | ALTA       |
+| RNF-004 | A aplicação deverá ser responsiva.                                                                                 | ALTA       |
+| RNF-005 | A aplicação deverá permitir que apenas usuários cadastrados postem e gerenciem seus materiais postados.            | ALTA       |
+| RNF-006 | Deverá ser usado uma API para que a aplicação notifique os usuários sobre o resultado do material submetido.       | ALTA       |
 
 ## Restrições
 
