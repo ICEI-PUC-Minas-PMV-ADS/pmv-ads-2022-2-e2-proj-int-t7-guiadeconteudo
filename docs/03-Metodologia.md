@@ -63,7 +63,6 @@ O quadro com as atividades, bem como o status de cada uma, está disponível par
 
 ![QuadroKanban](img/quadro.png)
 
-
 ### Processo
 
 Para organização e distribuição das tarefas, será utilizado a ferramenta Projects do GitHub, estruturado conforme listado abaixo:
