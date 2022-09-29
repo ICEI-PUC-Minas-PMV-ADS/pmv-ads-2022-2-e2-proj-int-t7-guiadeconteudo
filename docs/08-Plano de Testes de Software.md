@@ -16,6 +16,7 @@ Por exemplo:
 | Passos 	| - Clicar na barra de pesquisa  <br> - Informar o nome do material a ser buscado <br> - Clicar em "Buscar" |
 |Critério de Êxito | - A pesquisa foi bem sucedida. |
 |  	|  	|
+
 | **Caso de Teste** 	| **CT-02 – Filtro de pesquisa** 	|
 |:---:	|:---:	|
 |	Tipo de teste:	| Funcional |
@@ -24,12 +25,15 @@ Por exemplo:
 | Passos 	| - Clicar na barra de filtros  <br> - Informar a categoria desejada <br> - Clicar em "Buscar" |
 |Critério de Êxito | - A pesquisa conseguiu filtrar os resultados. |
 |  	|  	|
+
 | **Caso de Teste** 	| **CT-03 – Efetuar login**	|
+|:---:	|:---:	|
 |	Tipo de teste:	| Funcional |
 |Requisito Associado | RF-003	- A aplicação deve permitir que o usuário possa gerenciar seus dados. Para realizar o cadastro o usuário deverá fornecer pelo menos os seguintes dados: nome, sexo, CPF, data de nascimento, formação academica, e-mail e senha. |
 | Objetivo do Teste 	| Verificar se o usuário consegue gerenciar seus dados. |
 | Passos 	| - Clicar em "Informações pessoais" <br> - Clicar em alterar informações <br> - Preencher os campos obrigatórios (nome, sexo, CPF, data de nascimento, formação academica, e-mail e senha.) <br> - Clicar em "Salvar alterações" |
 |Critério de Êxito | - As alterações foram realizadas com sucesso. |
+|  	|  	|
 
  
 > **Links Úteis**:
