@@ -8,6 +8,33 @@ Modelo de teste a ser utilizado: Descoberta de problemas. Objetivos: identificar
 
 Serão selecionados usuários com variáveis características e diferentes papeis dentro da aplicação.
 
+|  **Caso de Teste**  |  **CT-01  - PESQUISAR CONTEÚDO**  |
+|Objetivo do Teste:  | verificar se o usuário consegue pesquisar materias sobre determinado assunto corretamente.  | 
+|Passos:  | 1) Acessar a aplicação 2) filtrar o conteudo de interesse 3) selecionar conteúde de interesse e visualiza-lo |
+|Critérios de Êxito:  | o usuario utilizará a aplicação e encontrará conteúdo que lhe interesse|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 > **Links Úteis**:
 > - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
 > - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
