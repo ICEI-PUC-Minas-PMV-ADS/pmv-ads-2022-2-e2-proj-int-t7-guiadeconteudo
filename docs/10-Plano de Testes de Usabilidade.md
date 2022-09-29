@@ -8,10 +8,10 @@ Modelo de teste a ser utilizado: Descoberta de problemas. Objetivos: identificar
 
 Serão selecionados usuários com variáveis características e diferentes papeis dentro da aplicação.
 
-|  **Caso de Teste**  |  **CT-01  - PESQUISAR CONTEÚDO**  |
-|Objetivo do Teste:  | verificar se o usuário consegue pesquisar materias sobre determinado assunto corretamente.  | 
-|Passos:  | 1) Acessar a aplicação 2) filtrar o conteudo de interesse 3) selecionar conteúde de interesse e visualiza-lo |
-|Critérios de Êxito:  | o usuario utilizará a aplicação e encontrará conteúdo que lhe interesse|
+|  **Caso de Teste**  |  **CT-01  - PESQUISAR CONTEÚDO**                                                                             |
+| Objetivo do Teste:   | verificar se o usuário consegue pesquisar materias sobre determinado assunto corretamente.                   | 
+| Passos:              | 1) Acessar a aplicação 2) filtrar o conteudo de interesse 3) selecionar conteúde de interesse e visualiza-lo |
+| Critérios de Êxito:  | o usuario utilizará a aplicação e encontrará conteúdo que lhe interesse                                      |
 
 
 
