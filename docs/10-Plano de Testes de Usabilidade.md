@@ -15,7 +15,11 @@ Serão selecionados usuários com variáveis características e diferentes papei
 | Critérios de Êxito:  | o usuario utilizará a aplicação e encontrará conteúdo que lhe interesse                                      |
 
 
-
+|  **Caso de Teste**  |  **CT-02  - **                                                                              |
+|--|--|
+| Objetivo do Teste:   |                    | 
+| Passos:              |  |
+| Critérios de Êxito:  |                                       |
 
 
 
