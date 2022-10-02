@@ -14,5 +14,8 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 ## Wireframes
 
+Wiframe de Usuário
 ![Wiframe usuário](img/usuario.png)
+
+Wiframe de administrador
 ![Wiframe adm](img/adm.png)
