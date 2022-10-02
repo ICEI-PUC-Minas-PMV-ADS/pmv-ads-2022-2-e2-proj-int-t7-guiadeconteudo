@@ -2,11 +2,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
 
-Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o(s) requisito(s) associado(s) a cada um deles está(ão) correto(s) - de acordo com o que foi definido na seção "2 - Especificação do Projeto". 
-
-Por exemplo:
  
 | **Caso de Teste** 	| **CT-01 – Pesquisa de material** 	|
 |:---:	|:---:	|
@@ -15,7 +11,7 @@ Por exemplo:
 | Objetivo do Teste 	| Verificar se o usuário consegue pesquisar o material. |
 | Passos 	| - Clicar na barra de pesquisa  <br> - Informar o nome do material a ser buscado <br> - Clicar em "Buscar" |
 |Critério de Êxito | - A pesquisa foi bem sucedida. |
-|  	|  	|
+
 
 | **Caso de Teste** 	| **CT-02 – Filtro de pesquisa** 	|
 |:---:	|:---:	|
@@ -24,7 +20,7 @@ Por exemplo:
 | Objetivo do Teste 	| Verificar se o usuário consegue filtrar o material desejado. |
 | Passos 	| - Clicar na barra de filtros  <br> - Informar a categoria desejada <br> - Clicar em "Buscar" |
 |Critério de Êxito | - A pesquisa conseguiu filtrar os resultados. |
-|  	|  	|
+
 
 | **Caso de Teste** 	| **CT-03 – Efetuar login**	|
 |:---:	|:---:	|
@@ -32,8 +28,8 @@ Por exemplo:
 |Requisito Associado | RF-003	- A aplicação deve permitir que o usuário possa gerenciar seus dados. Para realizar o cadastro o usuário deverá fornecer pelo menos os seguintes dados: nome, sexo, CPF, data de nascimento, formação academica, e-mail e senha. |
 | Objetivo do Teste 	| Verificar se o usuário consegue gerenciar seus dados. |
 | Passos 	| - Clicar em "Informações pessoais" <br> - Clicar em alterar informações <br> - Preencher os campos obrigatórios (nome, sexo, CPF, data de nascimento, formação academica, e-mail e senha.) <br> - Clicar em "Salvar alterações" |
-|Critério de Êxito | - As alterações foram realizadas com sucesso. |
-|  	|  	|
+|Critério de Êxito | - As alterações foram realizadas com sucesso. |                                                                                             
+
 
 | **Caso de Teste** 	| **CT-04 – Avaliação de material**	|
 |:---:	|:---:	|
@@ -41,8 +37,8 @@ Por exemplo:
 |Requisito Associado | RF-004	-A aplicação deve possibilitar que um usuário cadastrado possa avaliar o material pesquisado. |
 | Objetivo do Teste 	| Verificar se o usuário consegue avaliar o material. |
 | Passos 	| - Clicar no material <br> - Clicar em "avaliar o material" <br> - Preencher os campos obrigatórios (comentário e avaliação) <br> - Clicar em "Enviar" |
-|Critério de Êxito | - O usuário conseguiu avaliar o material. |
-|  	|  	|
+|Critério de Êxito | - O usuário conseguiu avaliar o material. |                                                                                                    
+
 
 | **Caso de Teste** 	| **CT-05 – Gerenciamento dos materiais**	|
 |:---:	|:---:	|
@@ -51,7 +47,7 @@ Por exemplo:
 | Objetivo do Teste 	| Verificar se o usuário cadastrado consegue incluir e gerenciar o material enquanto seu status ainda está pendente. |
 | Passos 	| - Clicar no material <br> - Verificar status do material <br> - Verificar se está pendente <br> - Preencher os campos (Título do material, área do conhecimento, resumo, link de acesso) <br> - Clicar em "Enviar" |
 |Critério de Êxito | - O usuário conseguiu incluir e gerenciar o material. |
-|  	|  	|
+
 
 | **Caso de Teste** 	| **CT-06 – Materiais em análise**	|
 |:---:	|:---:	|
@@ -60,7 +56,7 @@ Por exemplo:
 | Objetivo do Teste 	| Verificar se o administrador consegue visualizar os materiais em análise. |
 | Passos 	| - Ir até os materiais em análise <br> - Verificar se os materais estão corretos |
 |Critério de Êxito | - O administrador conseguiu visualizar todos os materiais submetidos para análise. |
-|  	|  	|
+
 
 | **Caso de Teste** 	| **CT-07 – Avaliação de materiais como confiáveis**	|
 |:---:	|:---:	|
@@ -69,7 +65,7 @@ Por exemplo:
 | Objetivo do Teste 	| Verificar se o administrador consegue avaliar os materiais como confiáveis ou não confiáveis. |
 | Passos 	| - Selecionar um material <br> - Clicar em avaliar como administrador <br> - Definir material como confiável ou não confiável.|
 |Critério de Êxito | - O administrador consegue avaliar material como confiável ou não confiável. |
-|  	|  	|
+
 
 | **Caso de Teste** 	| **CT-08 – Notificar autor**	|
 |:---:	|:---:	|
@@ -78,7 +74,7 @@ Por exemplo:
 | Objetivo do Teste 	| Verificar se o e-mail foi enviado com êxito. |
 | Passos 	| - Clicar em "material aprovado" <br> - Verificar se a notificação foi enviada.|
 |Critério de Êxito | - O e-mail foi enviado com sucesso. |
-|  	|  	|
+
 
 | **Caso de Teste** 	| **CT-09 – Duas etapas**	|
 |:---:	|:---:	|
@@ -87,7 +83,7 @@ Por exemplo:
 | Objetivo do Teste 	| Verificar se o material possui as duas etapas (Pendente e confiável/não confiável). |
 | Passos 	| - Clicar no material <br> - Ver status do material <br> - Verificar se o material possui pelo menos uma das etapas.|
 |Critério de Êxito | - O material possui uma das duas etapas. |
-|  	|  	|
+
  
 | **Caso de Teste** 	| **CT-10 – Materiais confiaveis**	|
 |:---:	|:---:	|
@@ -96,7 +92,7 @@ Por exemplo:
 | Objetivo do Teste 	| Verificar se apenas materiais avaliados aparecem no campo de pesquisa. |
 | Passos 	| - Clicar na barra de pesquisa <br> - Digitar o nome do material. <br> - Verificar se aparecem apenas materiais avaliados como confiáveis. |
 |Critério de Êxito | - Apenas materiais confiáveis são exibidos. |
-|  	|  	|
+
 
 | **Caso de Teste** 	| **CT-11 – Recomendações da LGPD**	|
 |:---:	|:---:	|
@@ -105,7 +101,7 @@ Por exemplo:
 | Objetivo do Teste 	| Verificar se aplicação se encaixa nas normas da LGPD. |
 | Passos 	| - Verificar recomendações da LGPD. <br> - Alterar as partes da aplicação que não obedecem as normas. |
 |Critério de Êxito | - A aplicação se encaixa nas recomendações. |
-|  	|  	|
+
 
 | **Caso de Teste** 	| **CT-12 – Compatibilidade com os navegadores**	|
 |:---:	|:---:	|
@@ -114,7 +110,7 @@ Por exemplo:
 | Objetivo do Teste 	| Verificar se aplicação é compatível com os nevegadores (Google Chrome, Firefox, Microsoft Edge). |
 | Passos 	| - Verificar a aplicação se adequa aos principais navegadores do mercado.|
 |Critério de Êxito | - A aplicação se encaixa nas recomendações. |
-|  	|  	|
+
 
 | **Caso de Teste** 	| **CT-13 – Idioma**	|
 |:---:	|:---:	|
@@ -123,7 +119,7 @@ Por exemplo:
 | Objetivo do Teste 	| Verificar se aplicação possui apenas o idioma Português(BR). |
 | Passos 	| - Verificar o idioma da aplicação.|
 |Critério de Êxito | - A aplicação possui apenas o idioma Português(BR). |
-|  	|  	|
+
 
 | **Caso de Teste** 	| **CT-14 – Responsividade**	|
 |:---:	|:---:	|
@@ -132,7 +128,7 @@ Por exemplo:
 | Objetivo do Teste 	| Verificar se aplicação é responsiva. |
 | Passos 	| - Verificar a responsividade da aplicação.|
 |Critério de Êxito | - A aplicação é responsiva. |
-|  	|  	|
+
 
 | **Caso de Teste** 	| **CT-15 – Gerenciamento do administrador**	|
 |:---:	|:---:	|
@@ -141,7 +137,7 @@ Por exemplo:
 | Objetivo do Teste 	| Verificar se apenas usuários cadastrados postam e gerenciam seus materiais. |
 | Passos 	| - Clicar em material como usuario <br> - Verificar se consegue postar e gerenciar materiais. <br> - Clicar em voltar <br> - Clicar em material como administrador <br> - Verificar se consegue postar e gerenciar materiais.|
 |Critério de Êxito | - Somente o administrador consegue postar e gerenciar. |
-|  	|  	|
+
 
 | **Caso de Teste** 	| **CT-16 – API de notificação**	|
 |:---:	|:---:	|
@@ -150,5 +146,5 @@ Por exemplo:
 | Objetivo do Teste 	| Verificar se API notifica os usuários sobre o resultado do material submetido. |
 | Passos 	| - - Clicar em "material aprovado" <br> - Verificar se a notificação foi enviada.|
 |Critério de Êxito | - A API notificou com sucesso. |
-|  	|  	|
+
 
