@@ -2,7 +2,7 @@
 
 Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
 
-O teste de usabilidade permite avaliar a qualidade da interface com o usuário da aplicação interativa. O Plano de Testes de Software é gerado a partir da especificação do sistema e consiste em casos de testes que deverão ser executados quando a implementação estiver parcial ou totalmente pronta.
+O teste de usabilidade permite avaliar a qualidade da interface com o usuário da aplicação interativa. O teste de usabilidade é o método a qual é possível mensurar a experiência do usuário final quanto as aplicações oferecidas pelo sistema desenvolvido.
 
 # Modelo de teste a ser utilizado: 
 Descoberta de problemas. 
