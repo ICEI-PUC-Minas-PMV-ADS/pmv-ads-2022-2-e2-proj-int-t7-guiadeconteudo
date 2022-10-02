@@ -4,9 +4,11 @@ Os testes de usabilidade permitem avaliar a qualidade da interface com o usuári
 
 O teste de usabilidade permite avaliar a qualidade da interface com o usuário da aplicação interativa. O Plano de Testes de Software é gerado a partir da especificação do sistema e consiste em casos de testes que deverão ser executados quando a implementação estiver parcial ou totalmente pronta.
 
-# Modelo de teste a ser utilizado: Descoberta de problemas. 
+# Modelo de teste a ser utilizado: 
+Descoberta de problemas. 
 
-# Objetivos: identificar, corrigir eventuais problemas existentes na plataforma e averiguar quais são os obstáculos para a fluida utilização.
+# Objetivos: 
+identificar, corrigir eventuais problemas existentes na plataforma e averiguar quais são os obstáculos para a fluida utilização.
 
 Serão selecionados usuários com variáveis características e diferentes papeis dentro da aplicação.
 
@@ -30,7 +32,21 @@ A taxa de sucesso será mensurada no caso de pesquisa e avaliação do conteudo 
 | Critérios de Êxito:  | o usuario utilizará a aplicação e avaliará o  conteúdo que lhe interesse de forma rapida e eficiente                                |
 
 
+|  **Caso de Teste**  |  **CT-03  -  CADASTRO E SUBMISSÃO DE CONTEÚDO PARA AVALIAÇÃO**                                                                              |
+|--|--|
+| Objetivo do Teste:   | Verificar se o usuário consegue de forma eficiente e rápida se cadastrar na aplicação para submeter conteudo para avaliação             | 
+| Passos:              | 1) Acessar a aplicação 2) fazer cadastro de forma rapida e eficiente 3) anezar o link com o conteudo para análise |
+| Critérios de Êxito:  | o usuario utilizará a aplicação e anaxará o conteúdo para avaliação de forma rapida e eficiente                                |
 
+
+# Análise e relatório de descoberta:
+O grupo em conjunto irá analisar os vídeos da gravação de execução do teste, para que por meio da observação possam ser identificados eventuais pontos de melhoria ou erros da aplicação interativa. O report contempla o formato do relatório de avaliação dos testes de usabilidade e as decisões que ele orienta.
+
+# Análise do report:
+Mensuração dos resultados obtidos, como:
+
+• Análise do tempo que o usuário levou para execução da tarefa. 
+• Mensuração do grau de satisfação do usuário e insatisfação.
 
 
 
