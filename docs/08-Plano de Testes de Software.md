@@ -35,11 +35,120 @@ Por exemplo:
 |Critério de Êxito | - As alterações foram realizadas com sucesso. |
 |  	|  	|
 
+| **Caso de Teste** 	| **CT-04 – Avaliação de material**	|
+|:---:	|:---:	|
+|	Tipo de teste:	| Funcional |
+|Requisito Associado | RF-004	-A aplicação deve possibilitar que um usuário cadastrado possa avaliar o material pesquisado. |
+| Objetivo do Teste 	| Verificar se o usuário consegue avaliar o material. |
+| Passos 	| - Clicar no material <br> - Clicar em "avaliar o material" <br> - Preencher os campos obrigatórios (comentário e avaliação) <br> - Clicar em "Enviar" |
+|Critério de Êxito | - O usuário conseguiu avaliar o material. |
+|  	|  	|
+
+| **Caso de Teste** 	| **CT-05 – Gerenciamento dos materiais**	|
+|:---:	|:---:	|
+|	Tipo de teste:	| Funcional |
+|Requisito Associado | RF-005	-A aplicação deve possibilitar que um usuário cadastrado possa incluir e GERENCIAR uma referência de material para consulta, enquanto o status de seu material ainda estiver pendente, contendo pelo menos os seguintes campos: Título do material, área do conhecimento, resumo, link de acesso. |
+| Objetivo do Teste 	| Verificar se o usuário cadastrado consegue incluir e gerenciar o material enquanto seu status ainda está pendente. |
+| Passos 	| - Clicar no material <br> - Verificar status do material <br> - Verificar se está pendente <br> - Preencher os campos (Título do material, área do conhecimento, resumo, link de acesso) <br> - Clicar em "Enviar" |
+|Critério de Êxito | - O usuário conseguiu incluir e gerenciar o material. |
+|  	|  	|
+
+| **Caso de Teste** 	| **CT-06 – Materiais em análise**	|
+|:---:	|:---:	|
+|	Tipo de teste:	| Funcional |
+|Requisito Associado | RF-006	-A aplicação deverá permitir que o Administrador visualize todos os materiais submetidos para análise. |
+| Objetivo do Teste 	| Verificar se o administrador consegue visualizar os materiais em análise. |
+| Passos 	| - Ir até os materiais em análise <br> - Verificar se os materais estão corretos |
+|Critério de Êxito | - O administrador conseguiu visualizar todos os materiais submetidos para análise. |
+|  	|  	|
+
+| **Caso de Teste** 	| **CT-07 – Avaliação de materiais como confiáveis**	|
+|:---:	|:---:	|
+|	Tipo de teste:	| Funcional |
+|Requisito Associado | RF-007	-A aplicação deve possibilitar que uma referência de material seja avaliado como confiável ou não confiável pelos administradores. |
+| Objetivo do Teste 	| Verificar se o administrador consegue avaliar os materiais como confiáveis ou não confiáveis. |
+| Passos 	| - Selecionar um material <br> - Clicar em avaliar como administrador <br> - Definir material como confiável ou não confiável.|
+|Critério de Êxito | - O administrador consegue avaliar material como confiável ou não confiável. |
+|  	|  	|
+
+| **Caso de Teste** 	| **CT-08 – Notificar autor**	|
+|:---:	|:---:	|
+|	Tipo de teste:	| Funcional |
+|Requisito Associado | RF-008	-A aplicação deve notificar o autor do conteúdo por e-mail sobre a aprovação/veto do seu conteúdo. |
+| Objetivo do Teste 	| Verificar se o e-mail foi enviado com êxito. |
+| Passos 	| - Clicar em "material aprovado" <br> - Verificar se a notificação foi enviada.|
+|Critério de Êxito | - O e-mail foi enviado com sucesso. |
+|  	|  	|
+
+| **Caso de Teste** 	| **CT-09 – Duas etapas**	|
+|:---:	|:---:	|
+|	Tipo de teste:	| Funcional |
+|Requisito Associado | RF-009	-Todo material terá duas etapas: Pendente e confiável/não confiável. |
+| Objetivo do Teste 	| Verificar se o material possui as duas etapas (Pendente e confiável/não confiável). |
+| Passos 	| - Clicar no material <br> - Ver status do material <br> - Verificar se o material possui pelo menos uma das etapas.|
+|Critério de Êxito | - O material possui uma das duas etapas. |
+|  	|  	|
  
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+| **Caso de Teste** 	| **CT-10 – Materiais confiaveis**	|
+|:---:	|:---:	|
+|	Tipo de teste:	| Funcional |
+|Requisito Associado | RF-010	-Somente materiais avaliados como confiável poderá ser exibido no campo de pesquisa. |
+| Objetivo do Teste 	| Verificar se apenas materiais avaliados aparecem no campo de pesquisa. |
+| Passos 	| - Clicar na barra de pesquisa <br> - Digitar o nome do material. <br> - Verificar se aparecem apenas materiais avaliados como confiáveis. |
+|Critério de Êxito | - Apenas materiais confiáveis são exibidos. |
+|  	|  	|
+
+| **Caso de Teste** 	| **CT-11 – Recomendações da LGPD**	|
+|:---:	|:---:	|
+|	Tipo de teste:	| Não funcional |
+|Requisito Associado | RNF-001	-A aplicação deve obedecer às recomendações da LGPD. |
+| Objetivo do Teste 	| Verificar se aplicação se encaixa nas normas da LGPD. |
+| Passos 	| - Verificar recomendações da LGPD. <br> - Alterar as partes da aplicação que não obedecem as normas. |
+|Critério de Êxito | - A aplicação se encaixa nas recomendações. |
+|  	|  	|
+
+| **Caso de Teste** 	| **CT-12 – Compatibilidade com os navegadores**	|
+|:---:	|:---:	|
+|	Tipo de teste:	| Não funcional |
+|Requisito Associado | RNF-002	-A aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). |
+| Objetivo do Teste 	| Verificar se aplicação é compatível com os nevegadores (Google Chrome, Firefox, Microsoft Edge). |
+| Passos 	| - Verificar a aplicação se adequa aos principais navegadores do mercado.|
+|Critério de Êxito | - A aplicação se encaixa nas recomendações. |
+|  	|  	|
+
+| **Caso de Teste** 	| **CT-13 – Idioma**	|
+|:---:	|:---:	|
+|	Tipo de teste:	| Não funcional |
+|Requisito Associado | RNF-003	-A aplicação possuirá apenas o idioma Português(BR). |
+| Objetivo do Teste 	| Verificar se aplicação possui apenas o idioma Português(BR). |
+| Passos 	| - Verificar o idioma da aplicação.|
+|Critério de Êxito | - A aplicação possui apenas o idioma Português(BR). |
+|  	|  	|
+
+| **Caso de Teste** 	| **CT-14 – Responsividade**	|
+|:---:	|:---:	|
+|	Tipo de teste:	| Não funcional |
+|Requisito Associado | RNF-004	-A aplicação deverá ser responsiva. |
+| Objetivo do Teste 	| Verificar se aplicação é responsiva. |
+| Passos 	| - Verificar a responsividade da aplicação.|
+|Critério de Êxito | - A aplicação é responsiva. |
+|  	|  	|
+
+| **Caso de Teste** 	| **CT-15 – Gerenciamento do administrador**	|
+|:---:	|:---:	|
+|	Tipo de teste:	| Não funcional |
+|Requisito Associado | RNF-005	-A aplicação deverá permitir que apenas usuários cadastrados postem e gerenciem seus materiais postados.	 |
+| Objetivo do Teste 	| Verificar se apenas usuários cadastrados postam e gerenciam seus materiais. |
+| Passos 	| - Clicar em material como usuario <br> - Verificar se consegue postar e gerenciar materiais. <br> - Clicar em voltar <br> - Clicar em material como administrador <br> - Verificar se consegue postar e gerenciar materiais.|
+|Critério de Êxito | - Somente o administrador consegue postar e gerenciar. |
+|  	|  	|
+
+| **Caso de Teste** 	| **CT-16 – API de notificação**	|
+|:---:	|:---:	|
+|	Tipo de teste:	| Não funcional |
+|Requisito Associado | RNF-006	-Deverá ser usado uma API para que a aplicação notifique os usuários sobre o resultado do material submetido.	 |
+| Objetivo do Teste 	| Verificar se API notifica os usuários sobre o resultado do material submetido. |
+| Passos 	| - - Clicar em "material aprovado" <br> - Verificar se a notificação foi enviada.|
+|Critério de Êxito | - A API notificou com sucesso. |
+|  	|  	|
+
