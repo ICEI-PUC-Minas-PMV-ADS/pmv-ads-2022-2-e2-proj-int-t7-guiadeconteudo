@@ -1,6 +1,6 @@
 # Instruções de utilização
 
-## Instalação do Site
+## Instalação do Site `Em desenvolvimento`
 
 O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores...
 
