@@ -22,7 +22,7 @@
 |Critério de Êxito | - A pesquisa conseguiu filtrar os resultados. |
 
 
-| **Caso de Teste** 	| **CT-03 – Efetuar login**	|
+| **Caso de Teste** 	| **CT-03 – Gerenciamento de dados do usuário**	|
 |:---:	|:---:	|
 |	Tipo de teste:	| Funcional |
 |Requisito Associado | RF-003	- A aplicação deve permitir que o usuário possa gerenciar seus dados. Para realizar o cadastro o usuário deverá fornecer pelo menos os seguintes dados: nome, sexo, CPF, data de nascimento, formação academica, e-mail e senha. |
@@ -40,34 +40,43 @@
 |Critério de Êxito | - O usuário conseguiu avaliar o material. |                                                                                                    
 
 
-| **Caso de Teste** 	| **CT-05 – Gerenciamento dos materiais**	|
+| **Caso de Teste** 	| **CT-05 – Inclusão dos materiais**	|
 |:---:	|:---:	|
 |	Tipo de teste:	| Funcional |
-|Requisito Associado | RF-005	-A aplicação deve possibilitar que um usuário cadastrado possa incluir e GERENCIAR uma referência de material para consulta, enquanto o status de seu material ainda estiver pendente, contendo pelo menos os seguintes campos: Título do material, área do conhecimento, resumo, link de acesso. |
-| Objetivo do Teste 	| Verificar se o usuário cadastrado consegue incluir e gerenciar o material enquanto seu status ainda está pendente. |
-| Passos 	| - Clicar no material <br> - Verificar status do material <br> - Verificar se está pendente <br> - Preencher os campos (Título do material, área do conhecimento, resumo, link de acesso) <br> - Clicar em "Enviar" |
-|Critério de Êxito | - O usuário conseguiu incluir e gerenciar o material. |
+|Requisito Associado | RF-005	- A aplicação deve possibilitar que um usuário cadastrado possa incluir e GERENCIAR uma referência de material para consulta, enquanto o status de seu material ainda estiver pendente, contendo pelo menos os seguintes campos: Título do material, área do conhecimento, resumo, link de acesso. |
+| Objetivo do Teste 	| Verificar se o usuário cadastrado consegue incluir o material enquanto seu status ainda está pendente. |
+| Passos 	| - Clicar no material <br> - Verificar se está pendente <br> - Preencher os campos (Título do material, área do conhecimento, resumo, link de acesso) <br> - Clicar em "Enviar" |
+|Critério de Êxito | - O usuário conseguiu incluir o material. |
+
+| **Caso de Teste** 	| **CT-06 – Gerenciamento de materiais pendentes**	|
+|:---:	|:---:	|
+|	Tipo de teste:	| Funcional |
+|Requisito Associado | RF-005	- A aplicação deve possibilitar que um usuário cadastrado possa incluir e GERENCIAR uma referência de material para consulta, enquanto o status de seu material ainda estiver pendente, contendo pelo menos os seguintes campos: Título do material, área do conhecimento, resumo, link de acesso. |
+| Objetivo do Teste 	| Verificar se o usuário cadastrado consegue gerenciar o material enquanto seu status ainda está pendente. |
+| Passos 	| - Clicar no material <br> - Verificar se está pendente <br> - Alterar os campos (Título do material, área do conhecimento, resumo, link de acesso) <br> - Clicar em "Alterar" |
+|Critério de Êxito | - O usuário conseguiu gerenciar o material. |
 
 
-| **Caso de Teste** 	| **CT-06 – Materiais em análise**	|
+
+| **Caso de Teste** 	| **CT-07 – Materiais em análise**	|
 |:---:	|:---:	|
 |	Tipo de teste:	| Funcional |
 |Requisito Associado | RF-006	-A aplicação deverá permitir que o Administrador visualize todos os materiais submetidos para análise. |
 | Objetivo do Teste 	| Verificar se o administrador consegue visualizar os materiais em análise. |
-| Passos 	| - Ir até os materiais em análise <br> - Verificar se os materais estão corretos |
+| Passos 	| - Ir até os materiais em análise <br> - A aplicação deve exibir a listagem de materiais para avaliação |
 |Critério de Êxito | - O administrador conseguiu visualizar todos os materiais submetidos para análise. |
 
 
-| **Caso de Teste** 	| **CT-07 – Avaliação de materiais como confiáveis**	|
+| **Caso de Teste** 	| **CT-08 – Avaliação de materiais como confiáveis**	|
 |:---:	|:---:	|
 |	Tipo de teste:	| Funcional |
 |Requisito Associado | RF-007	-A aplicação deve possibilitar que uma referência de material seja avaliado como confiável ou não confiável pelos administradores. |
 | Objetivo do Teste 	| Verificar se o administrador consegue avaliar os materiais como confiáveis ou não confiáveis. |
-| Passos 	| - Selecionar um material <br> - Clicar em avaliar como administrador <br> - Definir material como confiável ou não confiável.|
+| Passos 	| - Se for adm <br> - Selecionar um material <br> - Clicar em avaliar como administrador <br> - Definir material como confiável ou não confiável.|
 |Critério de Êxito | - O administrador consegue avaliar material como confiável ou não confiável. |
 
 
-| **Caso de Teste** 	| **CT-08 – Notificar autor**	|
+| **Caso de Teste** 	| **CT-09 – Notificar autor**	|
 |:---:	|:---:	|
 |	Tipo de teste:	| Funcional |
 |Requisito Associado | RF-008	-A aplicação deve notificar o autor do conteúdo por e-mail sobre a aprovação/veto do seu conteúdo. |
@@ -76,7 +85,7 @@
 |Critério de Êxito | - O e-mail foi enviado com sucesso. |
 
 
-| **Caso de Teste** 	| **CT-09 – Duas etapas**	|
+| **Caso de Teste** 	| **CT-10 – Duas etapas**	|
 |:---:	|:---:	|
 |	Tipo de teste:	| Funcional |
 |Requisito Associado | RF-009	-Todo material terá duas etapas: Pendente e confiável/não confiável. |
@@ -85,7 +94,7 @@
 |Critério de Êxito | - O material possui uma das duas etapas. |
 
  
-| **Caso de Teste** 	| **CT-10 – Materiais confiaveis**	|
+| **Caso de Teste** 	| **CT-11 – Materiais confiaveis**	|
 |:---:	|:---:	|
 |	Tipo de teste:	| Funcional |
 |Requisito Associado | RF-010	-Somente materiais avaliados como confiável poderá ser exibido no campo de pesquisa. |
@@ -94,7 +103,7 @@
 |Critério de Êxito | - Apenas materiais confiáveis são exibidos. |
 
 
-| **Caso de Teste** 	| **CT-11 – Recomendações da LGPD**	|
+| **Caso de Teste** 	| **CT-12 – Recomendações da LGPD**	|
 |:---:	|:---:	|
 |	Tipo de teste:	| Não funcional |
 |Requisito Associado | RNF-001	-A aplicação deve obedecer às recomendações da LGPD. |
@@ -103,22 +112,13 @@
 |Critério de Êxito | - A aplicação se encaixa nas recomendações. |
 
 
-| **Caso de Teste** 	| **CT-12 – Compatibilidade com os navegadores**	|
+| **Caso de Teste** 	| **CT-13 – Compatibilidade com os navegadores**	|
 |:---:	|:---:	|
 |	Tipo de teste:	| Não funcional |
 |Requisito Associado | RNF-002	-A aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). |
 | Objetivo do Teste 	| Verificar se aplicação é compatível com os nevegadores (Google Chrome, Firefox, Microsoft Edge). |
 | Passos 	| - Verificar a aplicação se adequa aos principais navegadores do mercado.|
 |Critério de Êxito | - A aplicação se encaixa nas recomendações. |
-
-
-| **Caso de Teste** 	| **CT-13 – Idioma**	|
-|:---:	|:---:	|
-|	Tipo de teste:	| Não funcional |
-|Requisito Associado | RNF-003	-A aplicação possuirá apenas o idioma Português(BR). |
-| Objetivo do Teste 	| Verificar se aplicação possui apenas o idioma Português(BR). |
-| Passos 	| - Verificar o idioma da aplicação.|
-|Critério de Êxito | - A aplicação possui apenas o idioma Português(BR). |
 
 
 | **Caso de Teste** 	| **CT-14 – Responsividade**	|
@@ -130,19 +130,19 @@
 |Critério de Êxito | - A aplicação é responsiva. |
 
 
-| **Caso de Teste** 	| **CT-15 – Gerenciamento do administrador**	|
+| **Caso de Teste** 	| **CT-15 – Submissão de materiais**	|
 |:---:	|:---:	|
 |	Tipo de teste:	| Não funcional |
 |Requisito Associado | RNF-005	-A aplicação deverá permitir que apenas usuários cadastrados postem e gerenciem seus materiais postados.	 |
 | Objetivo do Teste 	| Verificar se apenas usuários cadastrados postam e gerenciam seus materiais. |
-| Passos 	| - Clicar em material como usuario <br> - Verificar se consegue postar e gerenciar materiais. <br> - Clicar em voltar <br> - Clicar em material como administrador <br> - Verificar se consegue postar e gerenciar materiais.|
-|Critério de Êxito | - Somente o administrador consegue postar e gerenciar. |
+| Passos 	| - Clicar em material <br> - Verificar se consegue postar e gerenciar materiais.|
+|Critério de Êxito | - O usuário consegue postar e gerenciar. |
 
 
-| **Caso de Teste** 	| **CT-16 – API de notificação**	|
+| **Caso de Teste** 	| **CT-16 – API de envio de e-mail**	|
 |:---:	|:---:	|
 |	Tipo de teste:	| Não funcional |
-|Requisito Associado | RNF-006	-Deverá ser usado uma API para que a aplicação notifique os usuários sobre o resultado do material submetido.	 |
+|Requisito Associado | RNF-006	-Deverá ser usado uma API para que a aplicação notifique por e-mail os usuários sobre o resultado do material submetido.	 |
 | Objetivo do Teste 	| Verificar se API notifica os usuários sobre o resultado do material submetido. |
 | Passos 	| - - Clicar em "material aprovado" <br> - Verificar se a notificação foi enviada.|
 |Critério de Êxito | - A API notificou com sucesso. |
