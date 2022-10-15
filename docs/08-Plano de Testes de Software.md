@@ -107,7 +107,7 @@
 |:---:	|:---:	|
 |	Tipo de teste:	| Não funcional |
 |Requisito Associado | RNF-001	-A aplicação deve obedecer às recomendações da LGPD. |
-| Objetivo do Teste 	| Verificar se aplicação se encaixa nas normas da LGPD. |
+| Objetivo do Teste 	| Verificar se aplicação se encaixa nas normas da LGPD. (Não tranferir a entidades privadas, sem consentimento do titular, dados pessoais constantes de bases a que tenha acesso.)|
 | Passos 	| - Verificar recomendações da LGPD. <br> - Alterar as partes da aplicação que não obedecem as normas. |
 |Critério de Êxito | - A aplicação se encaixa nas recomendações. |
 
