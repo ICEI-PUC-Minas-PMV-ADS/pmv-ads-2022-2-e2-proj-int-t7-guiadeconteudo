@@ -428,3 +428,8 @@ C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t
 C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\obj\Debug\net5.0\Razor\Views\Usuarios\Create.cshtml.g.cs
+C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\obj\Debug\net5.0\Razor\Views\Usuarios\Delete.cshtml.g.cs
+C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\obj\Debug\net5.0\Razor\Views\Usuarios\Details.cshtml.g.cs
+C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\obj\Debug\net5.0\Razor\Views\Usuarios\Edit.cshtml.g.cs
+C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\obj\Debug\net5.0\Razor\Views\Usuarios\Index.cshtml.g.cs
