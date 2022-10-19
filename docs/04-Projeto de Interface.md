@@ -32,4 +32,4 @@ Tela do administrador. Contendo o botão para aceitar ou recusar a postagem e o 
 
 Tela de Upload e tela de edição. Contendo os botões "Conteúdo do curso", "Nome do Curso", "Resumo sobre o curso", "Publicar", "Excluir" e o botão para adicionar um print ou imagem relacionada ao curso.
 
-![tela de upload e edição](img/tela%20de%20upload%20e%20edit.png)
+![tela de upload e edição](img/edit.png)
