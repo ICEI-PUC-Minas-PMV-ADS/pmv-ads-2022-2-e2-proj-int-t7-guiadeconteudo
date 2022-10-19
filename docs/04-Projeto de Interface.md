@@ -14,7 +14,5 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 ## Wireframes
 
-Wiframe usuário
-![Wiframe usuário](img/usuario.png)
-Wiframe administrador
-![Wiframe adm](img/adm.png)
+Tela principal sem estar logado.
+![tela principal sem estar logado](img/tela principal sem estar logado.png )
