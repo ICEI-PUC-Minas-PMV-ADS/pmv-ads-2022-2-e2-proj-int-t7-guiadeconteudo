@@ -14,17 +14,21 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 ## Wireframes
 
-Tela principal sem estar logado.
+Tela principal sem estar logado. Contendo o botão "login", de "cadastro" e o "search" para busca.
+
 ![tela principal sem estar logado](img/tela%20principal%20sem%20estar%20logado.png)
 
-Tela de login.
+Tela de login. Contendo o botão da Home e do cadastro.
 ![tela de login](img/tela%20de%20login.png)
 
-Tela de cadastro.
+Tela de cadastro. Contendo o botão "Home".
 ![tela de cadastro](img/tela%20de%20cadastro.png)
 
-Tela estando logado.
+Tela estando logado. Contendo o botão "Upload", "Home" e "log out"
 ![tela estando logado](img/tela%20principal%20estando%20logado.png)
 
-Tela do administrador.
+Tela do administrador. Contendo o botão para aceitar ou recusar a postagem e o "Search" para busca.
 ![tela do administrador](img/TELA%20DO%20ADM.png)
+
+Tela de Upload e tela de edição. Contendo os botões "Conteúdo do curso", "Nome do Curso", "Resumo sobre o curso", "Publicar", "Excluir" e o botão para adicionar um print ou imagem relacionada ao curso.
+![tela de upload e edição](img/tela%20de%20upload%20e%20edit.png)
