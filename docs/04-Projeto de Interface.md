@@ -15,4 +15,16 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 ## Wireframes
 
 Tela principal sem estar logado.
-![tela principal sem estar logado](img/tela principal sem estar logado.png )
+![tela principal sem estar logado](img/tela%20principal%20sem%20estar%20logado.png)
+
+Tela de login.
+![tela de login](img/tela%20de%20login.png)
+
+Tela de cadastro.
+![tela de cadastro](img/tela%20de%20cadastro.png)
+
+Tela estando logado.
+![tela estando logado](img/tela%20principal%20estando%20logado.png)
+
+Tela do administrador.
+![tela do administrador](img/TELA%20DO%20ADM.png)
