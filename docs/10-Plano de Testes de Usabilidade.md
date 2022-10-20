@@ -31,22 +31,30 @@ A taxa de sucesso será mensurada no caso de pesquisa e avaliação do conteudo 
 |  **Caso de Teste**  |  **CT-01  - PESQUISAR CONTEÚDO**                                                                              |
 |--|--|
 | Objetivo do Teste:   | Verificar se o usuário consegue pesquisar de maneira satisfatória sem erros e rápida materiais sobre determinado assunto corretamente.                   | 
-| Passos:              | 1) Acessar a primeira tela do site pelo browser; 2) Preencher os campos necessários para encontrar o conteúdo de interesse 3) filtrar o conteudo de interesse 3) selecionar conteúde de interesse e visualiza-lo  |
+| Passos:              | 1) Acessar a primeira tela do site pelo browser; 2) Preencher os campos necessários para encontrar o conteúdo de interesse 3) filtrar o conteudo de interesse 4) selecionar conteúde de interesse e visualiza-lo  |
 | Critérios de Êxito:  | o usuario utilizará a aplicação e encontrará conteúdo que lhe interesse de forma rapida e eficiente e clara                                     |
 
 
 |  **Caso de Teste**  |  **CT-02  -  AVALIAR CONTEÚDO**                                                                              |
 |--|--|
 | Objetivo do Teste:   | Verificar se o usuário consegue de forma eficiente e rapida se cadastrar na aplicação para assim avaliar o conteudo encontrado               | 
-| Passos:              | 1) Acessar a aplicação 2) filtrar o conteudo de interesse 3) selecionar conteúde de interesse e visualiza-lo 4) fazer cadastro de forma rapida e eficiente 5) avaliar o conteúdo de interesse |
+| Passos:              | 1) Acessar a primeira tela do site pelo browser; 2) filtrar o conteudo de interesse 3) selecionar conteúdo de interesse e visualiza-lo 4) Acessar a pagina de cadastro de usuario (estudante) 5) fazer cadastro de forma rapida e eficiente  6) Retornar para a página do conteúdo de interesse anteriormente visualizado 7) avaliar o conteúdo de interesse |
 | Critérios de Êxito:  | o usuario utilizará a aplicação e avaliará o  conteúdo que lhe interesse de forma rapida e eficiente                                |
 
 
 |  **Caso de Teste**  |  **CT-03  -  CADASTRO E SUBMISSÃO DE CONTEÚDO PARA AVALIAÇÃO**                                                                              |
 |--|--|
-| Objetivo do Teste:   | Verificar se o usuário consegue de forma eficiente e rápida se cadastrar na aplicação para submeter conteudo para avaliação             | 
-| Passos:              | 1) Acessar a aplicação 2) fazer cadastro de forma rapida e eficiente 3) anezar o link com o conteudo para análise |
+| Objetivo do Teste:   | Verificar se o usuário (professor) consegue de forma eficiente e rápida se cadastrar para submeter conteudo para avaliação e posterior publicação do seu material  na aplicação         | 
+| Passos:              | 1) Acessar a primeira tela do site pelo browser 2) Clicar na opção “Upload" 3) fazer cadastro de forma rapida e eficiente de acordo com os dados requeridos 4) anexar o link com o conteudo para análise 5) Clicar na opção “publicar"|
 | Critérios de Êxito:  | o usuario utilizará a aplicação e anaxará o conteúdo para avaliação de forma rapida e eficiente                                |
+
+
+|  **Caso de Teste**  |  **CT-04  -  CADASTRO E SUBMISSÃO DE CONTEÚDO PARA AVALIAÇÃO**                                                                              |
+|--|--|
+| Objetivo do Teste:   | Verificar se o adminsitrados conseguem realizar a avaliação do material submetido para publicação na aplicação de forma eficinete e simples
+| 
+| Passos:              | 1) Acessar a primeira tela do site pelo browser 2) Clicar na opção “home" 3) visualizar os materias submetidos para analise de publicação 4)  analisar cada material submetido a avaliação clicando no link de cada um 5) concluir se o material é apto ou não para publicação 6) se esse for apto clicar na opção "aceita", se não for apto clicar na opção "recusar" |
+| Critérios de Êxito:  | o administrador utilizará a aplicação e e realizará a avaliação de aptidão dos conteúdos de forma rapida e eficiente                                |
 
 
 # Análise e relatório de descoberta:
