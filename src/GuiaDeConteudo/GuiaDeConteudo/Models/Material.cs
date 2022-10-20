@@ -20,6 +20,6 @@ namespace GuiaDeConteudo.Models
         public string justificativaAnalise { get; set; }
 
         public Usuario Usuario { get; set; }
-        //public ICollection<Avaliacao> Avaliacao { get; set; }
+        public ICollection<Avaliacao> Avaliacao { get; set; }
     }
 }
