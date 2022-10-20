@@ -30,9 +30,9 @@ A taxa de sucesso será mensurada no caso de pesquisa e avaliação do conteudo 
 
 |  **Caso de Teste**  |  **CT-01  - PESQUISAR CONTEÚDO**                                                                              |
 |--|--|
-| Objetivo do Teste:   | Verificar se o usuário consegue pesquisar de maneira satisfatória e rápida materias sobre determinado assunto corretamente.                   | 
-| Passos:              | 1) Acessar a aplicação 2) filtrar o conteudo de interesse 3) selecionar conteúde de interesse e visualiza-lo |
-| Critérios de Êxito:  | o usuario utilizará a aplicação e encontrará conteúdo que lhe interesse de forma rapida e eficiente                                      |
+| Objetivo do Teste:   | Verificar se o usuário consegue pesquisar de maneira satisfatória sem erros e rápida materiais sobre determinado assunto corretamente.                   | 
+| Passos:              | 1) Acessar a primeira tela do site pelo browser; 2) Preencher os campos necessários para encontrar o conteúdo de interesse 3) filtrar o conteudo de interesse 3) selecionar conteúde de interesse e visualiza-lo  |
+| Critérios de Êxito:  | o usuario utilizará a aplicação e encontrará conteúdo que lhe interesse de forma rapida e eficiente e clara                                     |
 
 
 |  **Caso de Teste**  |  **CT-02  -  AVALIAR CONTEÚDO**                                                                              |
