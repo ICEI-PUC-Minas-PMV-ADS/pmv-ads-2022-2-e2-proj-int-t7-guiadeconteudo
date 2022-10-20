@@ -49,12 +49,12 @@ A taxa de sucesso será mensurada no caso de pesquisa e avaliação do conteudo 
 | Critérios de Êxito:  | o usuario utilizará a aplicação e anaxará o conteúdo para avaliação de forma rapida e eficiente                                |
 
 
-|  **Caso de Teste**  |  **CT-04  -  CADASTRO E SUBMISSÃO DE CONTEÚDO PARA AVALIAÇÃO**                                                                              |
+|  **Caso de Teste**  |  **CT-04  -  AVALIAÇÃO DO CONTEÚDO PELO ADMINISTRADOR PARA PUBLICAÇÃO NA APLICAÇÃO**                                                                              |
 |--|--|
 | Objetivo do Teste:   | Verificar se o adminsitrados conseguem realizar a avaliação do material submetido para publicação na aplicação de forma eficinete e simples
 | 
 | Passos:              | 1) Acessar a primeira tela do site pelo browser 2) Clicar na opção “home" 3) visualizar os materias submetidos para analise de publicação 4)  analisar cada material submetido a avaliação clicando no link de cada um 5) concluir se o material é apto ou não para publicação 6) se esse for apto clicar na opção "aceita", se não for apto clicar na opção "recusar" |
-| Critérios de Êxito:  | o administrador utilizará a aplicação e e realizará a avaliação de aptidão dos conteúdos de forma rapida e eficiente                                |
+| Critérios de Êxito:  | o administrador utilizará a aplicação e e realizará a avaliação de aptidão dos conteúdos de forma rapida e eficiente                       |
 
 
 # Análise e relatório de descoberta:
