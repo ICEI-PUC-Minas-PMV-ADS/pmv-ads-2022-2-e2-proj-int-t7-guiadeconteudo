@@ -8,5 +8,7 @@ namespace GuiaDeConteudo.Models
         {
         }
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Material> Materiais { get; set; }
+        public DbSet<Avaliacao> Avaliacoes { get; set; }
     }
 }
