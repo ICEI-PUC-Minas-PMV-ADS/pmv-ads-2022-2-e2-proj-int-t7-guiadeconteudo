@@ -433,3 +433,13 @@ C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t
 C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\obj\Debug\net5.0\Razor\Views\Usuarios\Details.cshtml.g.cs
 C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\obj\Debug\net5.0\Razor\Views\Usuarios\Edit.cshtml.g.cs
 C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\obj\Debug\net5.0\Razor\Views\Usuarios\Index.cshtml.g.cs
+C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\obj\Debug\net5.0\Razor\Views\Materiais\Create.cshtml.g.cs
+C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\obj\Debug\net5.0\Razor\Views\Materiais\Delete.cshtml.g.cs
+C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\obj\Debug\net5.0\Razor\Views\Materiais\Details.cshtml.g.cs
+C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\obj\Debug\net5.0\Razor\Views\Materiais\Edit.cshtml.g.cs
+C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\obj\Debug\net5.0\Razor\Views\Materiais\Index.cshtml.g.cs
+C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\obj\Debug\net5.0\Razor\Views\Avaliacoes\Create.cshtml.g.cs
+C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\obj\Debug\net5.0\Razor\Views\Avaliacoes\Delete.cshtml.g.cs
+C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\obj\Debug\net5.0\Razor\Views\Avaliacoes\Details.cshtml.g.cs
+C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\obj\Debug\net5.0\Razor\Views\Avaliacoes\Edit.cshtml.g.cs
+C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\obj\Debug\net5.0\Razor\Views\Avaliacoes\Index.cshtml.g.cs

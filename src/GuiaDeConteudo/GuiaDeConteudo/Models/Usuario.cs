@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Collections.Generic;
 
 namespace GuiaDeConteudo.Models
 {
@@ -18,7 +19,7 @@ namespace GuiaDeConteudo.Models
         public string formacao { get; set; }
         public string senha { get; set; }
 
-        //public ICollection<Avaliacao> Avaliacao { get; set; }
-        // public ICollection<Material> Material { get; set; }
+        public ICollection<Avaliacao> Avaliacao { get; set; }
+        public ICollection<Material> Material { get; set; }
     }
 }

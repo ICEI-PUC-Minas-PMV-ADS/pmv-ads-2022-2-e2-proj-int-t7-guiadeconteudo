@@ -1,0 +1,83 @@
+﻿@model IEnumerable<GuiaDeConteudo.Models.Material>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.id_material)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cpf_usuario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.areaConhecimento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.resumo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.link)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.autor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.justificativaAnalise)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.id_material)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cpf_usuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.areaConhecimento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.titulo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.resumo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.link)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.autor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.justificativaAnalise)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id_material">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.id_material">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id_material">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

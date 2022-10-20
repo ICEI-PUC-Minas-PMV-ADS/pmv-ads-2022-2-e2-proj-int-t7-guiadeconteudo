@@ -43,6 +43,9 @@
 @foreach (var item in Model) {
         <tr>
             <td>
+                @Html.DisplayFor(modelItem => item.cpf_usuario)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.tipo)
             </td>
             <td>
