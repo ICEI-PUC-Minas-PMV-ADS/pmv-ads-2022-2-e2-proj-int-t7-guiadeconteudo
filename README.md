@@ -1,6 +1,5 @@
 # ESTUDE AGORA
-
-[LOGO](/docs/img/LOGO.PNG)
+![LOGO](/docs/img/LOGO.PNG)
 
 `ANÁLISE E DESNVOLVIMENTO DE SISTEMA`
 
