@@ -12,6 +12,8 @@ Identificar, corrigir eventuais problemas existentes na plataforma e averiguar q
 
 Serão selecionados usuários com variáveis características e diferentes papeis dentro da aplicação.
 
+Para cada voluntário do teste, será aplicado a LGPD (Lei Geral de Proteção de Dados), e nenhum dado sensível, que permita identificar o voluntário,  sera apresentado.
+
 # Cenário:
 Cada membro do grupo aplicará o teste para um indivíduo, desta forma teremos uma amostra de 6 pessoas avaliando a aplicação interativa no que diz respeito a experiência do usuário. O usuário em questão acessará a aplicação e poderá pesquisar o conteudo de determinado assunto, se cadastrar para avaliação do conteudo ou entao se cadastrar para submeter um conteudo à analise para posterior publicação na aplicação.
 
