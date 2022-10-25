@@ -78,4 +78,4 @@ Foram empregadas as seguintes ferramentas para a documentação:
 
 - Editor de código: [Visual Studio Code](https://code.visualstudio.com/).
 - Ferramentas de comunicação: [Whatsapp](https://www.whatsapp.com) e [jit.si](https://meet.jit.si/projeto2semestreturma7).
-- Ferramenta de desenho de tela (_wireframing_): [Marvelapp](https://marvelapp.com/).
+- Ferramenta de desenho de tela (_wireframing_): [Figma](https://www.figma.com//).
