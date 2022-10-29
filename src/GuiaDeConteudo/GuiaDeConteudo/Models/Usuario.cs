@@ -17,6 +17,8 @@ namespace GuiaDeConteudo.Models
         public string email { get; set; }
         public int grauEscolaridade { get; set; }
         public string formacao { get; set; }
+
+        [DataType(DataType.Password)]
         public string senha { get; set; }
 
         public ICollection<Avaliacao> Avaliacao { get; set; }
