@@ -6,9 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using GuiaDeConteudo.Models;
+using Microsoft.AspNetCore.Authentication;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
 namespace GuiaDeConteudo.Controllers
 {
+    [Authorize]
     public class UsuariosController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -16,6 +20,70 @@ namespace GuiaDeConteudo.Controllers
         public UsuariosController(ApplicationDbContext context)
         {
             _context = context;
+        }
+
+        [AllowAnonymous]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [AllowAnonymous]
+        public async Task<IActionResult> Login([Bind("cpf_usuario, senha")] Usuario usuario)
+        {
+            var user = await _context.Usuarios
+                .FirstOrDefaultAsync(m => m.cpf_usuario == usuario.cpf_usuario);
+
+            if (user == null)
+            {
+                ViewBag.Message = "Usuário e/ou senha inválidos";
+                return View();
+            }
+
+            bool isSenhaOk = BCrypt.Net.BCrypt.Verify(usuario.senha, user.senha);
+
+            if (isSenhaOk)
+            {
+                var claims = new List<Claim>
+                {
+                    new Claim (ClaimTypes.Name, user.nome),
+                    new Claim(ClaimTypes.NameIdentifier, user.nome),
+                    new Claim(ClaimTypes.Role, user.tipo.ToString())
+                };
+                var userIdentity = new ClaimsIdentity(claims, "login");
+
+                ClaimsPrincipal principal = new ClaimsPrincipal(userIdentity);
+
+                var props = new AuthenticationProperties
+                {
+                    AllowRefresh = true,
+                    ExpiresUtc = DateTime.Now.ToLocalTime().AddDays(1),
+                    IsPersistent = true
+                };
+
+                await HttpContext.SignInAsync(principal, props);
+                return Redirect("/");
+                /* ViewBag.Message = "Usuário OK.";
+                 return View();*/
+            }
+
+
+
+            ViewBag.Message = "Usuário e/ou senha inválidos";
+            return View();
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync();
+            return RedirectToAction("Login", "Usuarios");
+        }
+
+        [AllowAnonymous]
+        public IActionResult AccessDenied()
+        {
+            return View();
         }
 
         // GET: Usuarios
@@ -43,6 +111,8 @@ namespace GuiaDeConteudo.Controllers
         }
 
         // GET: Usuarios/Create
+
+        [AllowAnonymous]
         public IActionResult Create()
         {
             return View();
@@ -53,8 +123,10 @@ namespace GuiaDeConteudo.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [AllowAnonymous]
         public async Task<IActionResult> Create([Bind("cpf_usuario,tipo,nome,dataNascimento,email,grauEscolaridade,formacao,senha")] Usuario usuario)
         {
+            usuario.senha = BCrypt.Net.BCrypt.HashPassword(usuario.senha);
             if (ModelState.IsValid)
             {
                 _context.Add(usuario);
@@ -96,6 +168,7 @@ namespace GuiaDeConteudo.Controllers
             {
                 try
                 {
+                    usuario.senha = BCrypt.Net.BCrypt.HashPassword(usuario.senha);
                     _context.Update(usuario);
                     await _context.SaveChangesAsync();
                 }

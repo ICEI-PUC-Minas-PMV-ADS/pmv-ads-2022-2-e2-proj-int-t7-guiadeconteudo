@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using GuiaDeConteudo.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace GuiaDeConteudo.Controllers
 {
+    [Authorize]
     public class MateriaisController : Controller
     {
         private readonly ApplicationDbContext _context;

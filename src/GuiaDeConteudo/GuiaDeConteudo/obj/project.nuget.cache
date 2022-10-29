@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XDt0Jzk/3J6NsaTd+QI7/waS+iWs/1G3OFPtwfWwMf8Jk1bpi4Sk1aW8ljmw/4g7iypcM88rFNIpG1bUuvg0lg==",
+  "dgSpecHash": "yjnhRsMTejOdP1S7UNfwrTaLHT6YDW4fvS1GRT9rAxFFqud4METtxxlclZJYnihEUHCWsvhYfYEno8ZpL3Rgyw==",
   "success": true,
   "projectFilePath": "C:\\Users\\lucia\\git-projects\\facul-analise\\periodo-2\\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\\src\\GuiaDeConteudo\\GuiaDeConteudo\\GuiaDeConteudo.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\lucia\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\lucia\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\lucia\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\lucia\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.17\\microsoft.aspnetcore.mvc.razor.extensions.5.0.17.nupkg.sha512",
