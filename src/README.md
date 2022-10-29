@@ -8,10 +8,11 @@
 ### Framework
 Foi utilizado o Framework .NET 5.0
 
-### Pacotes
+### Pacotes/Dépendências.
 - Microsoft.EntityFrameworkCore - Version 5.0.17
 - Microsoft.EntityFrameworkCore.Design - Version 5.0.17
 - Microsoft.EntityFrameworkCore.Tools - Version 5.0.17
+- BCrypt.Net-Next - Version 4.0.3
 
 ### Banco de Dados
 Neste etágio de desenvolvimento está sendo utilizado o banco de dados local gerenciado pelo Visual Studio.
@@ -21,8 +22,10 @@ Seguir os seguintes passos para configuração:
 1. No Console entrar com o comando: `Update-Database`
 1. Após a criação do banco de dados a aplicação poderá ser iniciada/depurada.
 
-## Histórico de versões `Não iniciado`
+## Histórico de versões
 
-### [0.1.0] - DD/MM/AAAA
+### [0.1.0] - 29/10/2022
 #### Adicionado
-- Adicionado ...
+- Home Page Padrão
+- FEAT: Cadastro
+- FEAT: Login
