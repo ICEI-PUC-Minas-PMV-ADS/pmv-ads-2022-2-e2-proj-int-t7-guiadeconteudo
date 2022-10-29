@@ -55,6 +55,7 @@ namespace GuiaDeConteudo.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("cpf_usuario,tipo,nome,dataNascimento,email,grauEscolaridade,formacao,senha")] Usuario usuario)
         {
+            usuario.senha = BCrypt.Net.BCrypt.HashPassword(usuario.senha);
             if (ModelState.IsValid)
             {
                 _context.Add(usuario);
@@ -96,6 +97,7 @@ namespace GuiaDeConteudo.Controllers
             {
                 try
                 {
+                    usuario.senha = BCrypt.Net.BCrypt.HashPassword(usuario.senha);
                     _context.Update(usuario);
                     await _context.SaveChangesAsync();
                 }
