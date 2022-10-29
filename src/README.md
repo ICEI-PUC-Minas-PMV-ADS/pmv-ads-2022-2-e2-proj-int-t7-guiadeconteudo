@@ -1,12 +1,31 @@
 # Instruções de utilização
 
-## Instalação do Site `Em desenvolvimento`
+## Instalação
 
-O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores...
+### Plataforma de Desenvolvimento
+- Microsoft Visual Studio Community 2022 (64 bits) - Current Versão 17.3.6 (Português).
 
+### Framework
+Foi utilizado o Framework .NET 5.0
 
-## Histórico de versões `Não iniciado`
+### Pacotes/Dépendências.
+- Microsoft.EntityFrameworkCore - Version 5.0.17
+- Microsoft.EntityFrameworkCore.Design - Version 5.0.17
+- Microsoft.EntityFrameworkCore.Tools - Version 5.0.17
+- BCrypt.Net-Next - Version 4.0.3
 
-### [0.1.0] - DD/MM/AAAA
+### Banco de Dados
+Neste etágio de desenvolvimento está sendo utilizado o banco de dados local gerenciado pelo Visual Studio.
+Seguir os seguintes passos para configuração:
+
+1. No menu "Ferramentas" clicar em "Gerenciador de Pacotes Nuget" e depois em "Console do Gerenciador de Pacotes"
+1. No Console entrar com o comando: `Update-Database`
+1. Após a criação do banco de dados a aplicação poderá ser iniciada/depurada.
+
+## Histórico de versões
+
+### [0.1.0] - 29/10/2022
 #### Adicionado
-- Adicionado ...
+- Home Page Padrão
+- FEAT: Cadastro
+- FEAT: Login
