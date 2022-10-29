@@ -3,6 +3,19 @@
 @{
     ViewData["Title"] = "Create";
 }
+<script>
+    function validarSenha(){
+        senha = document.getElementById('senha').value;
+        confSenha = document.getElementById('confSenha').value;
+        if (senha != confSenha) {
+            alert("SENHAS DIFERENTES!\nFAVOR DIGITAR SENHAS IGUAIS"); 
+            return false;
+        }else{
+            alert("Cadastro realizado com sucesso!\nFavor fazer login");
+            document.formSenha.submit();
+        }
+}
+</script>
 
 <h1>Cadastramento de Usuário</h1>
 
@@ -10,7 +23,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Create" id="formSenha" onsubmit="return validarSenha()">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="cpf_usuario" class="control-label">CPF</label>
@@ -59,9 +72,16 @@
             </div>
             <div class="form-group">
                 <label asp-for="senha" class="control-label">Informe sua senha</label>
-                <input type="password" asp-for="senha" class="form-control" />
+                <input id="senha" type="password" asp-for="senha" class="form-control" />
                 <span asp-validation-for="senha" class="text-danger"></span>
             </div>
+            <div class="form-group">
+                <label asp-for="senha" class="control-label">Confirmar Senha</label>
+                <input id="confSenha" type="password" asp-for="senha" class="form-control" />
+                <span asp-validation-for="senha" class="text-danger"></span>
+            </div>
+
+
             <div class="form-group">
                 <input type="submit" value="Fazer Cadastro" class="btn btn-primary" />
             </div>
