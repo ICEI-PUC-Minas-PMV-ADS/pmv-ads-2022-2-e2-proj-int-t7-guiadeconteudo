@@ -8,9 +8,11 @@ using Microsoft.EntityFrameworkCore;
 using GuiaDeConteudo.Models;
 using Microsoft.AspNetCore.Authentication;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
 namespace GuiaDeConteudo.Controllers
 {
+    [Authorize]
     public class UsuariosController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -20,12 +22,14 @@ namespace GuiaDeConteudo.Controllers
             _context = context;
         }
 
+        [AllowAnonymous]
         public IActionResult Login()
         {
             return View();
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public async Task<IActionResult> Login([Bind("cpf_usuario, senha")] Usuario usuario)
         {
             var user = await _context.Usuarios
@@ -76,6 +80,7 @@ namespace GuiaDeConteudo.Controllers
             return RedirectToAction("Login", "Usuarios");
         }
 
+        [AllowAnonymous]
         public IActionResult AccessDenied()
         {
             return View();
@@ -106,6 +111,8 @@ namespace GuiaDeConteudo.Controllers
         }
 
         // GET: Usuarios/Create
+
+        [AllowAnonymous]
         public IActionResult Create()
         {
             return View();
@@ -116,6 +123,7 @@ namespace GuiaDeConteudo.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [AllowAnonymous]
         public async Task<IActionResult> Create([Bind("cpf_usuario,tipo,nome,dataNascimento,email,grauEscolaridade,formacao,senha")] Usuario usuario)
         {
             usuario.senha = BCrypt.Net.BCrypt.HashPassword(usuario.senha);
