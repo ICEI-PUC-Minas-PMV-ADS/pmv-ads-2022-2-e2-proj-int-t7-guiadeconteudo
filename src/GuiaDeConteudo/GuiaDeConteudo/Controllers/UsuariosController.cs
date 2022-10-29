@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using GuiaDeConteudo.Models;
+using Microsoft.AspNetCore.Authentication;
+using System.Security.Claims;
 
 namespace GuiaDeConteudo.Controllers
 {
@@ -19,6 +21,56 @@ namespace GuiaDeConteudo.Controllers
         }
 
         public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Login([Bind("cpf_usuario, senha")] Usuario usuario)
+        {
+            var user = await _context.Usuarios
+                .FirstOrDefaultAsync(m => m.cpf_usuario == usuario.cpf_usuario);
+
+            if (user == null)
+            {
+                ViewBag.Message = "Usuário e/ou senha inválidos";
+                return View();
+            }
+
+            bool isSenhaOk = BCrypt.Net.BCrypt.Verify(usuario.senha, user.senha);
+
+            if (isSenhaOk)
+            {
+                var claims = new List<Claim>
+                {
+                    new Claim (ClaimTypes.Name, user.nome),
+                    new Claim(ClaimTypes.NameIdentifier, user.nome),
+                    new Claim(ClaimTypes.Role, user.tipo.ToString())
+                };
+                var userIdentity = new ClaimsIdentity(claims, "login");
+
+                ClaimsPrincipal principal = new ClaimsPrincipal(userIdentity);
+
+                var props = new AuthenticationProperties
+                {
+                    AllowRefresh = true,
+                    ExpiresUtc = DateTime.Now.ToLocalTime().AddDays(1),
+                    IsPersistent = true
+                };
+
+                await HttpContext.SignInAsync(principal, props);
+                return Redirect("/");
+                /* ViewBag.Message = "Usuário OK.";
+                 return View();*/
+            }
+
+
+
+            ViewBag.Message = "Usuário e/ou senha inválidos";
+            return View();
+        }
+
+        public IActionResult AccessDenied()
         {
             return View();
         }
