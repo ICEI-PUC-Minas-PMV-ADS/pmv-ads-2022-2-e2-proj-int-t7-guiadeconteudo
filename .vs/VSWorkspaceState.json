@@ -1,12 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\src",
-    "\\src\\GuiaDeConteudo",
-    "\\src\\GuiaDeConteudo\\GuiaDeConteudo",
-    "\\src\\GuiaDeConteudo\\GuiaDeConteudo\\Views",
-    "\\src\\GuiaDeConteudo\\GuiaDeConteudo\\Views\\Usuarios"
+    ""
   ],
-  "SelectedNode": "\\src\\GuiaDeConteudo\\GuiaDeConteudo\\Views\\Usuarios\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
