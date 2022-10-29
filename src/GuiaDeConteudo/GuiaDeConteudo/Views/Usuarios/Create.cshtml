@@ -4,13 +4,27 @@
     ViewData["Title"] = "Create";
 }
 
+<script>
+function validarSenha(){
+   senha = document.getElementById('senha').value;
+   confSenha = document.getElementById('confSenha').value;
+    if (senha != confSenha) {
+      alert("SENHAS DIFERENTES!\nFAVOR DIGITAR SENHAS IGUAIS"); 
+      return false;
+   }else{
+        alert("Cadastro realizado com sucesso!\nFavor fazer login");
+            document.confirm.submit();
+   }
+}
+</script>
+
 <h1>Cadastramento de Usuário</h1>
 
 
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form id="formSenha" asp-action="Create";>
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="cpf_usuario" class="control-label">CPF</label>
@@ -59,12 +73,19 @@
             </div>
             <div class="form-group">
                 <label asp-for="senha" class="control-label">Informe sua senha</label>
-                <input type="password" asp-for="senha" class="form-control" />
+                <input id="senha" type="password" asp-for="senha" class="form-control" />
                 <span asp-validation-for="senha" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Fazer Cadastro" class="btn btn-primary" />
+                <label asp-for="senha" class="control-label">Confirmar sua senha</label>
+                <input id="confSenha" type="password" asp-for="senha" class="form-control" />
+                <span asp-validation-for="senha" class="text-danger"></span>
             </div>
+           
+            <a class="text-primary" asp-area="" asp-controller="Usuarios" asp-action="Login">
+                <input id="confirm" type="button" value="Confirmar" class="btn btn-primary" class="text-primary" onclick="return validarSenha()"></input>
+            </a>
+       
             <a class="text-primary" asp-area="" asp-controller="Usuarios" asp-action="Login">
                 <input type="button" value="Cancelar" class="btn btn-primary" class="text-primary"></input>
             </a>
