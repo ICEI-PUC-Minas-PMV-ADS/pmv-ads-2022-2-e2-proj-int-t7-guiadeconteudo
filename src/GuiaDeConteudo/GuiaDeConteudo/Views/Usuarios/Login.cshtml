@@ -6,7 +6,7 @@
 
 <h1>Login</h1>
 
-<h4>Usuario</h4>
+
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -24,7 +24,7 @@
                 <span asp-validation-for="senha" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Entrar" class="btn btn-primary" />
             </div>
         </form>
 
@@ -33,7 +33,10 @@
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    Ainda não tem cadastro?
+    <a class="nav-link text-primary" asp-area="" asp-controller="Usuarios" asp-action="Create">
+    <input type="submit" value="Fazer Cadastro" class="btn btn-primary" class="text-primary"></input>
+    </a>
 </div>
 
 @section Scripts {

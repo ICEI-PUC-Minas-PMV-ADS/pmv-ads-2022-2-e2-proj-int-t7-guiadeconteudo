@@ -63,8 +63,12 @@
                 <span asp-validation-for="senha" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Fazer Cadastro" class="btn btn-primary" />
             </div>
+            <a class="text-primary" asp-area="" asp-controller="Usuarios" asp-action="Login">
+                <input type="button" value="Cancelar" class="btn btn-primary" class="text-primary"></input>
+            </a>
+
         </form>
     </div>
 </div>
