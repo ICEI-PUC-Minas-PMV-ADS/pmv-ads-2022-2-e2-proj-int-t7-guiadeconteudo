@@ -42,7 +42,8 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Requisito Associado | RNF-001	-A aplicação deve obedecer às recomendações da LGPD. |
 | Objetivo do Teste 	| Verificar se aplicação se encaixa nas normas da LGPD. (Não tranferir a entidades privadas, sem consentimento do titular, dados pessoais constantes de bases a que tenha acesso.)|
 | Passos 	| - Verificar recomendações da LGPD. <br> - Alterar as partes da aplicação que não obedecem as normas. |
-|Critério de Êxito | - A aplicação se encaixa nas recomendações. |
+|Resultado:  | Aplicação concluída com sucesso|
+|Evidência:  |
 
 
 | **Caso de Teste** 	| **CT-15 – Compatibilidade com os navegadores**	|
@@ -51,7 +52,8 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Requisito Associado | RNF-002	-A aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). |
 | Objetivo do Teste 	| Verificar se aplicação é compatível com os nevegadores (Google Chrome, Firefox, Microsoft Edge). |
 | Passos 	| - Verificar a aplicação se adequa aos principais navegadores do mercado.|
-|Critério de Êxito | - A aplicação se encaixa nas recomendações. |
+|Resultado:  | Aplicação concluída com sucesso|
+|Evidência:  |
 
 
 | **Caso de Teste** 	| **CT-16 – Responsividade**	|
@@ -60,6 +62,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Requisito Associado | RNF-004	-A aplicação deverá ser responsiva. |
 | Objetivo do Teste 	| Verificar se aplicação é responsiva. |
 | Passos 	| - Verificar a responsividade da aplicação.|
-|Critério de Êxito | - A aplicação é responsiva. |
+|Resultado:  | Aplicação concluída com sucesso|
+|Evidência:  |
 
 
