@@ -33,8 +33,8 @@ https://user-images.githubusercontent.com/102702197/198898760-4ba230d3-36f7-4e00
 
 | **Usuário**	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- | ---  | --- | --- | --- |
-| 0001	| --- | --- | --- | --- | EM PROGRESSO |
-| 0002	| --- | --- | --- | --- | EM PROGRESSO |
+| 0001	| 1:02 | --- | 00 | --- | Eficiente |
+| 0002	| 1:10 | --- | 00 | --- | Eficiente, porém não atrativo |
 
 
 
