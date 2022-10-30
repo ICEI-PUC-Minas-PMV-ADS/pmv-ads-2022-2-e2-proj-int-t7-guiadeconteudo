@@ -15,3 +15,4 @@ Abaixo segue os video de cada um doa usuarios que avaliaram a aplicação.
 
 Participante 1 - usuario 0001
 
+![Video](img/Gravar_2022_10_30_13_35_48_435.mp4) 
