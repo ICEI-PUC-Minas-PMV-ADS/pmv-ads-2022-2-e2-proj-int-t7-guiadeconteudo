@@ -23,6 +23,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Evidência:  | ![Printtela](img/print1.png) |
 
 
+
 |  **Caso de Teste**  |  **CT-02  - Efetuar Login**  |
 |--|--|
 |Requisitos Associados:  |RF-03 - A aplicação deve possibilitar um usuário efetuar seu cadastro de forma eficiente  | 
