@@ -64,8 +64,8 @@ https://user-images.githubusercontent.com/102702197/198898868-678b520a-8861-4949
 
  **Usuário**	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- | ---  | --- | --- | --- |
-| 0001	| 1:02 | 18 | 00 | --- | Eficiente |
-| 0002	| 0:36 | 17 | 00 | --- | Eficiente |
+| 0001	| 0:28 |6 | 00 | --- | Eficiente |
+| 0002	| 0:36 | 7 | 00 | --- | Eficiente |
 
 
 # Observações gerais
