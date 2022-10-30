@@ -33,8 +33,8 @@ https://user-images.githubusercontent.com/102702197/198898760-4ba230d3-36f7-4e00
 
 | **Usuário**	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- | ---  | --- | --- | --- |
-| 0001	| 1:02 | --- | 00 | --- | Eficiente |
-| 0002	| 1:10 | --- | 00 | --- | Eficiente, porém não atrativo |
+| 0001	| 1:02 | 18 | 00 | --- | Eficiente |
+| 0002	| 1:10 | 17 | 00 | --- | Eficiente, porém não atrativo |
 
 
 
@@ -62,7 +62,10 @@ Participante 2 - usuario 0002
 https://user-images.githubusercontent.com/102702197/198898868-678b520a-8861-4949-af18-f1af312f247a.mp4
 
 
-
+ **Usuário**	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+| --- 	| --- | ---  | --- | --- | --- |
+| 0001	| 1:02 | 18 | 00 | --- | Eficiente |
+| 0002	| 0:36 | 17 | 00 | --- | Eficiente |
 
 
 # Observações gerais
