@@ -30,6 +30,15 @@ Participante 2 - usuario 0002
 https://user-images.githubusercontent.com/102702197/198898760-4ba230d3-36f7-4e00-9afe-86501a45fe1e.mp4
 
 
+|             Usuario                | Tempo   | Clicks| Erros  | conclusão                    |
+| ------------------------       --- | ------- | ----- | --- | ----------------------------- |
+| 0001                               | 1:02    | 15    | 00  | Achou eficiente        |
+| 0002                               | Sol     | 18    | SP  | Cursos de Scrum               |
+
+
+
+
+
 |  **Caso de Teste**  |  **CT-02  - FAZER LOGIN**                                                                              |
 |--|--|
 | Objetivo do Teste:   | Verificar se o usuário consegue  logar e deslogar corretamente.                   | 
