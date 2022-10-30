@@ -43,7 +43,6 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Objetivo do Teste 	| Verificar se aplicação se encaixa nas normas da LGPD. (Não tranferir a entidades privadas, sem consentimento do titular, dados pessoais constantes de bases a que tenha acesso.)|
 | Passos 	| - Verificar recomendações da LGPD. <br> - Alterar as partes da aplicação que não obedecem as normas. |
 |Resultado:  | Aplicação concluída com sucesso|
-|Evidência:  |
 
 
 | **Caso de Teste** 	| **CT-15 – Compatibilidade com os navegadores**	|
