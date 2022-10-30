@@ -53,7 +53,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Objetivo do Teste 	| Verificar se aplicação é compatível com os nevegadores (Google Chrome, Firefox, Microsoft Edge). |
 | Passos 	| - Verificar a aplicação se adequa aos principais navegadores do mercado.|
 |Resultado:  | Aplicação concluída com sucesso|
-|Evidência:  |
+|Evidência:  | ![Printtela](img/print 3.png) |
 
 
 | **Caso de Teste** 	| **CT-16 – Responsividade**	|
