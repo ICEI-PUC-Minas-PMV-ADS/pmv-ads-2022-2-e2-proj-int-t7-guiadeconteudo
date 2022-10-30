@@ -34,7 +34,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |4) clicar no icone "entrar"
 |6) acessar area do usuário |
 |Resultado:  | Aplicação concluída com sucesso|
-|Evidência: | ![Printtela](img/print 2.png) |
+|Evidência: | ![Printtela](img/print2.png) |
 
 
 | **Caso de Teste** 	| **CT-14 – Recomendações da LGPD**	|
@@ -53,7 +53,8 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Objetivo do Teste 	| Verificar se aplicação é compatível com os nevegadores (Google Chrome, Firefox, Microsoft Edge). |
 | Passos 	| - Verificar a aplicação se adequa aos principais navegadores do mercado.|
 |Resultado:  | Aplicação concluída com sucesso|
-|Evidência:  | ![Printtela](img/print 3.png) |
+|Evidência:  | ![Printtela](img/print3.png) |
+|            | ![Printtela](img/print4.png) |
 
 
 | **Caso de Teste** 	| **CT-16 – Responsividade**	|
