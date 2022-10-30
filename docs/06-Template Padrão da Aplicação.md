@@ -4,7 +4,7 @@ Layout padrão da aplicação .
 
 ![tela principal sem estar logado](img/sem%20logar.png)
 
-Prodominancia da cartela da cor azul e sua cartela.
+Prodominancia da cor azul e sua cartela.
 
 A cor azul transmite otimismo e serenidade. Tanto que a primeira cor do ano da Pantone, lançada em 1999, foi um azul, o Cerulean. Na época, havia um temor sobre o bug do milênio. A mensagem que a Pantone quis transmitir é que tudo ficaria bem e que nos momentos em que vivemos dilemas olhamos para o céu em busca de respostas. 
 
