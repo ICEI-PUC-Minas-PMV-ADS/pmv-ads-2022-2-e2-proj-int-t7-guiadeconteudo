@@ -1,12 +1,18 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+Registro de Testes de Software
+Os resultados obtidos nos testes de software realizados são descritos na Tabela a seguir.
 
-Para cada caso de teste definido no Plano de Testes de Software, realize o registro das evidências dos testes feitos na aplicação pela equipe, que comprovem que o critério de êxito foi alcançado (ou não!!!). Para isso, utilize uma ferramenta de captura de tela que mostre cada um dos casos de teste definidos (obs.: cada caso de teste deverá possuir um vídeo do tipo _screencast_ para caracterizar uma evidência do referido caso).
+● Site publicado na Internet
 
-## Avaliação
+● Navegador da Internet – Chrome e Edge
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+|  **Caso de Teste**  |  **CT-01  - Efetuar cadastro**  |
+|--|--|
+|Requisitos Associados:  |RF-03 - A aplicação deve possibilitar um usuário efetuar seu cadastro de forma eficiente  | 
+|Objetivo do Teste:  | Verificar se o usuário consegue efetuar cadastro.  | 
+|Passos:  | 1) Acessar a aplicação atraves do navegador |2) Clicar na imagem usuário  |3)clicar no icone "fazer cadastro" |4) inserir as informações requeridas para  o cadastro| 5) clicar no icone "fazer cadastro |6) visualizar mensagem de exito |
+|Resultado:  | Aplicação concluída com sucesso|
+|Evidência:  |
