@@ -63,6 +63,6 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Objetivo do Teste 	| Verificar se aplicação é responsiva. |
 | Passos 	| - Verificar a responsividade da aplicação.|
 |Resultado:  | Aplicação concluída com sucesso|
-|Evidência:  |
+|Evidência:  |![Printtela](img/print5.png) |
 
 
