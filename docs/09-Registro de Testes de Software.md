@@ -28,7 +28,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |--|--|
 |Requisitos Associados:  |RF-03 - A aplicação deve possibilitar um usuário efetuar seu cadastro de forma eficiente  | 
 |Objetivo do Teste:  | Verificar se o usuário consegue efetuar login. | 
-|Passos              	||1) Acessar a aplicação atraves do navegador
+|Passos            	 |1) Acessar a aplicação atraves do navegador
 |         |2) Clicar na imagem usuário  
 |         |3) preencher dados de login
 |         |4) clicar no icone "entrar"
