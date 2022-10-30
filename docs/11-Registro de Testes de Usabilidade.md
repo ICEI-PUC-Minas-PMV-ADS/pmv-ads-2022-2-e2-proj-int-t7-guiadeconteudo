@@ -54,7 +54,7 @@ https://user-images.githubusercontent.com/102702197/198898868-678b520a-8861-4949
 
 
 
-Observações gerais
+# Observações gerais
 
 Não foram relatados erros que impossibilitaram a utilização das funções apresentadas.
 Notou-se ainda que a qualidade da navegação está diretamente associada à qualidade da conexão do usuário e às configurações do dispositivo utilizado para realização dos testes.
