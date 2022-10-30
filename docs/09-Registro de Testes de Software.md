@@ -34,7 +34,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |4) clicar no icone "entrar"
 |6) acessar area do usuário |
 |Resultado:  | Aplicação concluída com sucesso|
-|Evidência:  |![Printtela](img/print 2.png) |
+|Evidência: | ![Printtela](img/print 2.png) |
 
 
 | **Caso de Teste** 	| **CT-14 – Recomendações da LGPD**	|
