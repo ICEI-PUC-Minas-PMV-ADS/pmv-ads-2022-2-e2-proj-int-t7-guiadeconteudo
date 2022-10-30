@@ -20,7 +20,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |5) clicar no icone "fazer cadastro
 |6) visualizar mensagem de exito |
 |Resultado:  | Aplicação concluída com sucesso|
-|Evidência:  |
+|Evidência:  | ![Printtela](img/print1.png) |
 
 
 |  **Caso de Teste**  |  **CT-02  - Efetuar Login**  |
