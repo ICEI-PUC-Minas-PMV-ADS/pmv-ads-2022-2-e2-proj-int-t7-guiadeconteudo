@@ -49,7 +49,8 @@ namespace GuiaDeConteudo.Controllers
                 {
                     new Claim (ClaimTypes.Name, user.nome),
                     new Claim(ClaimTypes.NameIdentifier, user.nome),
-                    new Claim(ClaimTypes.Role, user.tipo.ToString())
+                    new Claim(ClaimTypes.Role, user.tipo.ToString()),
+                    new Claim(ClaimTypes.Actor, user.cpf_usuario)
                 };
                 var userIdentity = new ClaimsIdentity(claims, "login");
 
@@ -87,6 +88,8 @@ namespace GuiaDeConteudo.Controllers
         }
 
         // GET: Usuarios
+
+        [Authorize(Roles ="1")]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Usuarios.ToListAsync());
