@@ -1,12 +1,11 @@
 # Template Padrão da Aplicação
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+Layout padrão da aplicação .
 
-Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+![tela principal sem estar logado](img/sem%20logar.png)
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+Prodominancia da cor azul e sua cartela.
+
+A cor azul transmite otimismo e serenidade. Tanto que a primeira cor do ano da Pantone, lançada em 1999, foi um azul, o Cerulean. Na época, havia um temor sobre o bug do milênio. A mensagem que a Pantone quis transmitir é que tudo ficaria bem e que nos momentos em que vivemos dilemas olhamos para o céu em busca de respostas. 
+
+Monocromia e cores neutras: Se refere a harmonia que utiliza somente uma cor, alterando apenas a tonalidade da cor escolhida, ou seja, mudando apenas a saturação e o brilho da cor. É uma combinação com pouquíssimo contraste, mas pode criar um efeito visual agradável, como por exemplo, o efeito “degradê”.
