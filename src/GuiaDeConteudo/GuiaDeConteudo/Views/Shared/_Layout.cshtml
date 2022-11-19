@@ -1,27 +1,11 @@
 ﻿<!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Estude Agora  - @ViewData["Title"] </title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-    <script type="text/javascript">
-        $(document).ready(function () {
-            debugger
-            $("#myInput").on("keyup", function () {
-                debugger
-                var value = $(this).val().toLowerCase();
-                $("#myTable tr").filter(function () {
-                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-                });
-            });
-        });
-    </script>
-
 </head>
 <body>
     <header>
@@ -34,11 +18,25 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" asp-area="" asp-controller="Usuarios" asp-action="Login">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" asp-area="" asp-controller="Usuarios" asp-action="Create">Quero me Cadastrar</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link text-primary" asp-area="" asp-controller="Materiais" asp-action="Index">Materiais</a>
                         </li>
-                        
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" asp-area="" asp-controller="Avaliacoes" asp-action="Index">Avaliações</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link text-primary" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuários</a>
+                        </li>
+                    </ul>
                     <ul class="navbar-nav">
 
                         @if (User.Identity.IsAuthenticated)
@@ -67,7 +65,7 @@
                                <!-- <a class="nav-link text-primary" asp-area="" asp-controller="Usuarios" asp-action="Login">Login</a> -->
                             </li>
                         }
-
+                    </ul>
                 </div>
             </div>
         </nav>
