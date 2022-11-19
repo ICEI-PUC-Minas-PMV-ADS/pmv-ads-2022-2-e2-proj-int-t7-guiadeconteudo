@@ -87,6 +87,9 @@ namespace GuiaDeConteudo.Migrations
                     b.Property<string>("titulo")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ImageName")
+                        .HasColumnType("nvarchar(100)");
+
                     b.HasKey("id_material");
 
                     b.HasIndex("Usuariocpf_usuario");

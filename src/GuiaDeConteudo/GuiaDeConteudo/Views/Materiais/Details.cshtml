@@ -4,63 +4,73 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>Detalhes</h1>
 
 <div>
-    <h4>Material</h4>
     <hr />
     <dl class="row">
+        
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.cpf_usuario)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.cpf_usuario)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.status)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.status)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.areaConhecimento)
+            Área de conhecimento
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.areaConhecimento)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.titulo)
-        </dt>
+               Título
+          </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.titulo)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.resumo)
+               Resumo
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.resumo)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.link)
+            Link
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.link)
+            <a href="@Html.DisplayFor(model => model.link)" target="_blank">@Html.DisplayFor(model => model.link)</a>
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.autor)
+            Autor
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.autor)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.justificativaAnalise)
-        </dt>
+             Ánalise
+             </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.justificativaAnalise)
+        </dd>
+        <dd class="ver">
+            <img src="@("~/image/"+Model.ImageName)" class="img-fluid" asp-append-version="true" width="202.816px" height="324px" />
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model.id_material">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+
+    <div class="btn-group" role="group" aria-label="Basic outlined example">
+        <button type="button" class="btn btn-outline-primary">
+            <a asp-action="Edit" asp-route-id="@Model.id_material">Editar</a>
+        </button>
+        <button type="button" class="btn btn-outline-primary">
+            <a asp-action="Index">Voltar</a>
+        </button>
+    </div>
+
 </div>
+
+<style>
+    h1 {
+        text-align: center;
+    }
+
+    .col-sm-10 {
+         width: 50%;
+    }
+    
+    </style>

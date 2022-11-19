@@ -7,17 +7,27 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using GuiaDeConteudo.Models;
 using Microsoft.AspNetCore.Authorization;
+using System.IO;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
+using System.Web.WebPages.Html;
+using Microsoft.Extensions.Hosting;
+
 
 namespace GuiaDeConteudo.Controllers
 {
     [Authorize]
     public class MateriaisController : Controller
     {
-        private readonly ApplicationDbContext _context;
 
-        public MateriaisController(ApplicationDbContext context)
+
+        private readonly ApplicationDbContext _context;
+        private readonly IWebHostEnvironment _hostEnvironment;
+
+        public MateriaisController(ApplicationDbContext context, IWebHostEnvironment hostEnvironment)
         {
             _context = context;
+            this._hostEnvironment = hostEnvironment;
         }
 
         // GET: Materiais
@@ -45,9 +55,12 @@ namespace GuiaDeConteudo.Controllers
         }
 
         // GET: Materiais/Create
-        public IActionResult Create()
+        public IActionResult Create(int Id = 0)
         {
-            return View();
+            if (Id == 0)
+                return View(new Material());
+            else
+                return View(_context.Materiais.Find(Id));
         }
 
         // POST: Materiais/Create
@@ -55,19 +68,40 @@ namespace GuiaDeConteudo.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id_material,cpf_usuario,status,areaConhecimento,titulo,resumo,link,autor,justificativaAnalise")] Material material)
+        public async Task<IActionResult> Create([Bind("id_material,cpf_usuario,status,areaConhecimento,titulo,resumo,link,autor,justificativaAnalise,ImageFile")] Material material)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(material);
+               
+                if (material != null && material.ImageFile != null)
+                {
+
+                    
+                    string wwwRootPath = _hostEnvironment.WebRootPath;
+                    string fileName = Path.GetFileNameWithoutExtension(material.ImageFile.FileName);
+                    string extension = Path.GetExtension(material.ImageFile.FileName);
+                    material.ImageName = fileName = fileName + DateTime.Now.ToString("yymmssfff") + extension;
+                    string path = Path.Combine(wwwRootPath + "/Image/", fileName);
+                    using (var fileStream = new FileStream(path, FileMode.Create))
+                    {
+                        await material.ImageFile.CopyToAsync(fileStream);
+                    }
+                    _context.Add(material);
+                }
+                else
+                {
+                    _context.Update(material);
+
+                }
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
             return View(material);
         }
 
-        // GET: Materiais/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+
+    // GET: Materiais/Edit/5
+    public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
             {
@@ -87,7 +121,7 @@ namespace GuiaDeConteudo.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("id_material,cpf_usuario,status,areaConhecimento,titulo,resumo,link,autor,justificativaAnalise")] Material material)
+        public async Task<IActionResult> Edit(int id, [Bind("id_material,cpf_usuario,status,areaConhecimento,titulo,resumo,link,autor,justificativaAnalise,ImageName")] Material material)
         {
             if (id != material.id_material)
             {
@@ -152,3 +186,4 @@ namespace GuiaDeConteudo.Controllers
         }
     }
 }
+
