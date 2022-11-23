@@ -4,14 +4,16 @@ using GuiaDeConteudo.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace GuiaDeConteudo.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20221123001728_AreaConhecimento")]
+    partial class AreaConhecimento
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -75,7 +77,7 @@ namespace GuiaDeConteudo.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("Area_id")
+                    b.Property<int?>("Area_id")
                         .HasColumnType("int");
 
                     b.Property<string>("ImageName")
@@ -83,6 +85,9 @@ namespace GuiaDeConteudo.Migrations
 
                     b.Property<string>("Usuariocpf_usuario")
                         .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("areaConhecimento")
+                        .HasColumnType("int");
 
                     b.Property<string>("autor")
                         .HasColumnType("nvarchar(max)");
@@ -164,9 +169,7 @@ namespace GuiaDeConteudo.Migrations
                 {
                     b.HasOne("GuiaDeConteudo.Models.AreaConhecimento", "AreaConhecimento")
                         .WithMany()
-                        .HasForeignKey("Area_id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("Area_id");
 
                     b.HasOne("GuiaDeConteudo.Models.Usuario", "Usuario")
                         .WithMany("Material")

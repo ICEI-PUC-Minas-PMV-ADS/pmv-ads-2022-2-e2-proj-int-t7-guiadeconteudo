@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DbwDMjdRzX0JhR1wvFJb89eHDnBTYayFlW9lTKU8cdGR90R+0PmpSa5H+MQ+Cqm1ZkHgUnUTrDR3b7zfUrG+vg==",
+  "dgSpecHash": "kqG28FjG1d0r++iobU6y59nw/QjQTSunp+1+lQnXoZxowA4WEkRVpydkzV4KGQDYbE9oe1oyx3AaF8IJq0TJxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ferre\\source\\repos\\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\\src\\GuiaDeConteudo\\GuiaDeConteudo\\GuiaDeConteudo.csproj",
+  "projectFilePath": "C:\\Users\\ferre\\Source\\Repos\\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\\src\\GuiaDeConteudo\\GuiaDeConteudo\\GuiaDeConteudo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ferre\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\ferre\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

@@ -15,19 +15,19 @@
             <input type="hidden" asp-for="id_material" />
 
             <div class="form-group">
-                <label asp-for="areaConhecimento" class="control-label">Area de conhecimento</label>
-                <select asp-for="areaConhecimento" class="form-control">
-                    <option value=0> Ciências Exatas e da Terra </option>
-                    <option value=1> Ciências Biológicas </option>
-                    <option value=2> Engenharias </option>
-                    <option value=3> Ciências da Saúde </option>
-                    <option value=4> Ciências Agrárias </option>
-                    <option value=5> Linguística, Letras e Artes </option>
-                    <option value=6> Ciências Sociais Aplicadas </option>
-                    <option value=7> Ciências Humanas </option>
+                <label asp-for="Area_id" class="control-label">Area de conhecimento</label>
+                <select asp-for="Area_id" class="form-control">
+                    <option value=1> Ciências Exatas e da Terra </option>
+                    <option value=2> Ciências Biológicas </option>
+                    <option value=3> Engenharias </option>
+                    <option value=4> Ciências da Saúde </option>
+                    <option value=5> Ciências Agrárias </option>
+                    <option value=6> Linguística, Letras e Artes </option>
+                    <option value=7> Ciências Sociais Aplicadas </option>
+                    <option value=8> Ciências Humanas </option>
 
                 </select>
-                <span asp-validation-for="areaConhecimento" class="text-danger"></span>
+                <span asp-validation-for="Area_id" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="titulo" class="control-label">Título</label>
