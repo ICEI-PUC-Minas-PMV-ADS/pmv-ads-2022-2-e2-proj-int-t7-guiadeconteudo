@@ -1,68 +1,78 @@
 ﻿@model GuiaDeConteudo.Models.Material
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Editar";
 }
 
-<h1>Edit</h1>
+<h1>Editar</h1>
 
-<h4>Material</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
+
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="id_material" />
+
             <div class="form-group">
-                <label asp-for="cpf_usuario" class="control-label"></label>
-                <input asp-for="cpf_usuario" class="form-control" />
-                <span asp-validation-for="cpf_usuario" class="text-danger"></span>
+                <label asp-for="Area_id" class="control-label">Area de conhecimento</label>
+                <select asp-for="Area_id" class="form-control">
+                    <option value=1> Ciências Exatas e da Terra </option>
+                    <option value=2> Ciências Biológicas </option>
+                    <option value=3> Engenharias </option>
+                    <option value=4> Ciências da Saúde </option>
+                    <option value=5> Ciências Agrárias </option>
+                    <option value=6> Linguística, Letras e Artes </option>
+                    <option value=7> Ciências Sociais Aplicadas </option>
+                    <option value=8> Ciências Humanas </option>
+
+                </select>
+                <span asp-validation-for="Area_id" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="status" class="control-label"></label>
-                <input asp-for="status" class="form-control" />
-                <span asp-validation-for="status" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="areaConhecimento" class="control-label"></label>
-                <input asp-for="areaConhecimento" class="form-control" />
-                <span asp-validation-for="areaConhecimento" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="titulo" class="control-label"></label>
+                <label asp-for="titulo" class="control-label">Título</label>
                 <input asp-for="titulo" class="form-control" />
                 <span asp-validation-for="titulo" class="text-danger"></span>
             </div>
+           <div class="form-floating">
+           <label asp-for="resumo" for="floatingTextarea2">Resumo</label>
+                <textarea asp-for="resumo" class="form-control" placeholder="Escreva aqui seu resumo..." id="floatingTextarea2" style="height: 130px" maxlength="190"></textarea>
+           <span asp-validation-for="resumo" class="text-danger"></span>
+           </div>
             <div class="form-group">
-                <label asp-for="resumo" class="control-label"></label>
-                <input asp-for="resumo" class="form-control" />
-                <span asp-validation-for="resumo" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="link" class="control-label"></label>
+                <label asp-for="link" class="control-label">Link</label>
                 <input asp-for="link" class="form-control" />
                 <span asp-validation-for="link" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="autor" class="control-label"></label>
+                <label asp-for="autor" class="control-label">Autor</label>
                 <input asp-for="autor" class="form-control" />
                 <span asp-validation-for="autor" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="justificativaAnalise" class="control-label"></label>
+                <label asp-for="justificativaAnalise" class="control-label">Justificativa</label>
                 <input asp-for="justificativaAnalise" class="form-control" />
                 <span asp-validation-for="justificativaAnalise" class="text-danger"></span>
             </div>
+
+
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+
+                <input type="submit" value="Save" class="btn btn-outline-primary" />
+
+                <button type="button" class="btn btn-outline-primary">
+                    <a asp-action="Index">Voltar</a>
+                </button>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+<style>
+    h1 {
+        text-align: center;
+    }
+</style>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

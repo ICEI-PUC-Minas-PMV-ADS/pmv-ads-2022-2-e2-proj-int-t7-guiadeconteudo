@@ -4,64 +4,95 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1>Publique o material aqui:</h1>
 
-<h4>Material</h4>
-<hr />
+
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+
+        <hr />
+        <form asp-action="Create" enctype="multipart/form-data" autocomplete="off">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="id_material" />
+            @if (User.Identity.IsAuthenticated)
+            {
+                                <p class="nav-item">
+                                 Olá, <strong>@User.Identity.Name </strong> publique aqui seu material.
+                                </p>     
+            }
+
             <div class="form-group">
-                <label asp-for="cpf_usuario" class="control-label"></label>
-                <input asp-for="cpf_usuario" class="form-control" />
-                <span asp-validation-for="cpf_usuario" class="text-danger"></span>
+                <label asp-for="Area_id" class="control-label">Área de conhecimento</label>
+                <select asp-for="Area_id" class="form-control" >
+                    <option value=1> Ciências Exatas e da Terra </option>
+                    <option value=2> Ciências Biológicas </option>
+                    <option value=3> Engenharias </option>
+                    <option value=4> Ciências da Saúde </option>
+                    <option value=5> Ciências Agrárias </option>
+                    <option value=6> Linguística, Letras e Artes </option>
+                    <option value=7> Ciências Sociais Aplicadas </option>
+                    <option value=8> Ciências Humanas </option>
+
+                </select>
+                <span asp-validation-for="Area_id" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="status" class="control-label"></label>
-                <input asp-for="status" class="form-control" />
-                <span asp-validation-for="status" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="areaConhecimento" class="control-label"></label>
-                <input asp-for="areaConhecimento" class="form-control" />
-                <span asp-validation-for="areaConhecimento" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="titulo" class="control-label"></label>
-                <input asp-for="titulo" class="form-control" />
+                <label asp-for="titulo" class="control-label">Titulo</label>
+                <input asp-for="titulo" class="form-control" maxlength="65" />
                 <span asp-validation-for="titulo" class="text-danger"></span>
             </div>
+           
+            <div class="form-floating">
+           <label asp-for="resumo" for="floatingTextarea2">Resumo</label>
+                <textarea asp-for="resumo" class="form-control" placeholder="Escreva aqui seu resumo..." id="floatingTextarea2" style="height: 130px" maxlength="190"></textarea>
+           <span asp-validation-for="resumo" class="text-danger"></span>
+           </div>
+
+
             <div class="form-group">
-                <label asp-for="resumo" class="control-label"></label>
-                <input asp-for="resumo" class="form-control" />
-                <span asp-validation-for="resumo" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="link" class="control-label"></label>
+                <label asp-for="link" class="control-label">Link</label>
                 <input asp-for="link" class="form-control" />
                 <span asp-validation-for="link" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="autor" class="control-label"></label>
+                <label asp-for="autor" class="control-label">Autor</label>
                 <input asp-for="autor" class="form-control" />
                 <span asp-validation-for="autor" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="justificativaAnalise" class="control-label"></label>
+                <label asp-for="justificativaAnalise" class="control-label">Justificativa</label>
                 <input asp-for="justificativaAnalise" class="form-control" />
                 <span asp-validation-for="justificativaAnalise" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+
+            <div class="container">
+                <label asp-for="ImageFile" class="control-label"></label>
+                <br />
+                <input asp-for="ImageFile" accept="image/*" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
             </div>
+
+            <div class="row mt-2">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="submit" value="Concluir" class="btn btn-primary w-100"/>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <a asp-action="Index" class="btn btn-secondary w-100">Voltar</a>
+                </div>
+          </div>
         </form>
     </div>
-</div>
+    </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+    <style>
+        h1{
+            text-align:center;
+        }
+       
+    </style>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
