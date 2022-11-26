@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using GuiaDeConteudo.Models;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace GuiaDeConteudo.Controllers
 {
@@ -47,7 +48,19 @@ namespace GuiaDeConteudo.Controllers
         // GET: Avaliacoes/Create
         public IActionResult Create()
         {
+            var u = User?.Claims.ToList()[1].Value;
+            ViewBag.Cpf = u;
             return View();
+        }
+        // GET: Avaliacoes/Create/1
+        public async Task<IActionResult> CreateM(int? id)
+        {
+            var m = await _context.Materiais.FirstOrDefaultAsync(m => m.id_material == id);
+            var u = User?.Claims.ToList()[1].Value;
+            ViewBag.NomeMaterial = m.titulo;
+            ViewBag.id = id.ToString();
+            ViewBag.Cpf = u;
+            return View("create");
         }
 
         // POST: Avaliacoes/Create

@@ -17,6 +17,8 @@ namespace GuiaDeConteudo.Controllers
     {
         private readonly ApplicationDbContext _context;
 
+        public ViewResult ClaimUsuarios() => View(User?.Claims);
+
         public UsuariosController(ApplicationDbContext context)
         {
             _context = context;
@@ -48,7 +50,7 @@ namespace GuiaDeConteudo.Controllers
                 var claims = new List<Claim>
                 {
                     new Claim (ClaimTypes.Name, user.nome),
-                    new Claim(ClaimTypes.NameIdentifier, user.nome),
+                    new Claim(ClaimTypes.NameIdentifier, user.cpf_usuario),
                     new Claim(ClaimTypes.Role, user.tipo.ToString())
                 };
                 var userIdentity = new ClaimsIdentity(claims, "login");
@@ -89,6 +91,15 @@ namespace GuiaDeConteudo.Controllers
         // GET: Usuarios
         public async Task<IActionResult> Index()
         {
+            var u = User?.Claims.ToList()[1].Value;
+            ViewBag.Cpf = u;
+            return View(await _context.Usuarios.ToListAsync());
+        }
+
+        public async Task<IActionResult> ViewUser()
+        {
+            var u = User?.Claims.ToList()[1].Value;
+            ViewBag.Cpf = u;
             return View(await _context.Usuarios.ToListAsync());
         }
 

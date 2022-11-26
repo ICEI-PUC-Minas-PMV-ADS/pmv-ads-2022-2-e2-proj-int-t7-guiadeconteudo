@@ -1,18 +1,22 @@
 ﻿@model IEnumerable<GuiaDeConteudo.Models.Usuario>
 
-
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "ViewUser";
 }
 
-<h1>Configurações</h1>
+<h1>ViewUser</h1>
 
-
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
 <table class="table">
     <thead>
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.cpf_usuario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tipo)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.nome)
@@ -29,16 +33,19 @@
             <th>
                 @Html.DisplayNameFor(model => model.formacao)
             </th>
+
             <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
-            @if (item.cpf_usuario.ToString() == ViewBag.Cpf)
-            {
+   
                 <tr>
                     <td>
                 @Html.DisplayFor(modelItem => item.cpf_usuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tipo)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.nome)
@@ -56,11 +63,11 @@
                 @Html.DisplayFor(modelItem => item.formacao)
             </td>
             <td>
-                <a class="text-primary" asp-action="Edit" asp-route-id="@item.cpf_usuario">Alterar</a> |             
+                <a class="text-primary" asp-action="Edit" asp-route-id="@item.cpf_usuario">Editar</a> |               
                 <a class="text-primary" asp-action="Delete" asp-route-id="@item.cpf_usuario">Excluir</a>
             </td>
         </tr>
-        }
+    
 }
     </tbody>
 </table>
