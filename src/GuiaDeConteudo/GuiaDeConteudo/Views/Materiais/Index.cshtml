@@ -73,6 +73,7 @@
                 @Html.DisplayFor(modelItem => item.justificativaAnalise)
             </td>
             <td>
+                    <a asp-controller="Avaliacoes" asp-action="CreateM" asp-route-id="@item.id_material" >Avaliar</a> |
                 <a asp-action="Edit" asp-route-id="@item.id_material">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.id_material">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.id_material">Delete</a>
