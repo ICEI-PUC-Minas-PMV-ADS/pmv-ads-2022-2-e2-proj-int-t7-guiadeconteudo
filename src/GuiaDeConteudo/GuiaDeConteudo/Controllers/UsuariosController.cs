@@ -91,6 +91,15 @@ namespace GuiaDeConteudo.Controllers
         // GET: Usuarios
         public async Task<IActionResult> Index()
         {
+            var u = User?.Claims.ToList()[1].Value;
+            ViewBag.Cpf = u;
+            return View(await _context.Usuarios.ToListAsync());
+        }
+
+        public async Task<IActionResult> ViewUser()
+        {
+            var u = User?.Claims.ToList()[1].Value;
+            ViewBag.Cpf = u;
             return View(await _context.Usuarios.ToListAsync());
         }
 
