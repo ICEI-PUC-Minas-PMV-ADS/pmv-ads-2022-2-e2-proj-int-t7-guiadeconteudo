@@ -93,6 +93,7 @@ namespace GuiaDeConteudo.Controllers
         {
             var u = User?.Claims.ToList()[1].Value;
             ViewBag.Cpf = u;
+
             return View(await _context.Usuarios.ToListAsync());
         }
 
