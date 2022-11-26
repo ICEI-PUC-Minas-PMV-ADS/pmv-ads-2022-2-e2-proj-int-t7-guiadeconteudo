@@ -19,6 +19,21 @@ namespace GuiaDeConteudo.Migrations
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("GuiaDeConteudo.Models.AreaConhecimento", b =>
+                {
+                    b.Property<int>("Area_id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Area_nome")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Area_id");
+
+                    b.ToTable("AreaConhecimento");
+                });
+
             modelBuilder.Entity("GuiaDeConteudo.Models.Avaliacao", b =>
                 {
                     b.Property<int>("id_avalicao")
@@ -60,11 +75,14 @@ namespace GuiaDeConteudo.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<int>("Area_id")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ImageName")
+                        .HasColumnType("nvarchar(100)");
+
                     b.Property<string>("Usuariocpf_usuario")
                         .HasColumnType("nvarchar(450)");
-
-                    b.Property<int>("areaConhecimento")
-                        .HasColumnType("int");
 
                     b.Property<string>("autor")
                         .HasColumnType("nvarchar(max)");
@@ -88,6 +106,8 @@ namespace GuiaDeConteudo.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("id_material");
+
+                    b.HasIndex("Area_id");
 
                     b.HasIndex("Usuariocpf_usuario");
 
@@ -132,7 +152,7 @@ namespace GuiaDeConteudo.Migrations
                         .HasForeignKey("Materialid_material");
 
                     b.HasOne("GuiaDeConteudo.Models.Usuario", "Usuario")
-                        .WithMany()
+                        .WithMany("Avaliacao")
                         .HasForeignKey("Usuariocpf_usuario");
 
                     b.Navigation("Material");
@@ -142,9 +162,17 @@ namespace GuiaDeConteudo.Migrations
 
             modelBuilder.Entity("GuiaDeConteudo.Models.Material", b =>
                 {
-                    b.HasOne("GuiaDeConteudo.Models.Usuario", "Usuario")
+                    b.HasOne("GuiaDeConteudo.Models.AreaConhecimento", "AreaConhecimento")
                         .WithMany()
+                        .HasForeignKey("Area_id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("GuiaDeConteudo.Models.Usuario", "Usuario")
+                        .WithMany("Material")
                         .HasForeignKey("Usuariocpf_usuario");
+
+                    b.Navigation("AreaConhecimento");
 
                     b.Navigation("Usuario");
                 });
@@ -152,6 +180,13 @@ namespace GuiaDeConteudo.Migrations
             modelBuilder.Entity("GuiaDeConteudo.Models.Material", b =>
                 {
                     b.Navigation("Avaliacao");
+                });
+
+            modelBuilder.Entity("GuiaDeConteudo.Models.Usuario", b =>
+                {
+                    b.Navigation("Avaliacao");
+
+                    b.Navigation("Material");
                 });
 #pragma warning restore 612, 618
         }

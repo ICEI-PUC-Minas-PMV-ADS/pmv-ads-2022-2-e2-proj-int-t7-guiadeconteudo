@@ -20,7 +20,8 @@ namespace GuiaDeConteudo.Migrations
                     link = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     autor = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     justificativaAnalise = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Usuariocpf_usuario = table.Column<string>(type: "nvarchar(450)", nullable: true)
+                    Usuariocpf_usuario = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    ImageName = table.Column<string>(type: "nvarchar(100)", nullable: true)
                 },
                 constraints: table =>
                 {
