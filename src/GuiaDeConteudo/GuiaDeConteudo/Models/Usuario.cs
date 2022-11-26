@@ -22,6 +22,7 @@ namespace GuiaDeConteudo.Models
         public string nome { get; set; }
 
         [Display(Name = "Data de Nascimento")]
+        [DataType(DataType.Date)]
         [Required(ErrorMessage = "Obrigatório Informar a data de nascimento")]
         public DateTime dataNascimento { get; set; }
 
