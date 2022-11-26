@@ -18,29 +18,22 @@ namespace GuiaDeConteudo.Models
         public int tipo { get; set; }
 
         [Display(Name = "Nome")]
-        [Required(ErrorMessage = "Obrigatório Informar o nome")]
         public string nome { get; set; }
 
         [Display(Name = "Data de Nascimento")]
-        [DataType(DataType.Date)]
-        [Required(ErrorMessage = "Obrigatório Informar a data de nascimento")]
         public DateTime dataNascimento { get; set; }
 
         [Display(Name = "e-mail")]
-        [Required(ErrorMessage = "Obrigatório Informar a e-mail")]
         public string email { get; set; }
 
         [Display(Name = "Grau de Escolaridade")]
-        [Required(ErrorMessage = "Obrigatório Informar o grau de escolaridade")]
         public int grauEscolaridade { get; set; }
 
         [Display(Name = "Formação/Profissão")]
-        [Required(ErrorMessage = "Obrigatório Informar a Formação/Profissão")]
         public string formacao { get; set; }
 
         [DataType(DataType.Password)]
         [Display(Name = "Senha")]
-        [Required(ErrorMessage = "Obrigatório Informar a senha")]
         public string senha { get; set; }
 
         public ICollection<Avaliacao> Avaliacao { get; set; }

@@ -3,80 +3,41 @@
 @{
     ViewData["Title"] = "Create";
 }
-@if (ViewBag.NomeMaterial!= "")
-{
-    <h1>Create</h1>
-    <h2>@ViewBag.NomeMaterial</h2>
-    <h4>Avaliacao</h4>
-    <hr />
-    <div class="row">
-        <div class="col-md-4">
-            <form asp-action="Create">
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <div class="form-group">
-                    <label asp-for="id_material" class="control-label"></label>
-                    <input id="id_material" asp-for="id_material" class="form-control" value="@ViewBag.id" />
-                    <span asp-validation-for="id_material" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="cpf_usuario" class="control-label"></label>
-                    <input asp-for="cpf_usuario" class="form-control" value="@ViewBag.Cpf" />
-                    <span asp-validation-for="cpf_usuario" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="rate" class="control-label"></label>
-                    <input asp-for="rate" class="form-control" />
-                    <span asp-validation-for="rate" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="justificativaAvaliacao" class="control-label"></label>
-                    <input asp-for="justificativaAvaliacao" class="form-control" />
-                    <span asp-validation-for="justificativaAvaliacao" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <input type="submit" value="Create" class="btn btn-primary" />
-                </div>
-            </form>
-        </div>
+
+<h1>Create</h1>
+
+<h4>Avaliacao</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="id_material" class="control-label"></label>
+                <input asp-for="id_material" class="form-control" />
+                <span asp-validation-for="id_material" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="cpf_usuario" class="control-label"></label>
+                <input asp-for="cpf_usuario" class="form-control" />
+                <span asp-validation-for="cpf_usuario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="rate" class="control-label"></label>
+                <input asp-for="rate" class="form-control" />
+                <span asp-validation-for="rate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="justificativaAvaliacao" class="control-label"></label>
+                <input asp-for="justificativaAvaliacao" class="form-control" />
+                <span asp-validation-for="justificativaAvaliacao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
     </div>
-
-}else{
-    <h1>Create</h1>
-
-    <h4>Avaliacao</h4>
-    <hr />
-    <div class="row">
-        <div class="col-md-4">
-            <form asp-action="Create">
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <div class="form-group">
-                    <label asp-for="id_material" class="control-label"></label>
-                    <input id="id_material" asp-for="id_material" class="form-control" />
-                    <span asp-validation-for="id_material" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="cpf_usuario" class="control-label"></label>
-                    <input asp-for="cpf_usuario" class="form-control" value="@ViewBag.Cpf" />
-                    <span asp-validation-for="cpf_usuario" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="rate" class="control-label"></label>
-                    <input asp-for="rate" class="form-control" />
-                    <span asp-validation-for="rate" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="justificativaAvaliacao" class="control-label"></label>
-                    <input asp-for="justificativaAvaliacao" class="form-control" />
-                    <span asp-validation-for="justificativaAvaliacao" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <input type="submit" value="Create" class="btn btn-primary" />
-                </div>
-            </form>
-        </div>
-    </div>
-}
-
+</div>
 
 <div>
     <a asp-action="Index">Back to List</a>
@@ -85,49 +46,3 @@
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
-
-    <script>
-        var idMaterial;
-        var strID = "id_material";
-        var strCPF = "cpf_usuario";
-        window.onload = CapturaParametrosUrl();
-
-        /*
-            Captura parâmetros de URL com JS
-        */
-
-        function CapturaParametrosUrl() {
-
-            //captura a url da página
-            var url = window.location.href;
-
-            //tenta localizar o ?
-            var res = url.split('?');
-
-            if (res[1] !== undefined) {
-                //tenta localizar os & (pode haver mais de 1)
-                var parametros = res[1].split('&');
-
-                //qtd. de parâmetros que serão tratados pelo laço.
-                var qtdParametrosParaLer = parametros.length;
-                console.log("Quantidade Parâmetros: "+qtdParametrosParaLer);
-
-
-
-                for (var cont = 0; cont <= qtdParametrosParaLer*2; cont++) {
-                    if (parametros[cont] !== undefined) {
-                        captura = parametros[cont].split('=');
-                        console.log("Parametro: " + parametros[cont]);
-
-                        if (captura[0] === strID) {
-                            document.getElementById(strID).value = captura[1];
-                        }
-
-                        if (captura[0] === strCPF) {
-                            document.getElementById(strCPF).value = captura[1];
-                        }
-                    }
-                }
-            }
-        }
-    </script>
