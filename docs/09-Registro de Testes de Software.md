@@ -67,8 +67,29 @@ https://user-images.githubusercontent.com/102702197/204150912-13bec82b-276f-4ad1
 | Objetivo do Teste 	| Verificar se o usuário consegue gerenciar seus dados. |
 | Passos 	| - Clicar em "Informações pessoais" <br> - Clicar em alterar informações <br> - Preencher os campos obrigatórios (nome, sexo, CPF, data de nascimento, formação academica, e-mail e senha.) <br> - Clicar em "Salvar alterações" |
 |Critério de Êxito | - As alterações foram realizadas com sucesso. |
-|Resultado:  | Aplicação sem sucesso, não existe na aplicação local para efetuar  filtro de materiais pesuisado pelo usuário|
+|Resultado:  | Aplicação com sucesso, foi possivel alterar os dados do usuário e excluir o cadastro|
 |Evidência: |  |
+
+https://user-images.githubusercontent.com/102702197/204151449-4dca700e-5f62-4c97-8ef8-6ab6deee9e22.mp4
+
+
+| **Caso de Teste** 	| **CT-05 – Inclusão dos materiais**	|
+|:---:	|:---:	|
+|Requisito Associado | RF-005	- A aplicação deve possibilitar que um usuário cadastrado possa incluir e GERENCIAR uma referência de material para consulta, enquanto o status de seu material ainda estiver pendente, contendo pelo menos os seguintes campos: Título do material, área do conhecimento, resumo, link de acesso. |
+| Objetivo do Teste 	| Verificar se o usuário cadastrado consegue incluir o material enquanto seu status ainda está pendente. |
+| Passos 	| - Clicar no material <br> - Verificar se está pendente <br> - Preencher os campos (Título do material, área do conhecimento, resumo, link de acesso) <br> - Clicar em "Enviar" |
+|Critério de Êxito | - O usuário conseguiu incluir o material. |
+|Resultado:  | Aplicação com sucesso, foi possivel foi possivel incluir o material|
+|Evidência: |  |
+
+
+
+
+
+
+
+
+
 
 | **Caso de Teste** 	| **CT-14 – Recomendações da LGPD**	|
 |:---:	|:---:	|
