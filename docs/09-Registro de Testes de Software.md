@@ -45,9 +45,10 @@ https://user-images.githubusercontent.com/102702197/198898859-22be27db-80ab-4254
 | Objetivo do Teste 	| Verificar se o usuário consegue pesquisar o material. |
 | Passos 	| 1- Acessar a aplicação atraves do navegador <br> 2- Clicar na barra de pesquisa  <br> 3- Informar o nome do material a ser buscado <br> 4- Clicar em "Buscar" |
 |Critério de Êxito | - A pesquisa foi bem sucedida. |
+|Resultado:  | Aplicação sem sucesso, não existe na aplicação local para efetuar a pesquisa de materiais pelo usuário|
 |Evidência: |  |
 
-
+https://user-images.githubusercontent.com/102702197/204150912-13bec82b-276f-4ad1-ac82-fc38bd1cc541.mp4
 
 
 | **Caso de Teste** 	| **CT-14 – Recomendações da LGPD**	|
