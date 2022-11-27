@@ -13,31 +13,10 @@ Abaixo segue os video de cada um doa usuarios que avaliaram a aplicação.
 | Critérios de Êxito:  | o usuario utilizará a aplicação e realizará seu cadastro forma rapida e eficiente e clara                     
 
 
-Participante 1 - usuario 0001
-
-
-https://user-images.githubusercontent.com/102702197/198898623-054e3087-c800-411c-80d1-5bc4ab3082f3.mp4
-
-
-
-
-
-
-Participante 2 - usuario 0002
-
-
-
-https://user-images.githubusercontent.com/102702197/198898760-4ba230d3-36f7-4e00-9afe-86501a45fe1e.mp4
-
-
-
 | **Usuário**	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- | ---  | --- | --- | --- |
 | 0001	| 1:02 | 18 | 00 | --- | Eficiente |
 | 0002	| 1:10 | 17 | 00 | --- | Eficiente, porém não atrativo |
-
-
-
 
 
 
@@ -47,19 +26,6 @@ https://user-images.githubusercontent.com/102702197/198898760-4ba230d3-36f7-4e00
 | Passos:              | 1) Acessar a primeira tela do site pelo browser; 2) Preencher os campos necessários para login 3) acessar a area do usuario e visualiza-lo  |
 | Critérios de Êxito:  | o usuario utilizará a aplicação e irá logar e deslogar de forma rapida e eficiente e clara   
 
-Participante 1 - usuario 0001
-
-
-
-https://user-images.githubusercontent.com/102702197/198898859-22be27db-80ab-4254-a9a8-933b03204eb5.mp4
-
-
-
-Participante 2 - usuario 0002
-
-
-
-https://user-images.githubusercontent.com/102702197/198898868-678b520a-8861-4949-af18-f1af312f247a.mp4
 
 
  **Usuário**	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
@@ -67,6 +33,50 @@ https://user-images.githubusercontent.com/102702197/198898868-678b520a-8861-4949
 | 0001	| 0:28 |6 | 00 | --- | Eficiente |
 | 0002	| 0:36 | 7 | 00 | --- | Eficiente |
 
+
+|  **Caso de Teste**  |  **CT-03  - PESQUISAR CONTEÚDO**                                                                              |
+|--|--|
+| Objetivo do Teste:   | Verificar se o usuário consegue pesquisar de maneira satisfatória sem erros e rápida materiais sobre determinado assunto corretamente.                   | 
+| Passos:              | 1) Acessar a primeira tela do site pelo browser; 2) Preencher os campos necessários para encontrar o conteúdo de interesse 3) filtrar o conteudo de interesse 4) selecionar conteúde de interesse e visualiza-lo  |
+| Critérios de Êxito:  | o usuario utilizará a aplicação e encontrará conteúdo que lhe interesse de forma rapida e eficiente e clara                                    
+ **Usuário**	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+| --- 	| --- | ---  | --- | --- | --- |
+| 0001	| 0:50 |2| 01 | Não | Ineficiente |
+| 0002	| 0:47 | 1 | 01 | Não | ineficiente |
+
+|  **Caso de Teste**  |  **CT-04  -  AVALIAR CONTEÚDO**                                                                              |
+|--|--|
+| Objetivo do Teste:   | Verificar se o usuário consegue de forma eficiente e rapida se cadastrar na aplicação para assim avaliar o conteudo encontrado               | 
+| Passos:              | 1) Acessar a primeira tela do site pelo browser; 2) filtrar o conteudo de interesse 3) selecionar conteúdo de interesse e visualiza-lo 4) Acessar a pagina de cadastro de usuario (estudante) 5) fazer cadastro de forma rapida e eficiente  6) Retornar para a página do conteúdo de interesse anteriormente visualizado 7) avaliar o conteúdo de interesse |
+| Critérios de Êxito:  | o usuario utilizará a aplicação e avaliará o  conteúdo que lhe interesse de forma rapida e eficiente                                |
+
+**Usuário**	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+| --- 	| --- | ---  | --- | --- | --- |
+| 0001	| 0:25 |2| 03 | Não | Ineficiente |
+| 0002	| 0:33 | 1 | 02 | Não | ineficiente |
+
+
+|  **Caso de Teste**  |  **CT-05  -  CADASTRO E SUBMISSÃO DE CONTEÚDO PARA AVALIAÇÃO**                                                                              |
+|--|--|
+| Objetivo do Teste:   | Verificar se o usuário (professor) consegue de forma eficiente e rápida se cadastrar para submeter conteudo para avaliação e posterior publicação do seu material  na aplicação         | 
+| Passos:              | 1) Acessar a primeira tela do site pelo browser 2) Clicar na opção “Upload" 3) fazer cadastro de forma rapida e eficiente de acordo com os dados requeridos 4) anexar o link com o conteudo para análise 5) Clicar na opção “publicar"|
+| Critérios de Êxito:  | o usuario utilizará a aplicação e anaxará o conteúdo para avaliação de forma rapida e eficiente                                |
+
+**Usuário**	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+| --- 	| --- | ---  | --- | --- | --- |
+| 0001	| 0:39 |2| 8 | Não | Ineficiente |
+| 0002	| 0:56 | 1 | 12 | Não | ineficiente |
+
+|  **Caso de Teste**  |  **CT-06  -  AVALIAÇÃO DO CONTEÚDO PELO ADMINISTRADOR PARA PUBLICAÇÃO NA APLICAÇÃO**                                                                              |
+|--|--|
+| Objetivo do Teste:   | Verificar se o adminsitrados conseguem realizar a avaliação do material submetido para publicação na aplicação de forma eficinete e simples
+| Passos:              | 1) Acessar a primeira tela do site pelo browser 2) Clicar na opção “home" 3) visualizar os materias submetidos para analise de publicação 4)  analisar cada material submetido a avaliação clicando no link de cada um 5) concluir se o material é apto ou não para publicação 6) se esse for apto clicar na opção "aceita", se não for apto clicar na opção "recusar" |
+| Critérios de Êxito:  | o administrador utilizará a aplicação e e realizará a avaliação de aptidão dos conteúdos de forma rapida e eficiente 
+
+**Usuário**	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+| --- 	| --- | ---  | --- | --- | --- |
+| 0001	| 0:23 |2| 3 | Não | Ineficiente |
+| 0002	| 0:18 | 1 | 4 | Não | ineficiente |
 
 # Observações gerais
 
