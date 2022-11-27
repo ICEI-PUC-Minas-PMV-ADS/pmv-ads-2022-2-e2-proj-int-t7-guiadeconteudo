@@ -39,6 +39,17 @@ https://user-images.githubusercontent.com/102702197/198898623-054e3087-c800-411c
 
 https://user-images.githubusercontent.com/102702197/198898859-22be27db-80ab-4254-a9a8-933b03204eb5.mp4
 
+| **Caso de Teste** 	| **CT-03 – Pesquisa de material** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-001 - A aplicação deve possibilitar um usuário, cadastrado ou não, possa realizar pesquisa de material para estudo. |
+| Objetivo do Teste 	| Verificar se o usuário consegue pesquisar o material. |
+| Passos 	| - Clicar na barra de pesquisa  <br> - Informar o nome do material a ser buscado <br> - Clicar em "Buscar" |
+|Critério de Êxito | - A pesquisa foi bem sucedida. |
+|Evidência: |  |
+
+
+
+
 | **Caso de Teste** 	| **CT-14 – Recomendações da LGPD**	|
 |:---:	|:---:	|
 |	Tipo de teste:	| Não funcional |
