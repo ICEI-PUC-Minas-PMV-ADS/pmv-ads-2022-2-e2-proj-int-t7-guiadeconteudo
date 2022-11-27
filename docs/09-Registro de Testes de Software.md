@@ -99,8 +99,72 @@ https://user-images.githubusercontent.com/102702197/204152057-81e11979-991b-4707
 | Objetivo do Teste 	| Verificar se o usuário consegue avaliar o material. |
 | Passos 	| 1- Clicar no material <br> - Clicar em "avaliar o material" <br> 2- Preencher os campos obrigatórios (comentário e avaliação) <br> 3- Clicar em "Enviar" |
 |Critério de Êxito | - O usuário conseguiu avaliar o material. | 
-|Resultado:  | Aplicação sem sucesso, não foi possivel avaliar o material pois não é possivel pesquisa-lo embora |
+|Resultado:  | Aplicação com sucesso, indentificando o material pelo seu id é possivel avalia-lo |
 |Evidência: |  |
+
+https://user-images.githubusercontent.com/102702197/204152471-4e5a5472-e0d2-4189-8a63-d45adf9feb31.mp4
+
+
+| **Caso de Teste** 	| **CT-08 – Gerenciamento de materiais pendentes**	|
+|:---:	|:---:	|
+|Requisito Associado | RF-005	- A aplicação deve possibilitar que um usuário cadastrado possa incluir e GERENCIAR uma referência de material para consulta, enquanto o status de seu material ainda estiver pendente, contendo pelo menos os seguintes campos: Título do material, área do conhecimento, resumo, link de acesso. |
+| Objetivo do Teste 	| Verificar se o usuário cadastrado consegue gerenciar o material enquanto seu status ainda está pendente. |
+| Passos 	| 1- Clicar no material <br> 2- Verificar se está pendente <br> 3- Alterar os campos (Título do material, área do conhecimento, resumo, link de acesso) <br> 4- Clicar em "Alterar" |
+|Critério de Êxito | - O usuário conseguiu gerenciar o material. |
+|Resultado:  | Aplicação com sucesso, foi possivel gerenciar o material, modificando seu título |
+|Evidência: |  |
+
+
+https://user-images.githubusercontent.com/102702197/204152609-14922a3c-c5af-4d09-85da-7144b7c435ba.mp4
+
+
+| **Caso de Teste** 	| **CT-09 – Materiais em análise**	|
+|:---:	|:---:	|
+|Requisito Associado | RF-006	-A aplicação deverá permitir que o Administrador visualize todos os materiais submetidos para análise. |
+| Objetivo do Teste 	| Verificar se o administrador consegue visualizar os materiais em análise. |
+| Passos 	| - Ir até os materiais em análise <br> - A aplicação deve exibir a listagem de materiais para avaliação |
+|Critério de Êxito | - O administrador conseguiu visualizar todos os materiais submetidos para análise. |
+|Resultado:  | Aplicação sem sucesso, não existe na aplicação acesso ao administrador |
+
+
+| **Caso de Teste** 	| **CT-10 – Avaliação de materiais como confiáveis**	|
+|:---:	|:---:	|
+|Requisito Associado | RF-007	-A aplicação deve possibilitar que uma referência de material seja avaliado como confiável ou não confiável pelos administradores. |
+| Objetivo do Teste 	| Verificar se o administrador consegue avaliar os materiais como confiáveis ou não confiáveis. |
+| Passos 	| - Se for adm <br> - Selecionar um material <br> - Clicar em avaliar como administrador <br> - Definir material como confiável ou não confiável.|
+|Critério de Êxito | - O administrador consegue avaliar material como confiável ou não confiável. |
+|Resultado:  | Aplicação sem sucesso, não existe na aplicação acesso ao administrador |
+
+
+| **Caso de Teste** 	| **CT-11 – Notificar autor**	|
+|:---:	|:---:	|
+|Requisito Associado | RF-008	-A aplicação deve notificar o autor do conteúdo por e-mail sobre a aprovação/veto do seu conteúdo. |
+| Objetivo do Teste 	| Verificar se o e-mail foi enviado com êxito. |
+| Passos 	| - Clicar em "material aprovado" <br> - Verificar se a notificação foi enviada.|
+|Critério de Êxito | - O e-mail foi enviado com sucesso. |
+|Resultado:  | Aplicação sem sucesso, o email não foi enviado |
+
+
+| **Caso de Teste** 	| **CT-12 – Duas etapas**	|
+|:---:	|:---:	|
+|Requisito Associado | RF-009	-Todo material terá duas etapas: Pendente e confiável/não confiável. |
+| Objetivo do Teste 	| Verificar se o material possui as duas etapas (Pendente e confiável/não confiável). |
+| Passos 	| - Clicar no material <br> - Ver status do material <br> - Verificar se o material possui pelo menos uma das etapas.|
+|Critério de Êxito | - O material possui uma das duas etapas. |
+|Critério de Êxito | - O e-mail foi enviado com sucesso. |
+|Resultado:  | Aplicação sem sucesso,  o material não possui as duas etapas (Pendente e confiável/não confiável). |
+
+ 
+| **Caso de Teste** 	| **CT-13 – Materiais confiaveis**	|
+|:---:	|:---:	|
+|Requisito Associado | RF-010	-Somente materiais avaliados como confiável poderá ser exibido no campo de pesquisa. |
+| Objetivo do Teste 	| Verificar se apenas materiais avaliados aparecem no campo de pesquisa. |
+| Passos 	| - Clicar na barra de pesquisa <br> - Digitar o nome do material. <br> - Verificar se aparecem apenas materiais avaliados como confiáveis. |
+|Critério de Êxito | - Apenas materiais confiáveis são exibidos. |
+|Resultado:  | Aplicação sem sucesso,  não existe campo de psquisa |
+|Evidência: |  |
+
+https://user-images.githubusercontent.com/102702197/204152114-85a7c53b-a6f5-4d75-bf9f-4662a6d79735.mp4
 
 
 | **Caso de Teste** 	| **CT-14 – Recomendações da LGPD**	|
@@ -132,4 +196,13 @@ https://user-images.githubusercontent.com/102702197/204152057-81e11979-991b-4707
 |Resultado:  | Aplicação concluída com sucesso|
 |Evidência:  |![Printtela](img/print5.png) |
 
+
+| **Caso de Teste** 	| **CT-17 – API de envio de e-mail**	|
+|:---:	|:---:	|
+|	Tipo de teste:	| Não funcional |
+|Requisito Associado | RNF-006	-Deverá ser usado uma API para que a aplicação notifique por e-mail os usuários sobre o resultado do material submetido.	 |
+| Objetivo do Teste 	| Verificar se API notifica os usuários sobre o resultado do material submetido. |
+| Passos 	| - - Clicar em "material aprovado" <br> - Verificar se a notificação foi enviada.|
+|Critério de Êxito | - A API notificou com sucesso. |
+|Resultado:  | Aplicação sem sucesso,  não foi usado uam API |
 
