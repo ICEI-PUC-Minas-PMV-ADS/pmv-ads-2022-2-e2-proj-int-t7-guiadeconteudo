@@ -21,15 +21,15 @@ namespace GuiaDeConteudo.Migrations
 
             modelBuilder.Entity("GuiaDeConteudo.Models.AreaConhecimento", b =>
                 {
-                    b.Property<int>("Area_id")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Area_nome")
+                    b.Property<string>("Nome")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Area_id");
+                    b.HasKey("ID");
 
                     b.ToTable("AreaConhecimento");
                 });
@@ -75,7 +75,7 @@ namespace GuiaDeConteudo.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("Area_id")
+                    b.Property<int>("AreaConhecimentoID")
                         .HasColumnType("int");
 
                     b.Property<string>("ImageName")
@@ -107,7 +107,7 @@ namespace GuiaDeConteudo.Migrations
 
                     b.HasKey("id_material");
 
-                    b.HasIndex("Area_id");
+                    b.HasIndex("AreaConhecimentoID");
 
                     b.HasIndex("Usuariocpf_usuario");
 
@@ -164,7 +164,7 @@ namespace GuiaDeConteudo.Migrations
                 {
                     b.HasOne("GuiaDeConteudo.Models.AreaConhecimento", "AreaConhecimento")
                         .WithMany()
-                        .HasForeignKey("Area_id")
+                        .HasForeignKey("AreaConhecimentoID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

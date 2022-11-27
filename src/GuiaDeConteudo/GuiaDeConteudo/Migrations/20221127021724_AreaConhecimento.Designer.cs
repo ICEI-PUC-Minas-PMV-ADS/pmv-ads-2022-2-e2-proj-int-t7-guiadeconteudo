@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GuiaDeConteudo.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221123001728_AreaConhecimento")]
+    [Migration("20221127021724_AreaConhecimento")]
     partial class AreaConhecimento
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,15 +23,15 @@ namespace GuiaDeConteudo.Migrations
 
             modelBuilder.Entity("GuiaDeConteudo.Models.AreaConhecimento", b =>
                 {
-                    b.Property<int>("Area_id")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Area_nome")
+                    b.Property<string>("Nome")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Area_id");
+                    b.HasKey("ID");
 
                     b.ToTable("AreaConhecimento");
                 });
@@ -77,7 +77,7 @@ namespace GuiaDeConteudo.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("Area_id")
+                    b.Property<int>("AreaConhecimentoID")
                         .HasColumnType("int");
 
                     b.Property<string>("ImageName")
@@ -85,9 +85,6 @@ namespace GuiaDeConteudo.Migrations
 
                     b.Property<string>("Usuariocpf_usuario")
                         .HasColumnType("nvarchar(450)");
-
-                    b.Property<int>("areaConhecimento")
-                        .HasColumnType("int");
 
                     b.Property<string>("autor")
                         .HasColumnType("nvarchar(max)");
@@ -112,7 +109,7 @@ namespace GuiaDeConteudo.Migrations
 
                     b.HasKey("id_material");
 
-                    b.HasIndex("Area_id");
+                    b.HasIndex("AreaConhecimentoID");
 
                     b.HasIndex("Usuariocpf_usuario");
 
@@ -169,7 +166,9 @@ namespace GuiaDeConteudo.Migrations
                 {
                     b.HasOne("GuiaDeConteudo.Models.AreaConhecimento", "AreaConhecimento")
                         .WithMany()
-                        .HasForeignKey("Area_id");
+                        .HasForeignKey("AreaConhecimentoID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("GuiaDeConteudo.Models.Usuario", "Usuario")
                         .WithMany("Material")

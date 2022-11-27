@@ -22,8 +22,8 @@ namespace GuiaDeConteudo.Models
         public string cpf_usuario { get; set; }
         [ForeignKey("cpf_usuario")]
         public int status { get; set; }
-        public int Area_id { get; set; }
-        [ForeignKey("Area_id")]
+        public int AreaConhecimentoID { get; set; }
+        [ForeignKey("AreaConhecimentoID")]
 
         public AreaConhecimento AreaConhecimento { get; set; }
 

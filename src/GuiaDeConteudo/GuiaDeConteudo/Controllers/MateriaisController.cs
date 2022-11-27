@@ -33,7 +33,7 @@ namespace GuiaDeConteudo.Controllers
         // GET: Materiais
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Materiais.ToListAsync());
+            return View(await _context.Materiais.Include(e => e.AreaConhecimento).ToListAsync());
         }
 
         // GET: Materiais/Details/5
@@ -68,7 +68,7 @@ namespace GuiaDeConteudo.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id_material,cpf_usuario,status,areaConhecimento,titulo,resumo,link,autor,justificativaAnalise,ImageFile")] Material material)
+        public async Task<IActionResult> Create([Bind("id_material,cpf_usuario,status,AreaConhecimentoID,titulo,resumo,link,autor,justificativaAnalise,ImageFile")] Material material)
         {
             if (ModelState.IsValid)
             {
@@ -121,7 +121,7 @@ namespace GuiaDeConteudo.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("id_material,cpf_usuario,status,areaConhecimento,titulo,resumo,link,autor,justificativaAnalise,ImageName")] Material material)
+        public async Task<IActionResult> Edit(int id, [Bind("id_material,cpf_usuario,status,AreaConhecimentoID,titulo,resumo,link,autor,justificativaAnalise,ImageName")] Material material)
         {
             if (id != material.id_material)
             {

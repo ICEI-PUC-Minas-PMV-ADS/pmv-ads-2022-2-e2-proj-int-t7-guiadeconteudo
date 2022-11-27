@@ -5,9 +5,9 @@ namespace GuiaDeConteudo.Models
     public class AreaConhecimento
     {
         [Key]
-        public int Area_id { get; set; }
+        public int ID { get; set; }
 
-        public string Area_nome { get; set; }
+        public string Nome { get; set; }
 
     }
 }
