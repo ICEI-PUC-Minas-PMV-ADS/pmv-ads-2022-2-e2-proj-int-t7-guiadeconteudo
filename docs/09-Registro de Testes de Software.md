@@ -50,6 +50,25 @@ https://user-images.githubusercontent.com/102702197/198898859-22be27db-80ab-4254
 
 https://user-images.githubusercontent.com/102702197/204150912-13bec82b-276f-4ad1-ac82-fc38bd1cc541.mp4
 
+| **Caso de Teste** 	| **CT-04 – Filtro de pesquisa** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-002 - A aplicação deve oferecer uma funcionalidade de filtro de pesquisa do material de forma especifica para usuários cadastrado ou não. |
+| Objetivo do Teste 	| Verificar se o usuário consegue filtrar o material desejado. |
+| Passos 	| 1- Clicar na barra de filtros  <br> 2- Informar a categoria desejada <br> 3- Clicar em "Buscar" |
+|Critério de Êxito | - A pesquisa conseguiu filtrar os resultados. |
+|Resultado:  | Aplicação sem sucesso, não existe na aplicação local para efetuar  filtro de materiais pesuisado pelo usuário|
+|Evidência: |  |
+
+https://user-images.githubusercontent.com/102702197/204150912-13bec82b-276f-4ad1-ac82-fc38bd1cc541.mp4
+
+| **Caso de Teste** 	| **CT-05 – Gerenciamento de dados do usuário**	|
+|:---:	|:---:	|
+|Requisito Associado | RF-003	- A aplicação deve permitir que o usuário possa gerenciar seus dados. Para realizar o cadastro o usuário deverá fornecer pelo menos os seguintes dados: nome, CPF, data de nascimento, formação academica, e-mail e senha e exclui-los |
+| Objetivo do Teste 	| Verificar se o usuário consegue gerenciar seus dados. |
+| Passos 	| - Clicar em "Informações pessoais" <br> - Clicar em alterar informações <br> - Preencher os campos obrigatórios (nome, sexo, CPF, data de nascimento, formação academica, e-mail e senha.) <br> - Clicar em "Salvar alterações" |
+|Critério de Êxito | - As alterações foram realizadas com sucesso. |
+|Resultado:  | Aplicação sem sucesso, não existe na aplicação local para efetuar  filtro de materiais pesuisado pelo usuário|
+|Evidência: |  |
 
 | **Caso de Teste** 	| **CT-14 – Recomendações da LGPD**	|
 |:---:	|:---:	|
