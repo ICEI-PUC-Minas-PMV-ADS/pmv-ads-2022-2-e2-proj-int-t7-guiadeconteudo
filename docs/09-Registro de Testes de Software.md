@@ -204,5 +204,5 @@ https://user-images.githubusercontent.com/102702197/204152114-85a7c53b-a6f5-4d75
 | Objetivo do Teste 	| Verificar se API notifica os usuários sobre o resultado do material submetido. |
 | Passos 	| - - Clicar em "material aprovado" <br> - Verificar se a notificação foi enviada.|
 |Critério de Êxito | - A API notificou com sucesso. |
-|Resultado:  | Aplicação sem sucesso,  não foi usado uam API |
+|Resultado:  | Aplicação sem sucesso,  não foi usado uma API |
 
