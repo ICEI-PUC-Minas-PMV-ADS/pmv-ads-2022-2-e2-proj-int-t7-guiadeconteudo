@@ -20,8 +20,9 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | |5) clicar no icone "fazer cadastro
 | |6) visualizar mensagem de exito |
 |Resultado:  | Aplicação concluída com sucesso|
-|Evidência:  | https://user-images.githubusercontent.com/102702197/198898623-054e3087-c800-411c-80d1-5bc4ab3082f3.mp4 |
+|Evidência:  | |
 
+https://user-images.githubusercontent.com/102702197/198898623-054e3087-c800-411c-80d1-5bc4ab3082f3.mp4 
 
 
 |  **Caso de Teste**  |  **CT-02  - Efetuar Login**  |
