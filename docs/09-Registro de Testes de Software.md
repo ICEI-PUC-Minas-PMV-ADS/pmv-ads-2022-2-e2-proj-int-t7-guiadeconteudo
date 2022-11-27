@@ -48,7 +48,11 @@ https://user-images.githubusercontent.com/102702197/198898859-22be27db-80ab-4254
 |Resultado:  | Aplicação sem sucesso, não existe na aplicação local para efetuar a pesquisa de materiais pelo usuário|
 |Evidência: |  |
 
-https://user-images.githubusercontent.com/102702197/204150912-13bec82b-276f-4ad1-ac82-fc38bd1cc541.mp4
+
+
+https://user-images.githubusercontent.com/102702197/204152114-85a7c53b-a6f5-4d75-bf9f-4662a6d79735.mp4
+
+
 
 | **Caso de Teste** 	| **CT-04 – Filtro de pesquisa** 	|
 |:---:	|:---:	|
@@ -59,7 +63,9 @@ https://user-images.githubusercontent.com/102702197/204150912-13bec82b-276f-4ad1
 |Resultado:  | Aplicação sem sucesso, não existe na aplicação local para efetuar  filtro de materiais pesuisado pelo usuário|
 |Evidência: |  |
 
-https://user-images.githubusercontent.com/102702197/204150912-13bec82b-276f-4ad1-ac82-fc38bd1cc541.mp4
+https://user-images.githubusercontent.com/102702197/204152096-1e587eb2-9236-4a82-bd6c-42a06ea6796f.mp4
+
+
 
 | **Caso de Teste** 	| **CT-05 – Gerenciamento de dados do usuário**	|
 |:---:	|:---:	|
@@ -70,7 +76,8 @@ https://user-images.githubusercontent.com/102702197/204150912-13bec82b-276f-4ad1
 |Resultado:  | Aplicação com sucesso, foi possivel alterar os dados do usuário e excluir o cadastro|
 |Evidência: |  |
 
-https://user-images.githubusercontent.com/102702197/204151449-4dca700e-5f62-4c97-8ef8-6ab6deee9e22.mp4
+
+https://user-images.githubusercontent.com/102702197/204152075-4ff02187-76ca-422d-b8a7-0938d4f522f3.mp4
 
 
 | **Caso de Teste** 	| **CT-05 – Inclusão dos materiais**	|
@@ -83,9 +90,7 @@ https://user-images.githubusercontent.com/102702197/204151449-4dca700e-5f62-4c97
 |Evidência: |  |
 
 
-https://user-images.githubusercontent.com/102702197/204151945-820a1686-0fcd-4fc1-b68a-b70ec831bc1d.mp4
-
-
+https://user-images.githubusercontent.com/102702197/204152057-81e11979-991b-4707-8dbb-647569c31c56.mp4
 
 
 
