@@ -35,8 +35,9 @@ https://user-images.githubusercontent.com/102702197/198898623-054e3087-c800-411c
 |         |4) clicar no icone "entrar"
 |         |6) acessar area do usuário |
 |Resultado:  | Aplicação concluída com sucesso|
-|Evidência: | ![Printtela](img/print2.png) |
+|Evidência: |  |
 
+https://user-images.githubusercontent.com/102702197/198898859-22be27db-80ab-4254-a9a8-933b03204eb5.mp4
 
 | **Caso de Teste** 	| **CT-14 – Recomendações da LGPD**	|
 |:---:	|:---:	|
