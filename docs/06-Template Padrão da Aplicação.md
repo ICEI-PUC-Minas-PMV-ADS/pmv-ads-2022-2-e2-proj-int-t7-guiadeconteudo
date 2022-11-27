@@ -12,6 +12,8 @@ Monocromia e cores neutras: Se refere a harmonia que utiliza somente uma cor, al
 
 
 Uso do Logotipo 
+
+
 ![LOGO](/docs/img/LOGO.PNG)
 
 Símbolo da inteligência e da sabedoria, a coruja tem significados que combinam com quem busca crescer e ver além, alcançando vôos mais altos. Ela tem a capacidade de enxergar através da escuridão da noite e também simboliza a reflexão e o conhecimento racional e intuitivo.
