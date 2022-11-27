@@ -39,10 +39,14 @@ Abaixo segue os video de cada um doa usuarios que avaliaram a aplicação.
 | Objetivo do Teste:   | Verificar se o usuário consegue pesquisar de maneira satisfatória sem erros e rápida materiais sobre determinado assunto corretamente.                   | 
 | Passos:              | 1) Acessar a primeira tela do site pelo browser; 2) Preencher os campos necessários para encontrar o conteúdo de interesse 3) filtrar o conteudo de interesse 4) selecionar conteúde de interesse e visualiza-lo  |
 | Critérios de Êxito:  | o usuario utilizará a aplicação e encontrará conteúdo que lhe interesse de forma rapida e eficiente e clara                                    
+ 
+ 
  **Usuário**	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- | ---  | --- | --- | --- |
 | 0001	| 0:50 |2| 01 | Não | Ineficiente |
 | 0002	| 0:47 | 1 | 01 | Não | ineficiente |
+ 
+
 
 |  **Caso de Teste**  |  **CT-04  -  AVALIAR CONTEÚDO**                                                                              |
 |--|--|
