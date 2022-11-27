@@ -44,7 +44,7 @@ Abaixo segue os video de cada um doa usuarios que avaliaram a aplicação.
  **Usuário**	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- | ---  | --- | --- | --- |
 | 0001	| 0:50 |2| 01 | Não | Ineficiente |
-| 0002	| 0:47 | 1 | 01 | Não | ineficiente |
+| 0002	| 0:47 | 1 | 01 | Não | Ineficiente |
  
 
 
@@ -57,7 +57,7 @@ Abaixo segue os video de cada um doa usuarios que avaliaram a aplicação.
 **Usuário**	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- | ---  | --- | --- | --- |
 | 0001	| 0:25 |2| 03 | Não | Ineficiente |
-| 0002	| 0:33 | 1 | 02 | Não | ineficiente |
+| 0002	| 0:33 | 1 | 02 | Não | Ineficiente |
 
 
 |  **Caso de Teste**  |  **CT-05  -  CADASTRO E SUBMISSÃO DE CONTEÚDO PARA AVALIAÇÃO**                                                                              |
@@ -69,7 +69,7 @@ Abaixo segue os video de cada um doa usuarios que avaliaram a aplicação.
 **Usuário**	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- | ---  | --- | --- | --- |
 | 0001	| 0:39 |2| 8 | Não | Ineficiente |
-| 0002	| 0:56 | 1 | 12 | Não | ineficiente |
+| 0002	| 0:56 | 1 | 12 | Não | Ineficiente |
 
 |  **Caso de Teste**  |  **CT-06  -  AVALIAÇÃO DO CONTEÚDO PELO ADMINISTRADOR PARA PUBLICAÇÃO NA APLICAÇÃO**                                                                              |
 |--|--|
@@ -80,11 +80,11 @@ Abaixo segue os video de cada um doa usuarios que avaliaram a aplicação.
 **Usuário**	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- | ---  | --- | --- | --- |
 | 0001	| 0:23 |2| 3 | Não | Ineficiente |
-| 0002	| 0:18 | 1 | 4 | Não | ineficiente |
+| 0002	| 0:18 | 1 | 4 | Não | Ineficiente |
 
 # Observações gerais
 
-Não foram relatados erros que impossibilitaram a utilização das funções apresentadas.
+Os casos de testes 03, 04, 05, 06 tiveram resultados ineficientes com relatos de erros graves que impossibilitaram a nagevação e utilização da solução.
 Notou-se ainda que a qualidade da navegação está diretamente associada à qualidade da conexão do usuário e às configurações do dispositivo utilizado para realização dos testes.
 
 
