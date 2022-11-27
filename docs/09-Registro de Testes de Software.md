@@ -84,17 +84,23 @@ https://user-images.githubusercontent.com/102702197/204152075-4ff02187-76ca-422d
 |:---:	|:---:	|
 |Requisito Associado | RF-005	- A aplicação deve possibilitar que um usuário cadastrado possa incluir e GERENCIAR uma referência de material para consulta, enquanto o status de seu material ainda estiver pendente, contendo pelo menos os seguintes campos: Título do material, área do conhecimento, resumo, link de acesso. |
 | Objetivo do Teste 	| Verificar se o usuário cadastrado consegue incluir o material enquanto seu status ainda está pendente. |
-| Passos 	| - Clicar no material <br> - Verificar se está pendente <br> - Preencher os campos (Título do material, área do conhecimento, resumo, link de acesso) <br> - Clicar em "Enviar" |
+| Passos 	| 1- Clicar no material <br> 2- Verificar se está pendente <br> 3- Preencher os campos (Título do material, área do conhecimento, resumo, link de acesso) <br> 4- Clicar em "Enviar" |
 |Critério de Êxito | - O usuário conseguiu incluir o material. |
-|Resultado:  | Aplicação com sucesso, foi possivel foi possivel incluir o material|
+|Resultado:  | Aplicação com sucesso, foi possivel incluir o material|
 |Evidência: |  |
 
 
 https://user-images.githubusercontent.com/102702197/204152057-81e11979-991b-4707-8dbb-647569c31c56.mp4
 
 
-
-
+| **Caso de Teste** 	| **CT-07 – Avaliação de material**	|
+|:---:	|:---:	|
+|Requisito Associado | RF-004	-A aplicação deve possibilitar que um usuário cadastrado possa avaliar o material pesquisado. |
+| Objetivo do Teste 	| Verificar se o usuário consegue avaliar o material. |
+| Passos 	| 1- Clicar no material <br> - Clicar em "avaliar o material" <br> 2- Preencher os campos obrigatórios (comentário e avaliação) <br> 3- Clicar em "Enviar" |
+|Critério de Êxito | - O usuário conseguiu avaliar o material. | 
+|Resultado:  | Aplicação sem sucesso, não foi possivel avaliar o material pois não é possivel pesquisa-lo embora |
+|Evidência: |  |
 
 
 | **Caso de Teste** 	| **CT-14 – Recomendações da LGPD**	|
