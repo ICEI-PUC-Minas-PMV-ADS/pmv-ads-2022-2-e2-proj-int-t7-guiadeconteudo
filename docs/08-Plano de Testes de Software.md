@@ -146,21 +146,14 @@
 |Critério de Êxito | - A aplicação é responsiva. |
 
 
-| **Caso de Teste** 	| **CT-17 – Submissão de materiais**	|
-|:---:	|:---:	|
-|	Tipo de teste:	| Não funcional |
-|Requisito Associado | RNF-005	-A aplicação deverá permitir que apenas usuários cadastrados postem e gerenciem seus materiais postados.	 |
-| Objetivo do Teste 	| Verificar se apenas usuários cadastrados postam e gerenciam seus materiais. |
-| Passos 	| - Clicar em material <br> - Verificar se consegue postar e gerenciar materiais.|
-|Critério de Êxito | - O usuário consegue postar e gerenciar. |
 
-
-| **Caso de Teste** 	| **CT-18 – API de envio de e-mail**	|
+| **Caso de Teste** 	| **CT-17 – API de envio de e-mail**	|
 |:---:	|:---:	|
 |	Tipo de teste:	| Não funcional |
 |Requisito Associado | RNF-006	-Deverá ser usado uma API para que a aplicação notifique por e-mail os usuários sobre o resultado do material submetido.	 |
 | Objetivo do Teste 	| Verificar se API notifica os usuários sobre o resultado do material submetido. |
 | Passos 	| - - Clicar em "material aprovado" <br> - Verificar se a notificação foi enviada.|
 |Critério de Êxito | - A API notificou com sucesso. |
-
+](https://user-images.githubusercontent.com/102702197/204152114-85a7c53b-a6f5-4d75-bf9f-4662a6d79735.mp4
+)
 
