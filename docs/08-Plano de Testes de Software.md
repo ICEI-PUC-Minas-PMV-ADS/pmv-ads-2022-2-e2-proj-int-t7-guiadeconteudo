@@ -154,6 +154,5 @@
 | Objetivo do Teste 	| Verificar se API notifica os usuários sobre o resultado do material submetido. |
 | Passos 	| - - Clicar em "material aprovado" <br> - Verificar se a notificação foi enviada.|
 |Critério de Êxito | - A API notificou com sucesso. |
-](https://user-images.githubusercontent.com/102702197/204152114-85a7c53b-a6f5-4d75-bf9f-4662a6d79735.mp4
-)
+
 
