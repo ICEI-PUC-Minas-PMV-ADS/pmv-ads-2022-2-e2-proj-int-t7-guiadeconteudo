@@ -446,3 +446,5 @@ C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t
 C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\bin\Debug\net5.0\BCrypt.Net-Next.dll
 C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\obj\Debug\net5.0\Razor\Views\Usuarios\Login.cshtml.g.cs
 C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\obj\Debug\net5.0\Razor\Views\Usuarios\AccessDenied.cshtml.g.cs
+C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\obj\Debug\net5.0\Razor\Views\Claims\Index.cshtml.g.cs
+C:\Users\lucia\git-projects\facul-analise\periodo-2\pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo\src\GuiaDeConteudo\GuiaDeConteudo\obj\Debug\net5.0\Razor\Views\Usuarios\ViewUser.cshtml.g.cs
