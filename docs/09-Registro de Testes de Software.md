@@ -43,7 +43,7 @@ https://user-images.githubusercontent.com/102702197/198898859-22be27db-80ab-4254
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-001 - A aplicação deve possibilitar um usuário, cadastrado ou não, possa realizar pesquisa de material para estudo. |
 | Objetivo do Teste 	| Verificar se o usuário consegue pesquisar o material. |
-| Passos 	| - Clicar na barra de pesquisa  <br> - Informar o nome do material a ser buscado <br> - Clicar em "Buscar" |
+| Passos 	| 1- Acessar a aplicação atraves do navegador <br> 2- Clicar na barra de pesquisa  <br> 3- Informar o nome do material a ser buscado <br> 4- Clicar em "Buscar" |
 |Critério de Êxito | - A pesquisa foi bem sucedida. |
 |Evidência: |  |
 
