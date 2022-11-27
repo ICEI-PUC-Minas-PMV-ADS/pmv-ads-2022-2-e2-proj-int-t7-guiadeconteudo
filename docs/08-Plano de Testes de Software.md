@@ -40,13 +40,22 @@
 | **Caso de Teste** 	| **CT-05 – Gerenciamento de dados do usuário**	|
 |:---:	|:---:	|
 |	Tipo de teste:	| Funcional |
-|Requisito Associado | RF-003	- A aplicação deve permitir que o usuário possa gerenciar seus dados. Para realizar o cadastro o usuário deverá fornecer pelo menos os seguintes dados: nome, sexo, CPF, data de nascimento, formação academica, e-mail e senha. |
+|Requisito Associado | RF-003	- A aplicação deve permitir que o usuário possa gerenciar seus dados. Para realizar o cadastro o usuário deverá fornecer pelo menos os seguintes dados: nome, CPF, data de nascimento, formação academica, e-mail e senha e poder exclui-lo |
 | Objetivo do Teste 	| Verificar se o usuário consegue gerenciar seus dados. |
 | Passos 	| - Clicar em "Informações pessoais" <br> - Clicar em alterar informações <br> - Preencher os campos obrigatórios (nome, sexo, CPF, data de nascimento, formação academica, e-mail e senha.) <br> - Clicar em "Salvar alterações" |
-|Critério de Êxito | - As alterações foram realizadas com sucesso. |                                                                                             
+|Critério de Êxito | - As alterações foram realizadas com sucesso. |     
 
 
-| **Caso de Teste** 	| **CT-06 – Avaliação de material**	|
+| **Caso de Teste** 	| **CT-06 – Inclusão dos materiais**	|
+|:---:	|:---:	|
+|	Tipo de teste:	| Funcional |
+|Requisito Associado | RF-005	- A aplicação deve possibilitar que um usuário cadastrado possa incluir e GERENCIAR uma referência de material para consulta, enquanto o status de seu material ainda estiver pendente, contendo pelo menos os seguintes campos: Título do material, área do conhecimento, resumo, link de acesso. |
+| Objetivo do Teste 	| Verificar se o usuário cadastrado consegue incluir o material enquanto seu status ainda está pendente. |
+| Passos 	| - Clicar no material <br> - Verificar se está pendente <br> - Preencher os campos (Título do material, área do conhecimento, resumo, link de acesso) <br> - Clicar em "Enviar" |
+|Critério de Êxito | - O usuário conseguiu incluir o material. |
+
+
+| **Caso de Teste** 	| **CT-07 – Avaliação de material**	|
 |:---:	|:---:	|
 |	Tipo de teste:	| Funcional |
 |Requisito Associado | RF-004	-A aplicação deve possibilitar que um usuário cadastrado possa avaliar o material pesquisado. |
@@ -54,14 +63,6 @@
 | Passos 	| - Clicar no material <br> - Clicar em "avaliar o material" <br> - Preencher os campos obrigatórios (comentário e avaliação) <br> - Clicar em "Enviar" |
 |Critério de Êxito | - O usuário conseguiu avaliar o material. |                                                                                                    
 
-
-| **Caso de Teste** 	| **CT-07 – Inclusão dos materiais**	|
-|:---:	|:---:	|
-|	Tipo de teste:	| Funcional |
-|Requisito Associado | RF-005	- A aplicação deve possibilitar que um usuário cadastrado possa incluir e GERENCIAR uma referência de material para consulta, enquanto o status de seu material ainda estiver pendente, contendo pelo menos os seguintes campos: Título do material, área do conhecimento, resumo, link de acesso. |
-| Objetivo do Teste 	| Verificar se o usuário cadastrado consegue incluir o material enquanto seu status ainda está pendente. |
-| Passos 	| - Clicar no material <br> - Verificar se está pendente <br> - Preencher os campos (Título do material, área do conhecimento, resumo, link de acesso) <br> - Clicar em "Enviar" |
-|Critério de Êxito | - O usuário conseguiu incluir o material. |
 
 | **Caso de Teste** 	| **CT-08 – Gerenciamento de materiais pendentes**	|
 |:---:	|:---:	|
