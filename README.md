@@ -7,7 +7,7 @@
 
 `2 SEMESTRE`
 
-Uma aplicação que fará uma curadoria de de materiais de estudo confiáveis, onde os usuários poderão fazer pesquisa, avaliar a qualidade dos materiais bem como submeter material para avaliação e posteior consulta dos demais usuários. Desta forma a aplicação irá facilitar o encontro de biografia especializada, segura e confiavél de determinado assunto para estudantes em todos os niveis.
+Uma aplicação que fará uma curadoria de materiais de estudo confiáveis, onde os usuários poderão fazer pesquisa, avaliar a qualidade dos materiais bem como submeter material para avaliação e posteior consulta dos demais usuários. Desta forma a aplicação irá facilitar o encontro de biografia especializada, segura e confiavél de determinado assunto para estudantes em todos os niveis.
 
 ## Integrantes
 
