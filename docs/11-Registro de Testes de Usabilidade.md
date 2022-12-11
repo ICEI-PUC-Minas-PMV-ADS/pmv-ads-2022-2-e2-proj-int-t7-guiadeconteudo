@@ -87,9 +87,9 @@ Abaixo segue os video de cada um doa usuarios que avaliaram a aplicação.
 Os casos de testes 03, 04, 05, 06 tiveram resultados ineficientes com relatos de erros graves que impossibilitaram a nagevação e utilização da solução.
 Notou-se ainda que a qualidade da navegação está diretamente associada à qualidade da conexão do usuário e às configurações do dispositivo utilizado para realização dos testes.
 
-Por parte dos integrantes do grupo, cremos que aumentar o escopo do teste de usabilidade  com mais perguntas aobre a efiviencia da aplicação e a satisfação do usuário deve ser um ponto a se considerar a melhorar para as proximas soluções desenvolvidas. 
+Por parte dos integrantes do grupo, cremos que aumentar o escopo do teste de usabilidade com mais perguntas aobre a eficiência da aplicação e a satisfação do usuário deve ser um ponto a se considerar a melhorar para as proximas soluções desenvolvidas. 
 
-É também importante utilizar de algum artifício para buscar uma forma de automatizar o referido teste de usabilidade por meio de formulários eletrônicos, um bom exemplo é a utilização do "google forms" durante o desenvolvimento da aplicação e após a publicação a aplicação para uso geral uma vez que isso aumentaria o alcance e daria uma visão mais fidedgina dos pontos bons e dos pontos a melhorar do aspecto experiencia do usuário.
+É também importante utilizar de algum artifício para buscar uma forma de automatizar o referido teste de usabilidade por meio de formulários eletrônicos, um bom exemplo é a utilização do "google forms" durante o desenvolvimento da aplicação e, após a publicação da aplicação para uso geral, uma vez que isso aumentaria o alcance do teste e, daria uma visão mais fidedgina dos pontos bons e dos pontos a melhorar no que tange à experiencia do usuário.
 
 
 
