@@ -183,8 +183,7 @@ https://user-images.githubusercontent.com/102702197/204152114-85a7c53b-a6f5-4d75
 | Objetivo do Teste 	| Verificar se aplicação é compatível com os nevegadores (Google Chrome, Firefox, Microsoft Edge). |
 | Passos 	| - Verificar a aplicação se adequa aos principais navegadores do mercado.|
 |Resultado:  | Aplicação concluída com sucesso|
-|Evidência:  | ![Printtela](img/print3.png) |
-|            | ![Printtela](img/print4.png) |
+|Evidência:  | |
 
 https://www.loom.com/share/bf2b626a57664b53a2d849a248c7920a
 
