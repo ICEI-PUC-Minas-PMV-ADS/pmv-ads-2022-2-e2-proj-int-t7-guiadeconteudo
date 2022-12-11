@@ -82,7 +82,7 @@ Abaixo segue os video de cada um doa usuarios que avaliaram a aplicação.
 | 0001	| 0:23 |2| 3 | Não | Ineficiente |
 | 0002	| 0:18 | 1 | 4 | Não | Ineficiente |
 
-# Observações gerais
+# Relatório Geral do Teste de Usabilidade
 
 Os casos de testes 03, 04, 05, 06 tiveram resultados ineficientes com relatos de erros graves que impossibilitaram a nagevação e utilização da solução.
 Notou-se ainda que a qualidade da navegação está diretamente associada à qualidade da conexão do usuário e às configurações do dispositivo utilizado para realização dos testes.
