@@ -25,7 +25,7 @@ Uma aplicação que fará uma curadoria de materiais de estudo confiáveis, onde
 
 ## Instruções de utilização
 
- link sa aplicação disponível para acesso: https://localhost:44301/
+ Link da aplicação disponível para acesso: https://localhost:44301/
 
 Instrução de acesso:
 
