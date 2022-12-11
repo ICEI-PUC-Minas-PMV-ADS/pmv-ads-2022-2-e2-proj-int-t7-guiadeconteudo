@@ -206,3 +206,5 @@ https://user-images.githubusercontent.com/102702197/204152114-85a7c53b-a6f5-4d75
 |Critério de Êxito | - A API notificou com sucesso. |
 |Resultado:  | Aplicação sem sucesso,  não foi usado uma API |
 
+
+# Relatório Geral do Teste de Softwere
