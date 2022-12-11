@@ -210,5 +210,6 @@ https://www.loom.com/share/bf2b626a57664b53a2d849a248c7920a
 
 # Relatório Geral do Teste de Softwere
 
-A maioria dos testes de softwere não foram bem sucessidos com detecção de problemas na aplicação desde de erros de desenvolvimento até funcionalidades não desenvolvidas.
+A maioria dos testes de softwere não foram bem sucedidos com detecção de problemas na aplicação desde de erros de desenvolvimento até funcionalidades não desenvolvidas.
 
+Entretanto, a aplicação se provou promissora do ponto de vista tecnico uma vez que apresenta grande potencial de uso por parte de estudantes, merecendo ser continuamente aprimorada.
