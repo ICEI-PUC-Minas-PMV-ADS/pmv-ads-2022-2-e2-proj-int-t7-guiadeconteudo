@@ -19,6 +19,7 @@ Uma aplicação que fará uma curadoria de materiais de estudo confiáveis, onde
 * Sávio Andrade Roquette
 
 
+
 ## Orientador
 
 * Luciana De Nardin
