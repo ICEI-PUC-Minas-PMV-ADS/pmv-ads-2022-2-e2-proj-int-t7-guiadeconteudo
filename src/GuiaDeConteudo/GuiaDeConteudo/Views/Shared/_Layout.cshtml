@@ -21,8 +21,8 @@
                     <ul class="navbar-nav flex-grow-1">
                         @if (User.Identity.IsAuthenticated)
                         {
-                            <li class="nav-item" hidden="true">
-                                <a class="nav-link text-primary" asp-area="" asp-controller="Materiais" asp-action="Index">Materiais</a>
+                            <li class="nav-item">
+                                <a class="nav-link text-primary" asp-area="" asp-controller="Materiais" asp-action="MeusMateriais">Meus Materiais</a>
                             </li>
                             <li class="nav-item" hidden="true">
                                 <a class="nav-link text-primary" asp-area="" asp-controller="Avaliacoes" asp-action="Index">Avaliações</a>

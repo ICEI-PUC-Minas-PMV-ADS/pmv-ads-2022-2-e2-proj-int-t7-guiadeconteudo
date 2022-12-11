@@ -23,6 +23,13 @@ namespace GuiaDeConteudo.Controllers
         // GET: Materiais
         public async Task<IActionResult> Index()
         {
+            ViewBag.Cpf = User?.Claims.ToList()[1].Value;
+            return View(await _context.Materiais.ToListAsync());
+        }
+
+        public async Task<IActionResult> MeusMateriais()
+        {
+            ViewBag.Cpf = User?.Claims.ToList()[1].Value;
             return View(await _context.Materiais.ToListAsync());
         }
 
