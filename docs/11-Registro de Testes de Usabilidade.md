@@ -17,7 +17,7 @@ Abaixo segue os video de cada um doa usuarios que avaliaram a aplicação.
 | --- 	| --- | ---  | --- | --- | --- |
 | 0001	| 1:02 | 18 | 00 | --- | Eficiente |
 | 0002	| 1:10 | 17 | 00 | --- | Eficiente, porém não atrativo |
-
+| 0003	| 1:25 | 22 | 00 | --- | Eficiente |
 
 
 |  **Caso de Teste**  |  **CTU-02  - FAZER LOGIN**                                                                              |
@@ -43,8 +43,8 @@ Abaixo segue os video de cada um doa usuarios que avaliaram a aplicação.
  
  **Usuário**	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- | ---  | --- | --- | --- |
-| 0001	| 0:50 |2| 01 | Não | Ineficiente |
-| 0002	| 0:47 | 1 | 01 | Não | Ineficiente |
+| 0003	| 0:50 |2| 01 | Não | Ineficiente |
+| 0004	| 0:47 | 1 | 01 | Não | Ineficiente |
  
 
 
@@ -68,8 +68,8 @@ Abaixo segue os video de cada um doa usuarios que avaliaram a aplicação.
 
 **Usuário**	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- | ---  | --- | --- | --- |
-| 0001	| 0:39 |2| 8 | Não | Ineficiente |
-| 0002	| 0:56 | 1 | 12 | Não | Ineficiente |
+| 0002	| 0:39 |2| 8 | Não | Ineficiente |
+| 0004	| 0:56 | 1 | 12 | Não | Ineficiente |
 
 |  **Caso de Teste**  |  **CTU-06  -  AVALIAÇÃO DO CONTEÚDO PELO ADMINISTRADOR PARA PUBLICAÇÃO NA APLICAÇÃO**                                                                              |
 |--|--|
@@ -80,7 +80,7 @@ Abaixo segue os video de cada um doa usuarios que avaliaram a aplicação.
 **Usuário**	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- | ---  | --- | --- | --- |
 | 0001	| 0:23 |2| 3 | Não | Ineficiente |
-| 0002	| 0:18 | 1 | 4 | Não | Ineficiente |
+| 0003	| 0:18 | 1 | 4 | Não | Ineficiente |
 
 # Relatório Geral do Teste de Usabilidade
 
