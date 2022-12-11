@@ -4,27 +4,27 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1>Cadastro de Material</h1>
 
-<h4>Material</h4>
+
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
+            <div class="form-group" hidden="true">
                 <label asp-for="cpf_usuario" class="control-label"></label>
-                <input asp-for="cpf_usuario" class="form-control" />
+                <input asp-for="cpf_usuario" class="form-control" value="@ViewBag.Cpf" />
                 <span asp-validation-for="cpf_usuario" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group" hidden="true">
                 <label asp-for="status" class="control-label"></label>
-                <input asp-for="status" class="form-control" />
+                <input asp-for="status" class="form-control" value = "0"/>
                 <span asp-validation-for="status" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group" hidden="true">
                 <label asp-for="areaConhecimento" class="control-label"></label>
-                <input asp-for="areaConhecimento" class="form-control" />
+                <input asp-for="areaConhecimento" class="form-control" value="0" />
                 <span asp-validation-for="areaConhecimento" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -47,20 +47,20 @@
                 <input asp-for="autor" class="form-control" />
                 <span asp-validation-for="autor" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group" hidden="true">
                 <label asp-for="justificativaAnalise" class="control-label"></label>
                 <input asp-for="justificativaAnalise" class="form-control" />
                 <span asp-validation-for="justificativaAnalise" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Criar Material" class="btn btn-primary" /> 
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="MeusMateriais">Cancelar</a>
 </div>
 
 @section Scripts {

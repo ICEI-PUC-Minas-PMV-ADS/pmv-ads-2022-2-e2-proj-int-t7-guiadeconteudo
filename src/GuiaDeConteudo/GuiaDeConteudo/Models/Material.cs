@@ -9,13 +9,26 @@ namespace GuiaDeConteudo.Models
     {
         [Key]
         public int id_material { get; set; }
-        public string cpf_usuario { get; set; }
+
+        [Display(Name = "CPF")]
         [ForeignKey("cpf_usuario")]
+        public string cpf_usuario { get; set; }
+       
         public int status { get; set; }
+
+        [Display(Name = "Area de Conhecimento")]
         public int areaConhecimento { get; set; }
+
+        [Display(Name = "Título")]
         public string titulo { get; set; }
+
+        [Display(Name = "Resumo")]
         public string resumo { get; set; }
+
+        [Display(Name = "Link")]
         public string link { get; set; }
+
+        [Display(Name = "Autor")]
         public string autor { get; set; }
         public string justificativaAnalise { get; set; }
 

@@ -61,6 +61,7 @@ namespace GuiaDeConteudo.Controllers
         // GET: Materiais/Create
         public IActionResult Create()
         {
+            ViewBag.Cpf = User?.Claims.ToList()[1].Value;
             return View();
         }
 
@@ -75,8 +76,9 @@ namespace GuiaDeConteudo.Controllers
             {
                 _context.Add(material);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Index));               
             }
+            ViewBag.Cpf = User?.Claims.ToList()[1].Value;
             return View(material);
         }
 
