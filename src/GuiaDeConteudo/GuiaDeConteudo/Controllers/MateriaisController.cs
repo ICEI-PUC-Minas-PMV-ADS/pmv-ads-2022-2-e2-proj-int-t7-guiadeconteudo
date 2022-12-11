@@ -33,6 +33,13 @@ namespace GuiaDeConteudo.Controllers
             return View(await _context.Materiais.ToListAsync());
         }
 
+        [AllowAnonymous]
+        public async Task<IActionResult> TodosMateriais()
+        {
+           
+            return View(await _context.Materiais.ToListAsync());
+        }
+
         // GET: Materiais/Details/5
         public async Task<IActionResult> Details(int? id)
         {

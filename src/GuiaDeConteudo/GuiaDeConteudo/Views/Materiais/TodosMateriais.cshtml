@@ -1,0 +1,49 @@
+﻿@model IEnumerable<GuiaDeConteudo.Models.Material>
+
+@{
+    ViewData["Title"] = "TodosMateriais";
+}
+
+<h1>Materiais Cadastrados</h1>
+
+
+<table class="table">
+    <thead>        
+            <th>
+                @Html.DisplayNameFor(model => model.titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.resumo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.link)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.autor)
+            </th>           
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>            
+            <td>
+                @Html.DisplayFor(modelItem => item.titulo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.resumo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.link)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.autor)
+            </td>            
+            <td>
+                
+                <a asp-action="Details" asp-route-id="@item.id_material">Detalhes</a> 
+                
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

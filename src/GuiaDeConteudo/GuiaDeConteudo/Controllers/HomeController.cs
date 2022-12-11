@@ -20,7 +20,7 @@ namespace GuiaDeConteudo.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return Redirect("/Materiais/TodosMateriais");
         }
 
         public IActionResult Privacy()
