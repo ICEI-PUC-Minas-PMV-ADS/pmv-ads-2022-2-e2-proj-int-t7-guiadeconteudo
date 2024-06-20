@@ -1,0 +1,27 @@
+message: Please cite this software using these metadata.
+title:ESTUDE AGORA
+authors:
+  - family-names: Ferreira de Mattos
+    given-names: Cristiano
+  - family-names: Goncalves Morais
+    given-names: Gabriel
+  - family-names: Aparecida dos Santos
+    given-names: Isabela
+  - family-names: Ribeiro do Prado
+    given-names: Luciano
+  - family-names: Júlia EStevam Corrêa
+    given-names: Mariana
+  - family-names: Andrade Roquette
+    given-names: Sávio
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: De Nardin
+    given-names: Luciana
+ 
+keywords:
+  - curadoria
+  - pesquisa
+  - livros
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t7-guiadeconteudo
+version: 1.0.0
+date-released: 2022-15-12
